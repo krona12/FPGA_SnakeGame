@@ -1,0 +1,81 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\Application\Tool_Mathematica&CS\ISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe
+-intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml hdmi_block_move_top.twx
+hdmi_block_move_top.ncd -o hdmi_block_move_top.twr hdmi_block_move_top.pcf
+
+Design file:              hdmi_block_move_top.ncd
+Physical constraint file: hdmi_block_move_top.pcf
+Device,package,speed:     xc6slx16,ftg256,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock sys_clk
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+key<0>      |    1.549(R)|      SLOW  |    0.438(R)|      SLOW  |tx_pclk           |   0.000|
+key<1>      |    1.381(R)|      SLOW  |    0.490(R)|      SLOW  |tx_pclk           |   0.000|
+key<2>      |    1.820(R)|      SLOW  |    0.379(R)|      SLOW  |tx_pclk           |   0.000|
+key<3>      |    1.638(R)|      SLOW  |    0.547(R)|      SLOW  |tx_pclk           |   0.000|
+sys_rst_n   |    3.716(R)|      SLOW  |    1.644(R)|      SLOW  |tx_pclk           |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock sys_clk to Pad
+--------------+-----------------+------------+-----------------+------------+----------------------+--------+
+              |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                      | Clock  |
+Destination   |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)     | Phase  |
+--------------+-----------------+------------+-----------------+------------+----------------------+--------+
+tmds_clk_n    |        11.067(R)|      SLOW  |         4.846(R)|      FAST  |u_rgbtodvi_top/pclkx10|   0.000|
+tmds_clk_p    |        11.013(R)|      SLOW  |         4.830(R)|      FAST  |u_rgbtodvi_top/pclkx10|   0.000|
+tmds_data_n<0>|        11.067(R)|      SLOW  |         4.846(R)|      FAST  |u_rgbtodvi_top/pclkx10|   0.000|
+tmds_data_n<1>|        11.067(R)|      SLOW  |         4.846(R)|      FAST  |u_rgbtodvi_top/pclkx10|   0.000|
+tmds_data_n<2>|        11.067(R)|      SLOW  |         4.846(R)|      FAST  |u_rgbtodvi_top/pclkx10|   0.000|
+tmds_data_p<0>|        11.013(R)|      SLOW  |         4.830(R)|      FAST  |u_rgbtodvi_top/pclkx10|   0.000|
+tmds_data_p<1>|        11.013(R)|      SLOW  |         4.830(R)|      FAST  |u_rgbtodvi_top/pclkx10|   0.000|
+tmds_data_p<2>|        11.013(R)|      SLOW  |         4.830(R)|      FAST  |u_rgbtodvi_top/pclkx10|   0.000|
+--------------+-----------------+------------+-----------------+------------+----------------------+--------+
+
+Clock to Setup on destination clock sys_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+sys_clk        |    7.884|    6.704|         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Sun Jan 21 13:48:02 2024 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4589 MB
+
+
+

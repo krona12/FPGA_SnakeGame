@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\App_Data\FPGA\Projects\17_hdmi_block_move_top\prj\hdmi_block_move_top\ipcore_dir\pll.v" Line 125: Assignment to <arg fmt="%s" index="1">clkout3_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\App_Data\FPGA\Projects\17_hdmi_block_move_top\prj\hdmi_block_move_top\ipcore_dir\pll.v" Line 126: Assignment to <arg fmt="%s" index="1">clkout4_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"E:\App_Data\FPGA\Projects\17_hdmi_block_move_top\prj\hdmi_block_move_top\ipcore_dir\pll.v" Line 127: Assignment to <arg fmt="%s" index="1">clkout5_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"E:\App_Data\FPGA\Projects\17_hdmi_block_move_top\prj\hdmi_block_move_top\ipcore_dir\convert_30to15_fifo.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">convert_30to15_fifo</arg>&gt; remains a black box.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\App_Data\FPGA\Projects\17_hdmi_block_move_top\rtl\rgbtodvi_top.v</arg>&quot; line <arg fmt="%s" index="2">167</arg>: Output port &lt;<arg fmt="%s" index="3">full</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_convert_30to15_fifo</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">E:\App_Data\FPGA\Projects\17_hdmi_block_move_top\rtl\rgbtodvi_top.v</arg>&quot; line <arg fmt="%s" index="2">167</arg>: Output port &lt;<arg fmt="%s" index="3">empty</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_convert_30to15_fifo</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">pixel_data_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_video_display</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">15 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;pixel_data_9&gt; &lt;pixel_data_10&gt; &lt;pixel_data_11&gt; &lt;pixel_data_12&gt; &lt;pixel_data_13&gt; &lt;pixel_data_14&gt; &lt;pixel_data_15&gt; &lt;pixel_data_16&gt; &lt;pixel_data_17&gt; &lt;pixel_data_18&gt; &lt;pixel_data_19&gt; &lt;pixel_data_20&gt; &lt;pixel_data_21&gt; &lt;pixel_data_22&gt; &lt;pixel_data_23&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">pixel_data_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_video_display</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;pixel_data_1&gt; &lt;pixel_data_2&gt; &lt;pixel_data_3&gt; &lt;pixel_data_4&gt; &lt;pixel_data_5&gt; &lt;pixel_data_6&gt; &lt;pixel_data_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">tmdsclkint_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_rgbtodvi_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;tmdsclkint_1&gt; &lt;tmdsclkint_2&gt; &lt;tmdsclkint_3&gt; &lt;tmdsclkint_4&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">c1_q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">encg</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">c0_q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">encg</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">c1_q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">encr</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">c0_q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">encr</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">c0_reg</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">encg</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">c1_reg</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">encg</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">c0_reg</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">encr</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">c1_reg</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">encr</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_c1_reg_PWR_15_o_wide_mux_53_OUT</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3217" delta="old" >HDL ADVISOR - Register &lt;<arg fmt="%s" index="1">dout</arg>&gt; currently described with an asynchronous reset, could be combined with distributed RAM &lt;<arg fmt="%s" index="2">Mram_c1_reg_PWR_15_o_wide_mux_53_OUT</arg>&gt; for implementation on block RAM resources if you made this reset synchronous instead.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">pixel_data_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">video_display</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">15 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;pixel_data_9&gt; &lt;pixel_data_10&gt; &lt;pixel_data_11&gt; &lt;pixel_data_12&gt; &lt;pixel_data_13&gt; &lt;pixel_data_14&gt; &lt;pixel_data_15&gt; &lt;pixel_data_16&gt; &lt;pixel_data_17&gt; &lt;pixel_data_18&gt; &lt;pixel_data_19&gt; &lt;pixel_data_20&gt; &lt;pixel_data_21&gt; &lt;pixel_data_22&gt; &lt;pixel_data_23&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">pixel_data_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">video_display</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;pixel_data_1&gt; &lt;pixel_data_2&gt; &lt;pixel_data_3&gt; &lt;pixel_data_4&gt; &lt;pixel_data_5&gt; &lt;pixel_data_6&gt; &lt;pixel_data_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">tmdsclkint_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">rgbtodvi_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;tmdsclkint_1&gt; &lt;tmdsclkint_2&gt; &lt;tmdsclkint_3&gt; &lt;tmdsclkint_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">u_pll/pll_base_inst</arg> in unit <arg fmt="%s" index="2">u_pll/pll_base_inst</arg> of type <arg fmt="%s" index="3">PLL_BASE</arg> has been replaced by <arg fmt="%s" index="4">PLL_ADV</arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">n1q_m_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">encode</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;n0q_m_0&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="old" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">n1q_m_0</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">encode</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">cnt_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">encode</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encr/c1_q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">hdmi_block_move_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encr/c0_q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">hdmi_block_move_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encg/c1_q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">hdmi_block_move_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encg/c0_q</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">hdmi_block_move_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encr/c1_reg</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">hdmi_block_move_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encr/c0_reg</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">hdmi_block_move_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encg/c1_reg</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">hdmi_block_move_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encg/c0_reg</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">hdmi_block_move_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u_video_display/div_cnt_21</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">hdmi_block_move_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u_video_display/div_cnt_20</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">hdmi_block_move_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encr/n1d_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">hdmi_block_move_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encr/n1d_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">hdmi_block_move_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encr/n1d_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">hdmi_block_move_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encg/n1d_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">hdmi_block_move_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encg/n1d_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">hdmi_block_move_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encg/n1d_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">hdmi_block_move_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encb/n1d_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">hdmi_block_move_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encb/n1d_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">hdmi_block_move_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encb/n1d_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">hdmi_block_move_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u_video_driver/cnt_v_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">hdmi_block_move_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encb/n1d_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">8 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/encb/din_q_7&gt; &lt;u_rgbtodvi_top/encb/din_q_6&gt; &lt;u_rgbtodvi_top/encb/din_q_5&gt; &lt;u_rgbtodvi_top/encb/din_q_4&gt; &lt;u_rgbtodvi_top/encb/din_q_3&gt; &lt;u_rgbtodvi_top/encb/din_q_2&gt; &lt;u_rgbtodvi_top/encb/din_q_1&gt; &lt;u_rgbtodvi_top/encb/din_q_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encr/n1d_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">17 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/encr/din_q_7&gt; &lt;u_rgbtodvi_top/encr/din_q_6&gt; &lt;u_rgbtodvi_top/encr/din_q_5&gt; &lt;u_rgbtodvi_top/encr/din_q_4&gt; &lt;u_rgbtodvi_top/encr/din_q_3&gt; &lt;u_rgbtodvi_top/encr/din_q_2&gt; &lt;u_rgbtodvi_top/encr/din_q_1&gt; &lt;u_rgbtodvi_top/encr/din_q_0&gt; &lt;u_rgbtodvi_top/encg/n1d_3&gt; &lt;u_rgbtodvi_top/encg/din_q_7&gt; &lt;u_rgbtodvi_top/encg/din_q_6&gt; &lt;u_rgbtodvi_top/encg/din_q_5&gt; &lt;u_rgbtodvi_top/encg/din_q_4&gt; &lt;u_rgbtodvi_top/encg/din_q_3&gt; &lt;u_rgbtodvi_top/encg/din_q_2&gt; &lt;u_rgbtodvi_top/encg/din_q_1&gt; &lt;u_rgbtodvi_top/encg/din_q_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encb/n0q_m_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/encb/q_m_reg_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encb/n1q_m_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">8 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/encb/q_m_reg_7&gt; &lt;u_rgbtodvi_top/encb/q_m_reg_6&gt; &lt;u_rgbtodvi_top/encb/q_m_reg_5&gt; &lt;u_rgbtodvi_top/encb/q_m_reg_4&gt; &lt;u_rgbtodvi_top/encb/q_m_reg_3&gt; &lt;u_rgbtodvi_top/encb/q_m_reg_2&gt; &lt;u_rgbtodvi_top/encb/q_m_reg_1&gt; &lt;u_rgbtodvi_top/encb/q_m_reg_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encr/de_q</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/encg/de_q&gt; &lt;u_rgbtodvi_top/encb/de_q&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encr/cnt_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/encg/cnt_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encr/cnt_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/encg/cnt_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encr/cnt_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/encg/cnt_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encr/cnt_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/encg/cnt_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encr/de_reg</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/encg/de_reg&gt; &lt;u_rgbtodvi_top/encb/de_reg&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encr/n0q_m_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/encr/q_m_reg_8&gt; &lt;u_rgbtodvi_top/encg/n0q_m_3&gt; &lt;u_rgbtodvi_top/encg/q_m_reg_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encr/n1q_m_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">17 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/encr/q_m_reg_7&gt; &lt;u_rgbtodvi_top/encr/q_m_reg_6&gt; &lt;u_rgbtodvi_top/encr/q_m_reg_5&gt; &lt;u_rgbtodvi_top/encr/q_m_reg_4&gt; &lt;u_rgbtodvi_top/encr/q_m_reg_3&gt; &lt;u_rgbtodvi_top/encr/q_m_reg_2&gt; &lt;u_rgbtodvi_top/encr/q_m_reg_1&gt; &lt;u_rgbtodvi_top/encr/q_m_reg_0&gt; &lt;u_rgbtodvi_top/encg/n1q_m_3&gt; &lt;u_rgbtodvi_top/encg/q_m_reg_7&gt; &lt;u_rgbtodvi_top/encg/q_m_reg_6&gt; &lt;u_rgbtodvi_top/encg/q_m_reg_5&gt; &lt;u_rgbtodvi_top/encg/q_m_reg_4&gt; &lt;u_rgbtodvi_top/encg/q_m_reg_3&gt; &lt;u_rgbtodvi_top/encg/q_m_reg_2&gt; &lt;u_rgbtodvi_top/encg/q_m_reg_1&gt; &lt;u_rgbtodvi_top/encg/q_m_reg_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encb/dout_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/encb/dout_5&gt; &lt;u_rgbtodvi_top/encb/dout_3&gt; &lt;u_rgbtodvi_top/encb/dout_1&gt; &lt;u_rgbtodvi_top/encb/dout_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encg/dout_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/encg/dout_5&gt; &lt;u_rgbtodvi_top/encg/dout_3&gt; &lt;u_rgbtodvi_top/encg/dout_1&gt; &lt;u_rgbtodvi_top/encg/dout_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encb/dout_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/encb/dout_4&gt; &lt;u_rgbtodvi_top/encb/dout_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encg/dout_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/encg/dout_4&gt; &lt;u_rgbtodvi_top/encg/dout_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encr/n0q_m_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/encg/n0q_m_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encr/n1q_m_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/encg/n1q_m_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encr/n1q_m_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/encg/n1q_m_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encr/dout_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/encr/dout_5&gt; &lt;u_rgbtodvi_top/encr/dout_3&gt; &lt;u_rgbtodvi_top/encr/dout_1&gt; &lt;u_rgbtodvi_top/encr/dout_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encr/dout_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/encr/dout_4&gt; &lt;u_rgbtodvi_top/encr/dout_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encr/dout_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/encg/dout_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encr/n0q_m_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/encr/n1q_m_2&gt; &lt;u_rgbtodvi_top/encr/n1q_m_1&gt; &lt;u_rgbtodvi_top/encb/n0q_m_1&gt; &lt;u_rgbtodvi_top/encb/n1q_m_2&gt; &lt;u_rgbtodvi_top/encb/n1q_m_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encr/n0q_m_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/encg/n0q_m_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encr/dout_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/encg/dout_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encr/dout_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/encg/dout_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encr/dout_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/encg/dout_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_rgbtodvi_top/u_convert_30to15_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_fb&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_rgbtodvi_top/u_convert_30to15_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_rgbtodvi_top/u_convert_30to15_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1&gt; &lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_rgbtodvi_top/u_convert_30to15_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encr/dout_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/encg/dout_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encr/dout_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/encg/dout_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encr/dout_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/encg/dout_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_rgbtodvi_top/u_convert_30to15_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_fb&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_rgbtodvi_top/u_convert_30to15_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_rgbtodvi_top/u_convert_30to15_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1&gt; &lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_rgbtodvi_top/u_convert_30to15_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i&gt; </arg>
+</msg>
+
+</messages>

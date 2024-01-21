@@ -1,0 +1,869 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.22 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.22 secs
+ 
+--> Reading design: hdmi_block_move_top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "hdmi_block_move_top.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "hdmi_block_move_top"
+Output Format                      : NGC
+Target Device                      : xc6slx16-2-ftg256
+
+---- Source Options
+Top Module Name                    : hdmi_block_move_top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "E:\App_Data\FPGA\Projects\17_hdmi_block_move_top\prj\hdmi_block_move_top\ipcore_dir\pll.v" into library work
+Parsing module <pll>.
+Analyzing Verilog file "E:\App_Data\FPGA\Projects\17_hdmi_block_move_top\rtl\serdes_n_to_1.v" into library work
+Parsing module <serdes_n_to_1>.
+Analyzing Verilog file "E:\App_Data\FPGA\Projects\17_hdmi_block_move_top\rtl\encode.v" into library work
+Parsing module <encode>.
+Analyzing Verilog file "E:\App_Data\FPGA\Projects\17_hdmi_block_move_top\prj\hdmi_block_move_top\ipcore_dir\convert_30to15_fifo.v" into library work
+Parsing module <convert_30to15_fifo>.
+Analyzing Verilog file "E:\App_Data\FPGA\Projects\17_hdmi_block_move_top\rtl\video_driver.v" into library work
+Parsing module <video_driver>.
+Analyzing Verilog file "E:\App_Data\FPGA\Projects\17_hdmi_block_move_top\rtl\video_display.v" into library work
+Parsing module <video_display>.
+Analyzing Verilog file "E:\App_Data\FPGA\Projects\17_hdmi_block_move_top\rtl\rgbtodvi_top.v" into library work
+Parsing module <rgbtodvi_top>.
+Analyzing Verilog file "E:\App_Data\FPGA\Projects\17_hdmi_block_move_top\rtl\hdmi_block_move_top.v" into library work
+Parsing module <hdmi_block_move_top>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <hdmi_block_move_top>.
+
+Elaborating module <video_driver>.
+
+Elaborating module <video_display>.
+
+Elaborating module <rgbtodvi_top>.
+
+Elaborating module <pll>.
+
+Elaborating module <IBUFG>.
+
+Elaborating module <PLL_BASE(BANDWIDTH="OPTIMIZED",CLK_FEEDBACK="CLKFBOUT",COMPENSATION="SYSTEM_SYNCHRONOUS",DIVCLK_DIVIDE=1,CLKFBOUT_MULT=15,CLKFBOUT_PHASE=0.0,CLKOUT0_DIVIDE=1,CLKOUT0_PHASE=0.0,CLKOUT0_DUTY_CYCLE=0.5,CLKOUT1_DIVIDE=5,CLKOUT1_PHASE=0.0,CLKOUT1_DUTY_CYCLE=0.5,CLKOUT2_DIVIDE=10,CLKOUT2_PHASE=0.0,CLKOUT2_DUTY_CYCLE=0.5,CLKIN_PERIOD=20.0,REF_JITTER=0.01)>.
+WARNING:HDLCompiler:1127 - "E:\App_Data\FPGA\Projects\17_hdmi_block_move_top\prj\hdmi_block_move_top\ipcore_dir\pll.v" Line 125: Assignment to clkout3_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\App_Data\FPGA\Projects\17_hdmi_block_move_top\prj\hdmi_block_move_top\ipcore_dir\pll.v" Line 126: Assignment to clkout4_unused ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "E:\App_Data\FPGA\Projects\17_hdmi_block_move_top\prj\hdmi_block_move_top\ipcore_dir\pll.v" Line 127: Assignment to clkout5_unused ignored, since the identifier is never used
+
+Elaborating module <BUFG>.
+
+Elaborating module <BUFPLL(DIVIDE=5)>.
+
+Elaborating module <serdes_n_to_1(SF=5)>.
+
+Elaborating module <OSERDES2(DATA_WIDTH=5,DATA_RATE_OQ="SDR",DATA_RATE_OT="SDR",SERDES_MODE="MASTER",OUTPUT_MODE="DIFFERENTIAL")>.
+
+Elaborating module <OSERDES2(DATA_WIDTH=5,DATA_RATE_OQ="SDR",DATA_RATE_OT="SDR",SERDES_MODE="SLAVE",OUTPUT_MODE="DIFFERENTIAL")>.
+
+Elaborating module <OBUFDS>.
+
+Elaborating module <encode>.
+
+Elaborating module <convert_30to15_fifo>.
+WARNING:HDLCompiler:1499 - "E:\App_Data\FPGA\Projects\17_hdmi_block_move_top\prj\hdmi_block_move_top\ipcore_dir\convert_30to15_fifo.v" Line 39: Empty module <convert_30to15_fifo> remains a black box.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <hdmi_block_move_top>.
+    Related source file is "E:\App_Data\FPGA\Projects\17_hdmi_block_move_top\rtl\hdmi_block_move_top.v".
+    Summary:
+	no macro.
+Unit <hdmi_block_move_top> synthesized.
+
+Synthesizing Unit <video_driver>.
+    Related source file is "E:\App_Data\FPGA\Projects\17_hdmi_block_move_top\rtl\video_driver.v".
+        H_SYNC = 11'b00000101000
+        H_BACK = 11'b00011011100
+        H_DISP = 11'b10100000000
+        H_FRONT = 11'b00001101110
+        H_TOTAL = 11'b11001110010
+        V_SYNC = 11'b00000000101
+        V_BACK = 11'b00000010100
+        V_DISP = 11'b01011010000
+        V_FRONT = 11'b00000000101
+        V_TOTAL = 11'b01011101110
+    Found 11-bit register for signal <cnt_v>.
+    Found 11-bit register for signal <cnt_h>.
+    Found 11-bit subtractor for signal <cnt_h[10]_GND_2_o_sub_12_OUT> created at line 85.
+    Found 11-bit subtractor for signal <cnt_v[10]_GND_2_o_sub_14_OUT> created at line 86.
+    Found 11-bit adder for signal <cnt_h[10]_GND_2_o_add_17_OUT> created at line 94.
+    Found 11-bit adder for signal <cnt_v[10]_GND_2_o_add_24_OUT> created at line 106.
+    Found 11-bit comparator lessequal for signal <cnt_h[10]_GND_2_o_LessThan_1_o> created at line 67
+    Found 11-bit comparator lessequal for signal <cnt_v[10]_GND_2_o_LessThan_2_o> created at line 68
+    Found 11-bit comparator lessequal for signal <n0005> created at line 71
+    Found 11-bit comparator greater for signal <cnt_h[10]_PWR_2_o_LessThan_4_o> created at line 71
+    Found 11-bit comparator lessequal for signal <n0009> created at line 72
+    Found 11-bit comparator greater for signal <cnt_v[10]_GND_2_o_LessThan_6_o> created at line 72
+    Found 11-bit comparator lessequal for signal <n0015> created at line 79
+    Found 11-bit comparator greater for signal <cnt_h[10]_PWR_2_o_LessThan_9_o> created at line 80
+    Found 11-bit comparator greater for signal <cnt_h[10]_PWR_2_o_LessThan_17_o> created at line 93
+    Found 11-bit comparator lessequal for signal <cnt_v[10]_GND_2_o_LessThan_24_o> created at line 105
+    Summary:
+	inferred   4 Adder/Subtractor(s).
+	inferred  22 D-type flip-flop(s).
+	inferred  10 Comparator(s).
+	inferred   3 Multiplexer(s).
+Unit <video_driver> synthesized.
+
+Synthesizing Unit <video_display>.
+    Related source file is "E:\App_Data\FPGA\Projects\17_hdmi_block_move_top\rtl\video_display.v".
+        H_DISP = 11'b10100000000
+        V_DISP = 11'b01011010000
+    Found 11-bit register for signal <block_y>.
+    Found 11-bit register for signal <block_x>.
+    Found 22-bit register for signal <div_cnt>.
+    Found 24-bit register for signal <pixel_data>.
+    Found 2-bit register for signal <direction>.
+    Found finite state machine <FSM_0> for signal <direction>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 20                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 2                                              |
+    | Clock              | pixel_clk (rising_edge)                        |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 11-bit subtractor for signal <block_y[10]_GND_3_o_sub_26_OUT> created at line 125.
+    Found 11-bit subtractor for signal <block_x[10]_GND_3_o_sub_28_OUT> created at line 127.
+    Found 22-bit adder for signal <div_cnt[21]_GND_3_o_add_21_OUT> created at line 86.
+    Found 11-bit adder for signal <block_y[10]_GND_3_o_add_26_OUT> created at line 126.
+    Found 11-bit adder for signal <block_x[10]_GND_3_o_add_28_OUT> created at line 128.
+    Found 11-bit adder for signal <block_x[10]_GND_3_o_add_41_OUT> created at line 143.
+    Found 11-bit adder for signal <block_y[10]_GND_3_o_add_44_OUT> created at line 144.
+    Found 22-bit comparator greater for signal <div_cnt[21]_GND_3_o_LessThan_21_o> created at line 85
+    Found 11-bit comparator greater for signal <pixel_xpos[10]_GND_3_o_LessThan_37_o> created at line 139
+    Found 11-bit comparator lessequal for signal <n0039> created at line 139
+    Found 11-bit comparator greater for signal <pixel_ypos[10]_GND_3_o_LessThan_39_o> created at line 140
+    Found 11-bit comparator lessequal for signal <n0044> created at line 140
+    Found 11-bit comparator lessequal for signal <n0047> created at line 143
+    Found 11-bit comparator greater for signal <pixel_xpos[10]_block_x[10]_LessThan_43_o> created at line 143
+    Found 11-bit comparator lessequal for signal <n0052> created at line 144
+    Found 11-bit comparator greater for signal <pixel_ypos[10]_block_y[10]_LessThan_46_o> created at line 144
+    Summary:
+	inferred   5 Adder/Subtractor(s).
+	inferred  68 D-type flip-flop(s).
+	inferred   9 Comparator(s).
+	inferred   1 Finite State Machine(s).
+Unit <video_display> synthesized.
+
+Synthesizing Unit <rgbtodvi_top>.
+    Related source file is "E:\App_Data\FPGA\Projects\17_hdmi_block_move_top\rtl\rgbtodvi_top.v".
+INFO:Xst:3210 - "E:\App_Data\FPGA\Projects\17_hdmi_block_move_top\rtl\rgbtodvi_top.v" line 167: Output port <full> of the instance <u_convert_30to15_fifo> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\App_Data\FPGA\Projects\17_hdmi_block_move_top\rtl\rgbtodvi_top.v" line 167: Output port <empty> of the instance <u_convert_30to15_fifo> is unconnected or connected to loadless signal.
+    Found 1-bit register for signal <toggle>.
+    Found 5-bit register for signal <tmdsclkint>.
+    Summary:
+	inferred   6 D-type flip-flop(s).
+Unit <rgbtodvi_top> synthesized.
+
+Synthesizing Unit <pll>.
+    Related source file is "E:\App_Data\FPGA\Projects\17_hdmi_block_move_top\prj\hdmi_block_move_top\ipcore_dir\pll.v".
+    Summary:
+	no macro.
+Unit <pll> synthesized.
+
+Synthesizing Unit <serdes_n_to_1>.
+    Related source file is "E:\App_Data\FPGA\Projects\17_hdmi_block_move_top\rtl\serdes_n_to_1.v".
+        SF = 5
+    Summary:
+	no macro.
+Unit <serdes_n_to_1> synthesized.
+
+Synthesizing Unit <encode>.
+    Related source file is "E:\App_Data\FPGA\Projects\17_hdmi_block_move_top\rtl\encode.v".
+        CTRLTOKEN0 = 10'b1101010100
+        CTRLTOKEN1 = 10'b0010101011
+        CTRLTOKEN2 = 10'b0101010100
+        CTRLTOKEN3 = 10'b1010101011
+    Found 10-bit register for signal <dout>.
+    Found 5-bit register for signal <cnt>.
+    Found 8-bit register for signal <din_q>.
+    Found 4-bit register for signal <n1q_m>.
+    Found 4-bit register for signal <n0q_m>.
+    Found 1-bit register for signal <de_q>.
+    Found 1-bit register for signal <de_reg>.
+    Found 1-bit register for signal <c0_q>.
+    Found 1-bit register for signal <c0_reg>.
+    Found 1-bit register for signal <c1_q>.
+    Found 1-bit register for signal <c1_reg>.
+    Found 9-bit register for signal <q_m_reg>.
+    Found 4-bit register for signal <n1d>.
+    Found 4-bit subtractor for signal <PWR_15_o_BUS_0017_sub_29_OUT> created at line 110.
+    Found 5-bit subtractor for signal <n0233> created at line 169.
+    Found 5-bit subtractor for signal <n0235> created at line 175.
+    Found 5-bit subtractor for signal <n0236> created at line 175.
+    Found 2-bit adder for signal <n0183[1:0]> created at line 66.
+    Found 3-bit adder for signal <n0186[2:0]> created at line 66.
+    Found 2-bit adder for signal <n0204[1:0]> created at line 109.
+    Found 3-bit adder for signal <n0207[2:0]> created at line 109.
+    Found 5-bit adder for signal <n0232> created at line 169.
+    Found 5-bit adder for signal <cnt[4]_GND_15_o_add_47_OUT> created at line 169.
+    Found 5-bit adder for signal <cnt[4]_GND_15_o_add_50_OUT> created at line 175.
+    Found 4-bit adder for signal <_n0248> created at line 66.
+    Found 4-bit adder for signal <_n0249> created at line 66.
+    Found 4-bit adder for signal <_n0250> created at line 66.
+    Found 4-bit adder for signal <_n0251> created at line 66.
+    Found 4-bit adder for signal <BUS_0003_GND_15_o_add_7_OUT> created at line 66.
+    Found 4-bit adder for signal <_n0253> created at line 109.
+    Found 4-bit adder for signal <_n0254> created at line 109.
+    Found 4-bit adder for signal <_n0255> created at line 109.
+    Found 4-bit adder for signal <_n0256> created at line 109.
+    Found 4-bit adder for signal <BUS_0010_GND_15_o_add_20_OUT> created at line 109.
+    Found 5-bit adder for signal <cnt[4]_GND_15_o_sub_43_OUT> created at line 162.
+    Found 5-bit adder for signal <cnt[4]_GND_15_o_sub_41_OUT> created at line 162.
+    Found 4x10-bit Read Only RAM for signal <c1_reg_PWR_15_o_wide_mux_53_OUT>
+    Found 4-bit comparator greater for signal <GND_15_o_n1d[3]_LessThan_11_o> created at line 77
+    Found 4-bit comparator equal for signal <n1q_m[3]_n0q_m[3]_equal_33_o> created at line 121
+    Found 4-bit comparator greater for signal <n0q_m[3]_n1q_m[3]_LessThan_34_o> created at line 125
+    Found 4-bit comparator greater for signal <n1q_m[3]_n0q_m[3]_LessThan_35_o> created at line 125
+    Summary:
+	inferred   1 RAM(s).
+	inferred  23 Adder/Subtractor(s).
+	inferred  50 D-type flip-flop(s).
+	inferred   4 Comparator(s).
+	inferred  37 Multiplexer(s).
+Unit <encode> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 3
+ 4x10-bit single-port Read Only RAM                    : 3
+# Adders/Subtractors                                   : 78
+ 11-bit adder                                          : 4
+ 11-bit addsub                                         : 2
+ 11-bit subtractor                                     : 2
+ 2-bit adder                                           : 6
+ 22-bit adder                                          : 1
+ 3-bit adder                                           : 6
+ 4-bit adder                                           : 30
+ 4-bit subtractor                                      : 3
+ 5-bit adder                                           : 15
+ 5-bit subtractor                                      : 9
+# Registers                                            : 44
+ 1-bit register                                        : 13
+ 10-bit register                                       : 3
+ 11-bit register                                       : 4
+ 2-bit register                                        : 3
+ 22-bit register                                       : 1
+ 24-bit register                                       : 1
+ 4-bit register                                        : 9
+ 5-bit register                                        : 4
+ 8-bit register                                        : 3
+ 9-bit register                                        : 3
+# Comparators                                          : 31
+ 11-bit comparator greater                             : 8
+ 11-bit comparator lessequal                           : 10
+ 22-bit comparator greater                             : 1
+ 4-bit comparator equal                                : 3
+ 4-bit comparator greater                              : 9
+# Multiplexers                                         : 114
+ 1-bit 2-to-1 multiplexer                              : 96
+ 10-bit 2-to-1 multiplexer                             : 3
+ 11-bit 2-to-1 multiplexer                             : 2
+ 24-bit 2-to-1 multiplexer                             : 1
+ 5-bit 2-to-1 multiplexer                              : 12
+# FSMs                                                 : 1
+# Xors                                                 : 42
+ 1-bit xor2                                            : 42
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/convert_30to15_fifo.ngc>.
+Loading core <convert_30to15_fifo> for timing and area information for instance <u_convert_30to15_fifo>.
+INFO:Xst:2261 - The FF/Latch <pixel_data_8> in Unit <u_video_display> is equivalent to the following 15 FFs/Latches, which will be removed : <pixel_data_9> <pixel_data_10> <pixel_data_11> <pixel_data_12> <pixel_data_13> <pixel_data_14> <pixel_data_15> <pixel_data_16> <pixel_data_17> <pixel_data_18> <pixel_data_19> <pixel_data_20> <pixel_data_21> <pixel_data_22> <pixel_data_23> 
+INFO:Xst:2261 - The FF/Latch <pixel_data_0> in Unit <u_video_display> is equivalent to the following 7 FFs/Latches, which will be removed : <pixel_data_1> <pixel_data_2> <pixel_data_3> <pixel_data_4> <pixel_data_5> <pixel_data_6> <pixel_data_7> 
+INFO:Xst:2261 - The FF/Latch <tmdsclkint_0> in Unit <u_rgbtodvi_top> is equivalent to the following 4 FFs/Latches, which will be removed : <tmdsclkint_1> <tmdsclkint_2> <tmdsclkint_3> <tmdsclkint_4> 
+WARNING:Xst:1710 - FF/Latch <c1_q> (without init value) has a constant value of 0 in block <encg>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <c0_q> (without init value) has a constant value of 0 in block <encg>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <c1_q> (without init value) has a constant value of 0 in block <encr>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <c0_q> (without init value) has a constant value of 0 in block <encr>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <c0_reg> (without init value) has a constant value of 0 in block <encg>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <c1_reg> (without init value) has a constant value of 0 in block <encg>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <c0_reg> (without init value) has a constant value of 0 in block <encr>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <c1_reg> (without init value) has a constant value of 0 in block <encr>. This FF/Latch will be trimmed during the optimization process.
+
+Synthesizing (advanced) Unit <encode>.
+	The following adders/subtractors are grouped into adder tree <Madd_BUS_0010_GND_15_o_add_20_OUT_Madd1> :
+ 	<Madd__n0253> in block <encode>, 	<Madd__n0254> in block <encode>, 	<Madd__n0256_Madd> in block <encode>, 	<Madd_n0204[1:0]> in block <encode>, 	<Madd_BUS_0010_GND_15_o_add_20_OUT_Madd> in block <encode>.
+	The following adders/subtractors are grouped into adder tree <Madd_BUS_0003_GND_15_o_add_7_OUT_Madd1> :
+ 	<Madd__n0248> in block <encode>, 	<Madd__n0249> in block <encode>, 	<Madd__n0251_Madd> in block <encode>, 	<Madd_n0183[1:0]> in block <encode>, 	<Madd_BUS_0003_GND_15_o_add_7_OUT_Madd> in block <encode>.
+INFO:Xst:3231 - The small RAM <Mram_c1_reg_PWR_15_o_wide_mux_53_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 10-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <(c1_reg,c0_reg)> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3217 - HDL ADVISOR - Register <dout> currently described with an asynchronous reset, could be combined with distributed RAM <Mram_c1_reg_PWR_15_o_wide_mux_53_OUT> for implementation on block RAM resources if you made this reset synchronous instead.
+Unit <encode> synthesized (advanced).
+
+Synthesizing (advanced) Unit <video_display>.
+The following registers are absorbed into counter <div_cnt>: 1 register on signal <div_cnt>.
+Unit <video_display> synthesized (advanced).
+
+Synthesizing (advanced) Unit <video_driver>.
+The following registers are absorbed into counter <cnt_h>: 1 register on signal <cnt_h>.
+The following registers are absorbed into counter <cnt_v>: 1 register on signal <cnt_v>.
+Unit <video_driver> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 3
+ 4x10-bit single-port distributed Read Only RAM        : 3
+# Adders/Subtractors                                   : 33
+ 11-bit adder                                          : 2
+ 11-bit addsub                                         : 2
+ 11-bit subtractor                                     : 2
+ 4-bit subtractor                                      : 3
+ 5-bit adder                                           : 15
+ 5-bit subtractor                                      : 9
+# Adder Trees                                          : 6
+ 4-bit / 6-inputs adder tree                           : 6
+# Counters                                             : 3
+ 11-bit up counter                                     : 2
+ 22-bit up counter                                     : 1
+# Registers                                            : 202
+ Flip-Flops                                            : 202
+# Comparators                                          : 31
+ 11-bit comparator greater                             : 8
+ 11-bit comparator lessequal                           : 10
+ 22-bit comparator greater                             : 1
+ 4-bit comparator equal                                : 3
+ 4-bit comparator greater                              : 9
+# Multiplexers                                         : 114
+ 1-bit 2-to-1 multiplexer                              : 96
+ 10-bit 2-to-1 multiplexer                             : 3
+ 11-bit 2-to-1 multiplexer                             : 2
+ 24-bit 2-to-1 multiplexer                             : 1
+ 5-bit 2-to-1 multiplexer                              : 12
+# FSMs                                                 : 1
+# Xors                                                 : 42
+ 1-bit xor2                                            : 42
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <pixel_data_8> in Unit <video_display> is equivalent to the following 15 FFs/Latches, which will be removed : <pixel_data_9> <pixel_data_10> <pixel_data_11> <pixel_data_12> <pixel_data_13> <pixel_data_14> <pixel_data_15> <pixel_data_16> <pixel_data_17> <pixel_data_18> <pixel_data_19> <pixel_data_20> <pixel_data_21> <pixel_data_22> <pixel_data_23> 
+INFO:Xst:2261 - The FF/Latch <pixel_data_0> in Unit <video_display> is equivalent to the following 7 FFs/Latches, which will be removed : <pixel_data_1> <pixel_data_2> <pixel_data_3> <pixel_data_4> <pixel_data_5> <pixel_data_6> <pixel_data_7> 
+INFO:Xst:2261 - The FF/Latch <tmdsclkint_0> in Unit <rgbtodvi_top> is equivalent to the following 4 FFs/Latches, which will be removed : <tmdsclkint_1> <tmdsclkint_2> <tmdsclkint_3> <tmdsclkint_4> 
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <u_video_display/FSM_0> on signal <direction[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 11    | 11
+ 10    | 10
+ 01    | 01
+-------------------
+INFO:Xst:1901 - Instance u_pll/pll_base_inst in unit u_pll/pll_base_inst of type PLL_BASE has been replaced by PLL_ADV
+INFO:Xst:2261 - The FF/Latch <n1q_m_0> in Unit <encode> is equivalent to the following FF/Latch, which will be removed : <n0q_m_0> 
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <n1q_m_0> is unconnected in block <encode>.
+
+Optimizing unit <hdmi_block_move_top> ...
+
+Optimizing unit <video_display> ...
+
+Optimizing unit <rgbtodvi_top> ...
+
+Optimizing unit <encode> ...
+WARNING:Xst:1710 - FF/Latch <cnt_0> (without init value) has a constant value of 0 in block <encode>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <video_driver> ...
+WARNING:Xst:1710 - FF/Latch <u_rgbtodvi_top/encr/c1_q> (without init value) has a constant value of 0 in block <hdmi_block_move_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u_rgbtodvi_top/encr/c0_q> (without init value) has a constant value of 0 in block <hdmi_block_move_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u_rgbtodvi_top/encg/c1_q> (without init value) has a constant value of 0 in block <hdmi_block_move_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u_rgbtodvi_top/encg/c0_q> (without init value) has a constant value of 0 in block <hdmi_block_move_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_rgbtodvi_top/encr/c1_reg> (without init value) has a constant value of 0 in block <hdmi_block_move_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_rgbtodvi_top/encr/c0_reg> (without init value) has a constant value of 0 in block <hdmi_block_move_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_rgbtodvi_top/encg/c1_reg> (without init value) has a constant value of 0 in block <hdmi_block_move_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u_rgbtodvi_top/encg/c0_reg> (without init value) has a constant value of 0 in block <hdmi_block_move_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u_video_display/div_cnt_21> (without init value) has a constant value of 0 in block <hdmi_block_move_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u_video_display/div_cnt_20> (without init value) has a constant value of 0 in block <hdmi_block_move_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u_rgbtodvi_top/encr/n1d_2> (without init value) has a constant value of 0 in block <hdmi_block_move_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u_rgbtodvi_top/encr/n1d_1> (without init value) has a constant value of 0 in block <hdmi_block_move_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u_rgbtodvi_top/encr/n1d_0> (without init value) has a constant value of 0 in block <hdmi_block_move_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u_rgbtodvi_top/encg/n1d_2> (without init value) has a constant value of 0 in block <hdmi_block_move_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u_rgbtodvi_top/encg/n1d_1> (without init value) has a constant value of 0 in block <hdmi_block_move_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u_rgbtodvi_top/encg/n1d_0> (without init value) has a constant value of 0 in block <hdmi_block_move_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u_rgbtodvi_top/encb/n1d_2> (without init value) has a constant value of 0 in block <hdmi_block_move_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u_rgbtodvi_top/encb/n1d_1> (without init value) has a constant value of 0 in block <hdmi_block_move_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u_rgbtodvi_top/encb/n1d_0> (without init value) has a constant value of 0 in block <hdmi_block_move_top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <u_video_driver/cnt_v_10> (without init value) has a constant value of 0 in block <hdmi_block_move_top>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <u_rgbtodvi_top/encb/n1d_3> in Unit <hdmi_block_move_top> is equivalent to the following 8 FFs/Latches, which will be removed : <u_rgbtodvi_top/encb/din_q_7> <u_rgbtodvi_top/encb/din_q_6> <u_rgbtodvi_top/encb/din_q_5> <u_rgbtodvi_top/encb/din_q_4> <u_rgbtodvi_top/encb/din_q_3> <u_rgbtodvi_top/encb/din_q_2> <u_rgbtodvi_top/encb/din_q_1> <u_rgbtodvi_top/encb/din_q_0> 
+INFO:Xst:2261 - The FF/Latch <u_rgbtodvi_top/encr/n1d_3> in Unit <hdmi_block_move_top> is equivalent to the following 17 FFs/Latches, which will be removed : <u_rgbtodvi_top/encr/din_q_7> <u_rgbtodvi_top/encr/din_q_6> <u_rgbtodvi_top/encr/din_q_5> <u_rgbtodvi_top/encr/din_q_4> <u_rgbtodvi_top/encr/din_q_3> <u_rgbtodvi_top/encr/din_q_2> <u_rgbtodvi_top/encr/din_q_1> <u_rgbtodvi_top/encr/din_q_0> <u_rgbtodvi_top/encg/n1d_3> <u_rgbtodvi_top/encg/din_q_7> <u_rgbtodvi_top/encg/din_q_6> <u_rgbtodvi_top/encg/din_q_5> <u_rgbtodvi_top/encg/din_q_4> <u_rgbtodvi_top/encg/din_q_3> <u_rgbtodvi_top/encg/din_q_2> <u_rgbtodvi_top/encg/din_q_1> <u_rgbtodvi_top/encg/din_q_0> 
+INFO:Xst:2261 - The FF/Latch <u_rgbtodvi_top/encb/n0q_m_3> in Unit <hdmi_block_move_top> is equivalent to the following FF/Latch, which will be removed : <u_rgbtodvi_top/encb/q_m_reg_8> 
+INFO:Xst:2261 - The FF/Latch <u_rgbtodvi_top/encb/n1q_m_3> in Unit <hdmi_block_move_top> is equivalent to the following 8 FFs/Latches, which will be removed : <u_rgbtodvi_top/encb/q_m_reg_7> <u_rgbtodvi_top/encb/q_m_reg_6> <u_rgbtodvi_top/encb/q_m_reg_5> <u_rgbtodvi_top/encb/q_m_reg_4> <u_rgbtodvi_top/encb/q_m_reg_3> <u_rgbtodvi_top/encb/q_m_reg_2> <u_rgbtodvi_top/encb/q_m_reg_1> <u_rgbtodvi_top/encb/q_m_reg_0> 
+INFO:Xst:2261 - The FF/Latch <u_rgbtodvi_top/encr/de_q> in Unit <hdmi_block_move_top> is equivalent to the following 2 FFs/Latches, which will be removed : <u_rgbtodvi_top/encg/de_q> <u_rgbtodvi_top/encb/de_q> 
+INFO:Xst:2261 - The FF/Latch <u_rgbtodvi_top/encr/cnt_1> in Unit <hdmi_block_move_top> is equivalent to the following FF/Latch, which will be removed : <u_rgbtodvi_top/encg/cnt_1> 
+INFO:Xst:2261 - The FF/Latch <u_rgbtodvi_top/encr/cnt_2> in Unit <hdmi_block_move_top> is equivalent to the following FF/Latch, which will be removed : <u_rgbtodvi_top/encg/cnt_2> 
+INFO:Xst:2261 - The FF/Latch <u_rgbtodvi_top/encr/cnt_3> in Unit <hdmi_block_move_top> is equivalent to the following FF/Latch, which will be removed : <u_rgbtodvi_top/encg/cnt_3> 
+INFO:Xst:2261 - The FF/Latch <u_rgbtodvi_top/encr/cnt_4> in Unit <hdmi_block_move_top> is equivalent to the following FF/Latch, which will be removed : <u_rgbtodvi_top/encg/cnt_4> 
+INFO:Xst:2261 - The FF/Latch <u_rgbtodvi_top/encr/de_reg> in Unit <hdmi_block_move_top> is equivalent to the following 2 FFs/Latches, which will be removed : <u_rgbtodvi_top/encg/de_reg> <u_rgbtodvi_top/encb/de_reg> 
+INFO:Xst:2261 - The FF/Latch <u_rgbtodvi_top/encr/n0q_m_3> in Unit <hdmi_block_move_top> is equivalent to the following 3 FFs/Latches, which will be removed : <u_rgbtodvi_top/encr/q_m_reg_8> <u_rgbtodvi_top/encg/n0q_m_3> <u_rgbtodvi_top/encg/q_m_reg_8> 
+INFO:Xst:2261 - The FF/Latch <u_rgbtodvi_top/encr/n1q_m_3> in Unit <hdmi_block_move_top> is equivalent to the following 17 FFs/Latches, which will be removed : <u_rgbtodvi_top/encr/q_m_reg_7> <u_rgbtodvi_top/encr/q_m_reg_6> <u_rgbtodvi_top/encr/q_m_reg_5> <u_rgbtodvi_top/encr/q_m_reg_4> <u_rgbtodvi_top/encr/q_m_reg_3> <u_rgbtodvi_top/encr/q_m_reg_2> <u_rgbtodvi_top/encr/q_m_reg_1> <u_rgbtodvi_top/encr/q_m_reg_0> <u_rgbtodvi_top/encg/n1q_m_3> <u_rgbtodvi_top/encg/q_m_reg_7> <u_rgbtodvi_top/encg/q_m_reg_6> <u_rgbtodvi_top/encg/q_m_reg_5> <u_rgbtodvi_top/encg/q_m_reg_4> <u_rgbtodvi_top/encg/q_m_reg_3> <u_rgbtodvi_top/encg/q_m_reg_2> <u_rgbtodvi_top/encg/q_m_reg_1> <u_rgbtodvi_top/encg/q_m_reg_0> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+INFO:Xst:2261 - The FF/Latch <u_rgbtodvi_top/encb/dout_7> in Unit <hdmi_block_move_top> is equivalent to the following 4 FFs/Latches, which will be removed : <u_rgbtodvi_top/encb/dout_5> <u_rgbtodvi_top/encb/dout_3> <u_rgbtodvi_top/encb/dout_1> <u_rgbtodvi_top/encb/dout_0> 
+INFO:Xst:2261 - The FF/Latch <u_rgbtodvi_top/encg/dout_7> in Unit <hdmi_block_move_top> is equivalent to the following 4 FFs/Latches, which will be removed : <u_rgbtodvi_top/encg/dout_5> <u_rgbtodvi_top/encg/dout_3> <u_rgbtodvi_top/encg/dout_1> <u_rgbtodvi_top/encg/dout_0> 
+INFO:Xst:2261 - The FF/Latch <u_rgbtodvi_top/encb/dout_6> in Unit <hdmi_block_move_top> is equivalent to the following 2 FFs/Latches, which will be removed : <u_rgbtodvi_top/encb/dout_4> <u_rgbtodvi_top/encb/dout_2> 
+INFO:Xst:2261 - The FF/Latch <u_rgbtodvi_top/encg/dout_6> in Unit <hdmi_block_move_top> is equivalent to the following 2 FFs/Latches, which will be removed : <u_rgbtodvi_top/encg/dout_4> <u_rgbtodvi_top/encg/dout_2> 
+INFO:Xst:2261 - The FF/Latch <u_rgbtodvi_top/encr/n0q_m_1> in Unit <hdmi_block_move_top> is equivalent to the following FF/Latch, which will be removed : <u_rgbtodvi_top/encg/n0q_m_1> 
+INFO:Xst:2261 - The FF/Latch <u_rgbtodvi_top/encr/n1q_m_1> in Unit <hdmi_block_move_top> is equivalent to the following FF/Latch, which will be removed : <u_rgbtodvi_top/encg/n1q_m_1> 
+INFO:Xst:2261 - The FF/Latch <u_rgbtodvi_top/encr/n1q_m_2> in Unit <hdmi_block_move_top> is equivalent to the following FF/Latch, which will be removed : <u_rgbtodvi_top/encg/n1q_m_2> 
+INFO:Xst:2261 - The FF/Latch <u_rgbtodvi_top/encr/dout_7> in Unit <hdmi_block_move_top> is equivalent to the following 4 FFs/Latches, which will be removed : <u_rgbtodvi_top/encr/dout_5> <u_rgbtodvi_top/encr/dout_3> <u_rgbtodvi_top/encr/dout_1> <u_rgbtodvi_top/encr/dout_0> 
+INFO:Xst:2261 - The FF/Latch <u_rgbtodvi_top/encr/dout_6> in Unit <hdmi_block_move_top> is equivalent to the following 2 FFs/Latches, which will be removed : <u_rgbtodvi_top/encr/dout_4> <u_rgbtodvi_top/encr/dout_2> 
+INFO:Xst:2261 - The FF/Latch <u_rgbtodvi_top/encr/dout_8> in Unit <hdmi_block_move_top> is equivalent to the following FF/Latch, which will be removed : <u_rgbtodvi_top/encg/dout_8> 
+INFO:Xst:2261 - The FF/Latch <u_rgbtodvi_top/encr/n0q_m_1> in Unit <hdmi_block_move_top> is equivalent to the following 5 FFs/Latches, which will be removed : <u_rgbtodvi_top/encr/n1q_m_2> <u_rgbtodvi_top/encr/n1q_m_1> <u_rgbtodvi_top/encb/n0q_m_1> <u_rgbtodvi_top/encb/n1q_m_2> <u_rgbtodvi_top/encb/n1q_m_1> 
+INFO:Xst:2261 - The FF/Latch <u_rgbtodvi_top/encr/n0q_m_2> in Unit <hdmi_block_move_top> is equivalent to the following FF/Latch, which will be removed : <u_rgbtodvi_top/encg/n0q_m_2> 
+Found area constraint ratio of 100 (+ 5) on block hdmi_block_move_top, actual ratio is 5.
+INFO:Xst:2260 - The FF/Latch <u_rgbtodvi_top/encr/dout_7> in Unit <hdmi_block_move_top> is equivalent to the following FF/Latch : <u_rgbtodvi_top/encg/dout_7> 
+INFO:Xst:2260 - The FF/Latch <u_rgbtodvi_top/encr/dout_6> in Unit <hdmi_block_move_top> is equivalent to the following FF/Latch : <u_rgbtodvi_top/encg/dout_6> 
+INFO:Xst:2260 - The FF/Latch <u_rgbtodvi_top/encr/dout_9> in Unit <hdmi_block_move_top> is equivalent to the following FF/Latch : <u_rgbtodvi_top/encg/dout_9> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_i> in Unit <u_rgbtodvi_top/u_convert_30to15_fifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_fb> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1> in Unit <u_rgbtodvi_top/u_convert_30to15_fifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2> in Unit <u_rgbtodvi_top/u_convert_30to15_fifo> is equivalent to the following 2 FFs/Latches : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1> <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i> in Unit <u_rgbtodvi_top/u_convert_30to15_fifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i> 
+INFO:Xst:2261 - The FF/Latch <u_rgbtodvi_top/encr/dout_7> in Unit <hdmi_block_move_top> is equivalent to the following FF/Latch, which will be removed : <u_rgbtodvi_top/encg/dout_7> 
+INFO:Xst:2261 - The FF/Latch <u_rgbtodvi_top/encr/dout_6> in Unit <hdmi_block_move_top> is equivalent to the following FF/Latch, which will be removed : <u_rgbtodvi_top/encg/dout_6> 
+INFO:Xst:2261 - The FF/Latch <u_rgbtodvi_top/encr/dout_9> in Unit <hdmi_block_move_top> is equivalent to the following FF/Latch, which will be removed : <u_rgbtodvi_top/encg/dout_9> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_i> in Unit <u_rgbtodvi_top/u_convert_30to15_fifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_fb> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1> in Unit <u_rgbtodvi_top/u_convert_30to15_fifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2> in Unit <u_rgbtodvi_top/u_convert_30to15_fifo> is equivalent to the following 2 FFs/Latches : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1> <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0> 
+INFO:Xst:2260 - The FF/Latch <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i> in Unit <u_rgbtodvi_top/u_convert_30to15_fifo> is equivalent to the following FF/Latch : <U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i> 
+
+Final Macro Processing ...
+
+Processing Unit <hdmi_block_move_top> :
+	Found 2-bit shift register for signal <u_rgbtodvi_top/encr/de_reg>.
+Unit <hdmi_block_move_top> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 95
+ Flip-Flops                                            : 95
+# Shift Registers                                      : 1
+ 2-bit shift register                                  : 1
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : hdmi_block_move_top.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 510
+#      GND                         : 3
+#      INV                         : 16
+#      LUT1                        : 38
+#      LUT2                        : 73
+#      LUT3                        : 36
+#      LUT4                        : 96
+#      LUT5                        : 47
+#      LUT6                        : 73
+#      MUXCY                       : 84
+#      MUXF7                       : 1
+#      VCC                         : 2
+#      XORCY                       : 41
+# FlipFlops/Latches                : 264
+#      FD                          : 16
+#      FDC                         : 103
+#      FDCE                        : 64
+#      FDE                         : 1
+#      FDP                         : 15
+#      FDPE                        : 6
+#      FDR                         : 34
+#      FDRE                        : 25
+# RAMS                             : 2
+#      RAMB16BWER                  : 2
+# Shift Registers                  : 1
+#      SRLC16E                     : 1
+# Clock Buffers                    : 2
+#      BUFG                        : 2
+# IO Buffers                       : 10
+#      IBUF                        : 5
+#      IBUFG                       : 1
+#      OBUFDS                      : 4
+# Others                           : 10
+#      BUFPLL                      : 1
+#      OSERDES2                    : 8
+#      PLL_ADV                     : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16ftg256-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             264  out of  18224     1%  
+ Number of Slice LUTs:                  380  out of   9112     4%  
+    Number used as Logic:               379  out of   9112     4%  
+    Number used as Memory:                1  out of   2176     0%  
+       Number used as SRL:                1
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    506
+   Number with an unused Flip Flop:     242  out of    506    47%  
+   Number with an unused LUT:           126  out of    506    24%  
+   Number of fully used LUT-FF pairs:   138  out of    506    27%  
+   Number of unique control sets:        27
+
+IO Utilization: 
+ Number of IOs:                          14
+ Number of bonded IOBs:                  14  out of    186     7%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                2  out of     32     6%  
+    Number using Block RAM only:          2
+ Number of BUFG/BUFGCTRLs:                2  out of     16    12%  
+ Number of PLL_ADVs:                      1  out of      2    50%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+------------------------------------------+------------------------+-------+
+Clock Signal                              | Clock buffer(FF name)  | Load  |
+------------------------------------------+------------------------+-------+
+u_rgbtodvi_top/u_pll/pll_base_inst/CLKOUT2| BUFG                   | 177   |
+u_rgbtodvi_top/u_pll/pll_base_inst/CLKOUT1| BUFG                   | 92    |
+------------------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 9.127ns (Maximum Frequency: 109.565MHz)
+   Minimum input arrival time before clock: 4.296ns
+   Maximum output required time after clock: 1.365ns
+   Maximum combinational path delay: 3.593ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'u_rgbtodvi_top/u_pll/pll_base_inst/CLKOUT2'
+  Clock period: 9.127ns (frequency: 109.565MHz)
+  Total number of paths / destination ports: 11993 / 394
+-------------------------------------------------------------------------
+Delay:               9.127ns (Levels of Logic = 7)
+  Source:            u_video_driver/cnt_v_0 (FF)
+  Destination:       u_video_display/pixel_data_8 (FF)
+  Source Clock:      u_rgbtodvi_top/u_pll/pll_base_inst/CLKOUT2 rising
+  Destination Clock: u_rgbtodvi_top/u_pll/pll_base_inst/CLKOUT2 rising
+
+  Data Path: u_video_driver/cnt_v_0 to u_video_display/pixel_data_8
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             6   0.525   1.331  u_video_driver/cnt_v_0 (u_video_driver/cnt_v_0)
+     LUT6:I0->O            1   0.254   0.790  u_video_driver/data_req24_SW1 (N48)
+     LUT6:I4->O            3   0.250   0.766  u_video_driver/data_req24 (u_video_driver/data_req2)
+     LUT6:I5->O            8   0.254   0.944  u_video_driver/data_req4_1 (u_video_driver/data_req4)
+     LUT5:I4->O            6   0.254   1.306  u_video_driver/Mmux_pixel_xpos51 (pixel_xpos_w<3>)
+     LUT6:I1->O            1   0.254   0.910  u_video_display/pixel_xpos[10]_GND_3_o_OR_66_o4 (u_video_display/pixel_xpos[10]_GND_3_o_OR_66_o4)
+     LUT5:I2->O            2   0.235   0.726  u_video_display/pixel_xpos[10]_GND_3_o_OR_66_o9 (u_video_display/pixel_xpos[10]_GND_3_o_OR_66_o)
+     LUT5:I4->O            1   0.254   0.000  u_video_display/_n01241 (u_video_display/pixel_data_8_glue_set)
+     FDR:D                     0.074          u_video_display/pixel_data_8
+    ----------------------------------------
+    Total                      9.127ns (2.354ns logic, 6.773ns route)
+                                       (25.8% logic, 74.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'u_rgbtodvi_top/u_pll/pll_base_inst/CLKOUT1'
+  Clock period: 3.505ns (frequency: 285.286MHz)
+  Total number of paths / destination ports: 457 / 224
+-------------------------------------------------------------------------
+Delay:               3.505ns (Levels of Logic = 8)
+  Source:            u_rgbtodvi_top/u_convert_30to15_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_0 (FF)
+  Destination:       u_rgbtodvi_top/u_convert_30to15_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_fb_i (FF)
+  Source Clock:      u_rgbtodvi_top/u_pll/pll_base_inst/CLKOUT1 rising
+  Destination Clock: u_rgbtodvi_top/u_pll/pll_base_inst/CLKOUT1 rising
+
+  Data Path: u_rgbtodvi_top/u_convert_30to15_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_0 to u_rgbtodvi_top/u_convert_30to15_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_fb_i
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            12   0.525   1.069  U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_0 (U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1<0>)
+     LUT3:I2->O            1   0.254   0.000  U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/c0/v1<0>1 (U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/c0/v1<0>)
+     MUXCY:S->O            1   0.215   0.000  U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/c0/gmux.gm[0].gm1.m1 (U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/c0/gmux.carrynet<0>)
+     MUXCY:CI->O           1   0.023   0.000  U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/c0/gmux.gm[1].gms.ms (U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/c0/gmux.carrynet<1>)
+     MUXCY:CI->O           1   0.023   0.000  U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/c0/gmux.gm[2].gms.ms (U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/c0/gmux.carrynet<2>)
+     MUXCY:CI->O           1   0.023   0.000  U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/c0/gmux.gm[3].gms.ms (U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/c0/gmux.carrynet<3>)
+     MUXCY:CI->O           1   0.023   0.000  U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/c0/gmux.gm[4].gms.ms (U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/c0/gmux.carrynet<4>)
+     MUXCY:CI->O           1   0.235   0.790  U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/c0/gmux.gm[5].gms.ms (U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/comp0)
+     LUT6:I4->O            1   0.250   0.000  U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/comp0_comp1_OR_6_o1 (U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/comp0_comp1_OR_6_o)
+     FDP:D                     0.074          U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_fb_i
+    ----------------------------------------
+    Total                      3.505ns (1.646ns logic, 1.859ns route)
+                                       (47.0% logic, 53.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'u_rgbtodvi_top/u_pll/pll_base_inst/CLKOUT2'
+  Total number of paths / destination ports: 96 / 88
+-------------------------------------------------------------------------
+Offset:              4.296ns (Levels of Logic = 2)
+  Source:            sys_rst_n (PAD)
+  Destination:       u_video_display/block_y_10 (FF)
+  Destination Clock: u_rgbtodvi_top/u_pll/pll_base_inst/CLKOUT2 rising
+
+  Data Path: sys_rst_n to u_video_display/block_y_10
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             6   1.328   0.875  sys_rst_n_IBUF (sys_rst_n_IBUF)
+     INV:I->O             24   0.255   1.379  u_video_display/sys_rst_n_inv1_INV_0 (u_video_display/sys_rst_n_inv)
+     FDCE:CLR                  0.459          u_video_display/block_y_0
+    ----------------------------------------
+    Total                      4.296ns (2.042ns logic, 2.254ns route)
+                                       (47.5% logic, 52.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'u_rgbtodvi_top/u_pll/pll_base_inst/CLKOUT1'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              2.897ns (Levels of Logic = 1)
+  Source:            u_rgbtodvi_top/tx_ioclk_buf:LOCK (PAD)
+  Destination:       u_rgbtodvi_top/toggle (FF)
+  Destination Clock: u_rgbtodvi_top/u_pll/pll_base_inst/CLKOUT1 rising
+
+  Data Path: u_rgbtodvi_top/tx_ioclk_buf:LOCK to u_rgbtodvi_top/toggle
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    BUFPLL:LOCK            1   0.000   0.681  u_rgbtodvi_top/tx_ioclk_buf (u_rgbtodvi_top/tx_bufpll_lock)
+     INV:I->O             31   0.255   1.502  u_rgbtodvi_top/rstin1_INV_0 (u_rgbtodvi_top/rstin)
+     FDC:CLR                   0.459          u_rgbtodvi_top/toggle
+    ----------------------------------------
+    Total                      2.897ns (0.714ns logic, 2.183ns route)
+                                       (24.6% logic, 75.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'u_rgbtodvi_top/u_pll/pll_base_inst/CLKOUT1'
+  Total number of paths / destination ports: 20 / 20
+-------------------------------------------------------------------------
+Offset:              1.365ns (Levels of Logic = 0)
+  Source:            u_rgbtodvi_top/tmdsclkint_0 (FF)
+  Destination:       u_rgbtodvi_top/clkout/oserdes_m:D1 (PAD)
+  Source Clock:      u_rgbtodvi_top/u_pll/pll_base_inst/CLKOUT1 rising
+
+  Data Path: u_rgbtodvi_top/tmdsclkint_0 to u_rgbtodvi_top/clkout/oserdes_m:D1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              5   0.525   0.840  u_rgbtodvi_top/tmdsclkint_0 (u_rgbtodvi_top/tmdsclkint_0)
+    OSERDES2:D1                0.000          u_rgbtodvi_top/clkout/oserdes_s
+    ----------------------------------------
+    Total                      1.365ns (0.525ns logic, 0.840ns route)
+                                       (38.5% logic, 61.5% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 48 / 48
+-------------------------------------------------------------------------
+Delay:               3.593ns (Levels of Logic = 1)
+  Source:            u_rgbtodvi_top/oserdes2/oserdes_m:OQ (PAD)
+  Destination:       tmds_data_p<2> (PAD)
+
+  Data Path: u_rgbtodvi_top/oserdes2/oserdes_m:OQ to tmds_data_p<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    OSERDES2:OQ            1   0.000   0.681  u_rgbtodvi_top/oserdes2/oserdes_m (u_rgbtodvi_top/tmdsint<2>)
+     OBUFDS:I->O               2.912          u_rgbtodvi_top/TMDS2 (tmds_data_p<2>)
+    ----------------------------------------
+    Total                      3.593ns (2.912ns logic, 0.681ns route)
+                                       (81.0% logic, 19.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock u_rgbtodvi_top/u_pll/pll_base_inst/CLKOUT1
+------------------------------------------+---------+---------+---------+---------+
+                                          | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                              |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+------------------------------------------+---------+---------+---------+---------+
+u_rgbtodvi_top/u_pll/pll_base_inst/CLKOUT1|    3.505|         |         |         |
+u_rgbtodvi_top/u_pll/pll_base_inst/CLKOUT2|    1.280|         |         |         |
+------------------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock u_rgbtodvi_top/u_pll/pll_base_inst/CLKOUT2
+------------------------------------------+---------+---------+---------+---------+
+                                          | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                              |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+------------------------------------------+---------+---------+---------+---------+
+u_rgbtodvi_top/u_pll/pll_base_inst/CLKOUT1|    1.280|         |         |         |
+u_rgbtodvi_top/u_pll/pll_base_inst/CLKOUT2|    9.127|         |         |         |
+------------------------------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.16 secs
+ 
+--> 
+
+Total memory usage is 4517136 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   34 (   0 filtered)
+Number of infos    :   50 (   0 filtered)
+
