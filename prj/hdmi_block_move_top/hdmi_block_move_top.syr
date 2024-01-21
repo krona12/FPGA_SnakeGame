@@ -134,6 +134,7 @@ Elaborating module <hdmi_block_move_top>.
 Elaborating module <video_driver>.
 
 Elaborating module <video_display>.
+WARNING:HDLCompiler:872 - "E:\App_Data\FPGA\Projects\17_hdmi_block_move_top\rtl\video_display.v" Line 50: Using initial value of SnakeSize since it is never assigned
 
 Elaborating module <rgbtodvi_top>.
 
@@ -212,11 +213,76 @@ Synthesizing Unit <video_display>.
     Related source file is "E:\App_Data\FPGA\Projects\17_hdmi_block_move_top\rtl\video_display.v".
         H_DISP = 11'b10100000000
         V_DISP = 11'b01011010000
-    Found 11-bit register for signal <block_y>.
-    Found 11-bit register for signal <block_x>.
+    Found 1-bit register for signal <Snake_Array<2><1><6>>.
+    Found 1-bit register for signal <Snake_Array<2><1><5>>.
+    Found 1-bit register for signal <Snake_Array<2><1><3>>.
+    Found 1-bit register for signal <Snake_Array<2><0><9>>.
+    Found 1-bit register for signal <Snake_Array<2><0><6>>.
+    Found 1-bit register for signal <Snake_Array<2><0><4>>.
+    Found 1-bit register for signal <Snake_Array<2><0><3>>.
+    Found 1-bit register for signal <Snake_Array<1><1><8>>.
+    Found 1-bit register for signal <Snake_Array<1><1><6>>.
+    Found 1-bit register for signal <Snake_Array<1><1><5>>.
+    Found 1-bit register for signal <Snake_Array<1><1><3>>.
+    Found 1-bit register for signal <Snake_Array<1><0><9>>.
+    Found 1-bit register for signal <Snake_Array<1><0><6>>.
+    Found 1-bit register for signal <Snake_Array<1><0><5>>.
+    Found 1-bit register for signal <Snake_Array<1><0><3>>.
+    Found 1-bit register for signal <Snake_Array<1><0><2>>.
+    Found 1-bit register for signal <Snake_Array<0><1><8>>.
+    Found 1-bit register for signal <Snake_Array<0><1><6>>.
+    Found 1-bit register for signal <Snake_Array<0><1><5>>.
+    Found 1-bit register for signal <Snake_Array<0><1><3>>.
+    Found 1-bit register for signal <Snake_Array<0><0><9>>.
+    Found 1-bit register for signal <Snake_Array<0><0><7>>.
+    Found 1-bit register for signal <Snake_Array<2><1><8>>.
+    Found 1-bit register for signal <Snake_Array<2><1><10>>.
+    Found 1-bit register for signal <Snake_Array<2><1><9>>.
+    Found 1-bit register for signal <Snake_Array<2><1><7>>.
+    Found 1-bit register for signal <Snake_Array<2><1><4>>.
+    Found 1-bit register for signal <Snake_Array<2><1><2>>.
+    Found 1-bit register for signal <Snake_Array<2><1><1>>.
+    Found 1-bit register for signal <Snake_Array<2><1><0>>.
+    Found 1-bit register for signal <Snake_Array<2><0><10>>.
+    Found 1-bit register for signal <Snake_Array<2><0><8>>.
+    Found 1-bit register for signal <Snake_Array<2><0><7>>.
+    Found 1-bit register for signal <Snake_Array<2><0><5>>.
+    Found 1-bit register for signal <Snake_Array<2><0><2>>.
+    Found 1-bit register for signal <Snake_Array<2><0><1>>.
+    Found 1-bit register for signal <Snake_Array<2><0><0>>.
+    Found 1-bit register for signal <Snake_Array<1><1><10>>.
+    Found 1-bit register for signal <Snake_Array<1><1><9>>.
+    Found 1-bit register for signal <Snake_Array<1><1><7>>.
+    Found 1-bit register for signal <Snake_Array<1><1><4>>.
+    Found 1-bit register for signal <Snake_Array<1><1><2>>.
+    Found 1-bit register for signal <Snake_Array<1><1><1>>.
+    Found 1-bit register for signal <Snake_Array<1><1><0>>.
+    Found 1-bit register for signal <Snake_Array<1><0><10>>.
+    Found 1-bit register for signal <Snake_Array<1><0><8>>.
+    Found 1-bit register for signal <Snake_Array<1><0><7>>.
+    Found 1-bit register for signal <Snake_Array<1><0><4>>.
+    Found 1-bit register for signal <Snake_Array<1><0><1>>.
+    Found 1-bit register for signal <Snake_Array<1><0><0>>.
+    Found 1-bit register for signal <Snake_Array<0><1><10>>.
+    Found 1-bit register for signal <Snake_Array<0><1><9>>.
+    Found 1-bit register for signal <Snake_Array<0><1><7>>.
+    Found 1-bit register for signal <Snake_Array<0><1><4>>.
+    Found 1-bit register for signal <Snake_Array<0><1><2>>.
+    Found 1-bit register for signal <Snake_Array<0><1><1>>.
+    Found 1-bit register for signal <Snake_Array<0><1><0>>.
+    Found 1-bit register for signal <Snake_Array<0><0><10>>.
+    Found 1-bit register for signal <Snake_Array<0><0><8>>.
+    Found 1-bit register for signal <Snake_Array<0><0><6>>.
+    Found 1-bit register for signal <Snake_Array<0><0><5>>.
+    Found 1-bit register for signal <Snake_Array<0><0><4>>.
+    Found 1-bit register for signal <Snake_Array<0><0><3>>.
+    Found 1-bit register for signal <Snake_Array<0><0><2>>.
+    Found 1-bit register for signal <Snake_Array<0><0><1>>.
+    Found 1-bit register for signal <Snake_Array<0><0><0>>.
+    Found 1-bit register for signal <MOEN>.
+    Found 2-bit register for signal <direction>.
     Found 22-bit register for signal <div_cnt>.
     Found 24-bit register for signal <pixel_data>.
-    Found 2-bit register for signal <direction>.
     Found finite state machine <FSM_0> for signal <direction>.
     -----------------------------------------------------------------------
     | States             | 4                                              |
@@ -227,26 +293,37 @@ Synthesizing Unit <video_display>.
     | Encoding           | auto                                           |
     | Implementation     | LUT                                            |
     -----------------------------------------------------------------------
-    Found 11-bit subtractor for signal <block_y[10]_GND_3_o_sub_26_OUT> created at line 125.
-    Found 11-bit subtractor for signal <block_x[10]_GND_3_o_sub_28_OUT> created at line 127.
-    Found 22-bit adder for signal <div_cnt[21]_GND_3_o_add_21_OUT> created at line 86.
-    Found 11-bit adder for signal <block_y[10]_GND_3_o_add_26_OUT> created at line 126.
-    Found 11-bit adder for signal <block_x[10]_GND_3_o_add_28_OUT> created at line 128.
-    Found 11-bit adder for signal <block_x[10]_GND_3_o_add_41_OUT> created at line 143.
-    Found 11-bit adder for signal <block_y[10]_GND_3_o_add_44_OUT> created at line 144.
-    Found 22-bit comparator greater for signal <div_cnt[21]_GND_3_o_LessThan_21_o> created at line 85
-    Found 11-bit comparator greater for signal <pixel_xpos[10]_GND_3_o_LessThan_37_o> created at line 139
-    Found 11-bit comparator lessequal for signal <n0039> created at line 139
-    Found 11-bit comparator greater for signal <pixel_ypos[10]_GND_3_o_LessThan_39_o> created at line 140
-    Found 11-bit comparator lessequal for signal <n0044> created at line 140
-    Found 11-bit comparator lessequal for signal <n0047> created at line 143
-    Found 11-bit comparator greater for signal <pixel_xpos[10]_block_x[10]_LessThan_43_o> created at line 143
-    Found 11-bit comparator lessequal for signal <n0052> created at line 144
-    Found 11-bit comparator greater for signal <pixel_ypos[10]_block_y[10]_LessThan_46_o> created at line 144
+    Found 11-bit subtractor for signal <Snake_Array[0][1][10]_GND_3_o_sub_26_OUT> created at line 125.
+    Found 11-bit subtractor for signal <Snake_Array[0][0][10]_GND_3_o_sub_28_OUT> created at line 141.
+    Found 22-bit adder for signal <div_cnt[21]_GND_3_o_add_21_OUT> created at line 99.
+    Found 11-bit adder for signal <Snake_Array[0][0][10]_GND_3_o_add_57_OUT> created at line 170.
+    Found 11-bit adder for signal <Snake_Array[0][1][10]_GND_3_o_add_60_OUT> created at line 171.
+    Found 11-bit adder for signal <Snake_Array[1][0][10]_GND_3_o_add_64_OUT> created at line 170.
+    Found 11-bit adder for signal <Snake_Array[1][1][10]_GND_3_o_add_67_OUT> created at line 171.
+    Found 11-bit adder for signal <Snake_Array[2][0][10]_GND_3_o_add_73_OUT> created at line 170.
+    Found 11-bit adder for signal <Snake_Array[2][1][10]_GND_3_o_add_76_OUT> created at line 171.
+    Found 22-bit comparator greater for signal <div_cnt[21]_GND_3_o_LessThan_21_o> created at line 98
+    Found 11-bit comparator greater for signal <pixel_xpos[10]_GND_3_o_LessThan_53_o> created at line 164
+    Found 11-bit comparator lessequal for signal <n0191> created at line 164
+    Found 11-bit comparator greater for signal <pixel_ypos[10]_GND_3_o_LessThan_55_o> created at line 165
+    Found 11-bit comparator lessequal for signal <n0196> created at line 165
+    Found 11-bit comparator lessequal for signal <n0199> created at line 170
+    Found 11-bit comparator greater for signal <pixel_xpos[10]_Snake_Array[0][0][10]_LessThan_59_o> created at line 170
+    Found 11-bit comparator lessequal for signal <n0204> created at line 171
+    Found 11-bit comparator greater for signal <pixel_ypos[10]_Snake_Array[0][1][10]_LessThan_62_o> created at line 171
+    Found 11-bit comparator lessequal for signal <n0211> created at line 170
+    Found 11-bit comparator greater for signal <pixel_xpos[10]_Snake_Array[1][0][10]_LessThan_66_o> created at line 170
+    Found 11-bit comparator lessequal for signal <n0216> created at line 171
+    Found 11-bit comparator greater for signal <pixel_ypos[10]_Snake_Array[1][1][10]_LessThan_69_o> created at line 171
+    Found 11-bit comparator lessequal for signal <n0227> created at line 170
+    Found 11-bit comparator greater for signal <pixel_xpos[10]_Snake_Array[2][0][10]_LessThan_75_o> created at line 170
+    Found 11-bit comparator lessequal for signal <n0232> created at line 171
+    Found 11-bit comparator greater for signal <pixel_ypos[10]_Snake_Array[2][1][10]_LessThan_78_o> created at line 171
     Summary:
-	inferred   5 Adder/Subtractor(s).
-	inferred  68 D-type flip-flop(s).
-	inferred   9 Comparator(s).
+	inferred   9 Adder/Subtractor(s).
+	inferred 113 D-type flip-flop(s).
+	inferred  17 Comparator(s).
+	inferred  26 Multiplexer(s).
 	inferred   1 Finite State Machine(s).
 Unit <video_display> synthesized.
 
@@ -313,8 +390,8 @@ Synthesizing Unit <encode>.
     Found 4-bit adder for signal <_n0255> created at line 109.
     Found 4-bit adder for signal <_n0256> created at line 109.
     Found 4-bit adder for signal <BUS_0010_GND_15_o_add_20_OUT> created at line 109.
-    Found 5-bit adder for signal <cnt[4]_GND_15_o_sub_43_OUT> created at line 162.
     Found 5-bit adder for signal <cnt[4]_GND_15_o_sub_41_OUT> created at line 162.
+    Found 5-bit adder for signal <cnt[4]_GND_15_o_sub_43_OUT> created at line 162.
     Found 4x10-bit Read Only RAM for signal <c1_reg_PWR_15_o_wide_mux_53_OUT>
     Found 4-bit comparator greater for signal <GND_15_o_n1d[3]_LessThan_11_o> created at line 77
     Found 4-bit comparator equal for signal <n1q_m[3]_n0q_m[3]_equal_33_o> created at line 121
@@ -334,10 +411,9 @@ HDL Synthesis Report
 Macro Statistics
 # RAMs                                                 : 3
  4x10-bit single-port Read Only RAM                    : 3
-# Adders/Subtractors                                   : 78
- 11-bit adder                                          : 4
- 11-bit addsub                                         : 2
- 11-bit subtractor                                     : 2
+# Adders/Subtractors                                   : 82
+ 11-bit adder                                          : 8
+ 11-bit subtractor                                     : 4
  2-bit adder                                           : 6
  22-bit adder                                          : 1
  3-bit adder                                           : 6
@@ -345,10 +421,10 @@ Macro Statistics
  4-bit subtractor                                      : 3
  5-bit adder                                           : 15
  5-bit subtractor                                      : 9
-# Registers                                            : 44
- 1-bit register                                        : 13
+# Registers                                            : 109
+ 1-bit register                                        : 80
  10-bit register                                       : 3
- 11-bit register                                       : 4
+ 11-bit register                                       : 2
  2-bit register                                        : 3
  22-bit register                                       : 1
  24-bit register                                       : 1
@@ -356,14 +432,14 @@ Macro Statistics
  5-bit register                                        : 4
  8-bit register                                        : 3
  9-bit register                                        : 3
-# Comparators                                          : 31
- 11-bit comparator greater                             : 8
- 11-bit comparator lessequal                           : 10
+# Comparators                                          : 39
+ 11-bit comparator greater                             : 12
+ 11-bit comparator lessequal                           : 14
  22-bit comparator greater                             : 1
  4-bit comparator equal                                : 3
  4-bit comparator greater                              : 9
-# Multiplexers                                         : 114
- 1-bit 2-to-1 multiplexer                              : 96
+# Multiplexers                                         : 140
+ 1-bit 2-to-1 multiplexer                              : 122
  10-bit 2-to-1 multiplexer                             : 3
  11-bit 2-to-1 multiplexer                             : 2
  24-bit 2-to-1 multiplexer                             : 1
@@ -426,10 +502,9 @@ Advanced HDL Synthesis Report
 Macro Statistics
 # RAMs                                                 : 3
  4x10-bit single-port distributed Read Only RAM        : 3
-# Adders/Subtractors                                   : 33
- 11-bit adder                                          : 2
- 11-bit addsub                                         : 2
- 11-bit subtractor                                     : 2
+# Adders/Subtractors                                   : 37
+ 11-bit adder                                          : 6
+ 11-bit subtractor                                     : 4
  4-bit subtractor                                      : 3
  5-bit adder                                           : 15
  5-bit subtractor                                      : 9
@@ -438,16 +513,16 @@ Macro Statistics
 # Counters                                             : 3
  11-bit up counter                                     : 2
  22-bit up counter                                     : 1
-# Registers                                            : 202
- Flip-Flops                                            : 202
-# Comparators                                          : 31
- 11-bit comparator greater                             : 8
- 11-bit comparator lessequal                           : 10
+# Registers                                            : 247
+ Flip-Flops                                            : 247
+# Comparators                                          : 39
+ 11-bit comparator greater                             : 12
+ 11-bit comparator lessequal                           : 14
  22-bit comparator greater                             : 1
  4-bit comparator equal                                : 3
  4-bit comparator greater                              : 9
-# Multiplexers                                         : 114
- 1-bit 2-to-1 multiplexer                              : 96
+# Multiplexers                                         : 140
+ 1-bit 2-to-1 multiplexer                              : 122
  10-bit 2-to-1 multiplexer                             : 3
  11-bit 2-to-1 multiplexer                             : 2
  24-bit 2-to-1 multiplexer                             : 1
@@ -474,6 +549,18 @@ Optimizing FSM <u_video_display/FSM_0> on signal <direction[1:2]> with user enco
  10    | 10
  01    | 01
 -------------------
+WARNING:Xst:1710 - FF/Latch <Snake_Array_0_1_1> (without init value) has a constant value of 0 in block <video_display>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Snake_Array_0_0_1> (without init value) has a constant value of 0 in block <video_display>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Snake_Array_0_1_0> (without init value) has a constant value of 0 in block <video_display>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Snake_Array_0_0_0> (without init value) has a constant value of 0 in block <video_display>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Snake_Array_1_1_1> (without init value) has a constant value of 0 in block <video_display>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Snake_Array_1_0_1> (without init value) has a constant value of 0 in block <video_display>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Snake_Array_1_1_0> (without init value) has a constant value of 0 in block <video_display>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Snake_Array_1_0_0> (without init value) has a constant value of 0 in block <video_display>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Snake_Array_2_1_1> (without init value) has a constant value of 0 in block <video_display>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Snake_Array_2_0_1> (without init value) has a constant value of 0 in block <video_display>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Snake_Array_2_1_0> (without init value) has a constant value of 0 in block <video_display>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Snake_Array_2_0_0> (without init value) has a constant value of 0 in block <video_display>. This FF/Latch will be trimmed during the optimization process.
 INFO:Xst:1901 - Instance u_pll/pll_base_inst in unit u_pll/pll_base_inst of type PLL_BASE has been replaced by PLL_ADV
 INFO:Xst:2261 - The FF/Latch <n1q_m_0> in Unit <encode> is equivalent to the following FF/Latch, which will be removed : <n0q_m_0> 
 WARNING:Xst:1898 - Due to constant pushing, FF/Latch <n1q_m_0> is unconnected in block <encode>.
@@ -535,7 +622,7 @@ INFO:Xst:2261 - The FF/Latch <u_rgbtodvi_top/encr/dout_6> in Unit <hdmi_block_mo
 INFO:Xst:2261 - The FF/Latch <u_rgbtodvi_top/encr/dout_8> in Unit <hdmi_block_move_top> is equivalent to the following FF/Latch, which will be removed : <u_rgbtodvi_top/encg/dout_8> 
 INFO:Xst:2261 - The FF/Latch <u_rgbtodvi_top/encr/n0q_m_1> in Unit <hdmi_block_move_top> is equivalent to the following 5 FFs/Latches, which will be removed : <u_rgbtodvi_top/encr/n1q_m_2> <u_rgbtodvi_top/encr/n1q_m_1> <u_rgbtodvi_top/encb/n0q_m_1> <u_rgbtodvi_top/encb/n1q_m_2> <u_rgbtodvi_top/encb/n1q_m_1> 
 INFO:Xst:2261 - The FF/Latch <u_rgbtodvi_top/encr/n0q_m_2> in Unit <hdmi_block_move_top> is equivalent to the following FF/Latch, which will be removed : <u_rgbtodvi_top/encg/n0q_m_2> 
-Found area constraint ratio of 100 (+ 5) on block hdmi_block_move_top, actual ratio is 5.
+Found area constraint ratio of 100 (+ 5) on block hdmi_block_move_top, actual ratio is 7.
 INFO:Xst:2260 - The FF/Latch <u_rgbtodvi_top/encr/dout_7> in Unit <hdmi_block_move_top> is equivalent to the following FF/Latch : <u_rgbtodvi_top/encg/dout_7> 
 INFO:Xst:2260 - The FF/Latch <u_rgbtodvi_top/encr/dout_6> in Unit <hdmi_block_move_top> is equivalent to the following FF/Latch : <u_rgbtodvi_top/encg/dout_6> 
 INFO:Xst:2260 - The FF/Latch <u_rgbtodvi_top/encr/dout_9> in Unit <hdmi_block_move_top> is equivalent to the following FF/Latch : <u_rgbtodvi_top/encg/dout_9> 
@@ -561,8 +648,8 @@ Unit <hdmi_block_move_top> processed.
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 95
- Flip-Flops                                            : 95
+# Registers                                            : 128
+ Flip-Flops                                            : 128
 # Shift Registers                                      : 1
  2-bit shift register                                  : 1
 
@@ -587,26 +674,26 @@ Top Level Output File Name         : hdmi_block_move_top.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 510
+# BELS                             : 687
 #      GND                         : 3
-#      INV                         : 16
+#      INV                         : 18
 #      LUT1                        : 38
-#      LUT2                        : 73
-#      LUT3                        : 36
-#      LUT4                        : 96
-#      LUT5                        : 47
+#      LUT2                        : 80
+#      LUT3                        : 64
+#      LUT4                        : 165
+#      LUT5                        : 69
 #      LUT6                        : 73
-#      MUXCY                       : 84
-#      MUXF7                       : 1
+#      MUXCY                       : 132
+#      MUXF7                       : 2
 #      VCC                         : 2
 #      XORCY                       : 41
-# FlipFlops/Latches                : 264
+# FlipFlops/Latches                : 297
 #      FD                          : 16
 #      FDC                         : 103
-#      FDCE                        : 64
+#      FDCE                        : 78
 #      FDE                         : 1
 #      FDP                         : 15
-#      FDPE                        : 6
+#      FDPE                        : 25
 #      FDR                         : 34
 #      FDRE                        : 25
 # RAMS                             : 2
@@ -631,18 +718,18 @@ Selected Device : 6slx16ftg256-2
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             264  out of  18224     1%  
- Number of Slice LUTs:                  380  out of   9112     4%  
-    Number used as Logic:               379  out of   9112     4%  
+ Number of Slice Registers:             297  out of  18224     1%  
+ Number of Slice LUTs:                  508  out of   9112     5%  
+    Number used as Logic:               507  out of   9112     5%  
     Number used as Memory:                1  out of   2176     0%  
        Number used as SRL:                1
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:    506
-   Number with an unused Flip Flop:     242  out of    506    47%  
-   Number with an unused LUT:           126  out of    506    24%  
-   Number of fully used LUT-FF pairs:   138  out of    506    27%  
-   Number of unique control sets:        27
+ Number of LUT Flip Flop pairs used:    668
+   Number with an unused Flip Flop:     371  out of    668    55%  
+   Number with an unused LUT:           160  out of    668    23%  
+   Number of fully used LUT-FF pairs:   137  out of    668    20%  
+   Number of unique control sets:        29
 
 IO Utilization: 
  Number of IOs:                          14
@@ -675,7 +762,7 @@ Clock Information:
 ------------------------------------------+------------------------+-------+
 Clock Signal                              | Clock buffer(FF name)  | Load  |
 ------------------------------------------+------------------------+-------+
-u_rgbtodvi_top/u_pll/pll_base_inst/CLKOUT2| BUFG                   | 177   |
+u_rgbtodvi_top/u_pll/pll_base_inst/CLKOUT2| BUFG                   | 210   |
 u_rgbtodvi_top/u_pll/pll_base_inst/CLKOUT1| BUFG                   | 92    |
 ------------------------------------------+------------------------+-------+
 
@@ -687,8 +774,8 @@ Timing Summary:
 ---------------
 Speed Grade: -2
 
-   Minimum period: 9.127ns (Maximum Frequency: 109.565MHz)
-   Minimum input arrival time before clock: 4.296ns
+   Minimum period: 10.808ns (Maximum Frequency: 92.524MHz)
+   Minimum input arrival time before clock: 4.791ns
    Maximum output required time after clock: 1.365ns
    Maximum combinational path delay: 3.593ns
 
@@ -698,31 +785,37 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'u_rgbtodvi_top/u_pll/pll_base_inst/CLKOUT2'
-  Clock period: 9.127ns (frequency: 109.565MHz)
-  Total number of paths / destination ports: 11993 / 394
+  Clock period: 10.808ns (frequency: 92.524MHz)
+  Total number of paths / destination ports: 28808 / 458
 -------------------------------------------------------------------------
-Delay:               9.127ns (Levels of Logic = 7)
-  Source:            u_video_driver/cnt_v_0 (FF)
+Delay:               10.808ns (Levels of Logic = 13)
+  Source:            u_video_driver/cnt_v_5 (FF)
   Destination:       u_video_display/pixel_data_8 (FF)
   Source Clock:      u_rgbtodvi_top/u_pll/pll_base_inst/CLKOUT2 rising
   Destination Clock: u_rgbtodvi_top/u_pll/pll_base_inst/CLKOUT2 rising
 
-  Data Path: u_video_driver/cnt_v_0 to u_video_display/pixel_data_8
+  Data Path: u_video_driver/cnt_v_5 to u_video_display/pixel_data_8
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDRE:C->Q             6   0.525   1.331  u_video_driver/cnt_v_0 (u_video_driver/cnt_v_0)
-     LUT6:I0->O            1   0.254   0.790  u_video_driver/data_req24_SW1 (N48)
-     LUT6:I4->O            3   0.250   0.766  u_video_driver/data_req24 (u_video_driver/data_req2)
-     LUT6:I5->O            8   0.254   0.944  u_video_driver/data_req4_1 (u_video_driver/data_req4)
-     LUT5:I4->O            6   0.254   1.306  u_video_driver/Mmux_pixel_xpos51 (pixel_xpos_w<3>)
-     LUT6:I1->O            1   0.254   0.910  u_video_display/pixel_xpos[10]_GND_3_o_OR_66_o4 (u_video_display/pixel_xpos[10]_GND_3_o_OR_66_o4)
-     LUT5:I2->O            2   0.235   0.726  u_video_display/pixel_xpos[10]_GND_3_o_OR_66_o9 (u_video_display/pixel_xpos[10]_GND_3_o_OR_66_o)
-     LUT5:I4->O            1   0.254   0.000  u_video_display/_n01241 (u_video_display/pixel_data_8_glue_set)
+     FDRE:C->Q            12   0.525   1.499  u_video_driver/cnt_v_5 (u_video_driver/cnt_v_5)
+     LUT6:I1->O            1   0.254   0.790  u_video_driver/data_req24_SW1 (N59)
+     LUT6:I4->O            4   0.250   0.804  u_video_driver/data_req24 (u_video_driver/data_req2)
+     LUT6:I5->O           17   0.254   1.209  u_video_driver/data_req4_2 (u_video_driver/data_req41)
+     LUT2:I1->O           12   0.254   1.345  u_video_driver/Mmux_pixel_ypos51 (pixel_ypos_w<3>)
+     LUT4:I0->O            0   0.254   0.000  u_video_display/Mcompar_pixel_ypos[10]_Snake_Array[2][1][10]_LessThan_78_o_lutdi1 (u_video_display/Mcompar_pixel_ypos[10]_Snake_Array[2][1][10]_LessThan_78_o_lutdi1)
+     MUXCY:DI->O           1   0.181   0.000  u_video_display/Mcompar_pixel_ypos[10]_Snake_Array[2][1][10]_LessThan_78_o_cy<1> (u_video_display/Mcompar_pixel_ypos[10]_Snake_Array[2][1][10]_LessThan_78_o_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  u_video_display/Mcompar_pixel_ypos[10]_Snake_Array[2][1][10]_LessThan_78_o_cy<2> (u_video_display/Mcompar_pixel_ypos[10]_Snake_Array[2][1][10]_LessThan_78_o_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  u_video_display/Mcompar_pixel_ypos[10]_Snake_Array[2][1][10]_LessThan_78_o_cy<3> (u_video_display/Mcompar_pixel_ypos[10]_Snake_Array[2][1][10]_LessThan_78_o_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  u_video_display/Mcompar_pixel_ypos[10]_Snake_Array[2][1][10]_LessThan_78_o_cy<4> (u_video_display/Mcompar_pixel_ypos[10]_Snake_Array[2][1][10]_LessThan_78_o_cy<4>)
+     MUXCY:CI->O           1   0.235   0.958  u_video_display/Mcompar_pixel_ypos[10]_Snake_Array[2][1][10]_LessThan_78_o_cy<5> (u_video_display/Mcompar_pixel_ypos[10]_Snake_Array[2][1][10]_LessThan_78_o_cy<5>)
+     LUT4:I0->O            2   0.254   1.181  u_video_display/Mmux_Snake_Array[0][0][10]_Snake_Array[0][0][10]_MUX_201_o11 (u_video_display/Mmux_Snake_Array[0][0][10]_Snake_Array[0][0][10]_MUX_201_o1)
+     LUT6:I0->O            1   0.254   0.000  u_video_display/pixel_data_8_glue_set_F (N75)
+     MUXF7:I0->O           1   0.163   0.000  u_video_display/pixel_data_8_glue_set (u_video_display/pixel_data_8_glue_set)
      FDR:D                     0.074          u_video_display/pixel_data_8
     ----------------------------------------
-    Total                      9.127ns (2.354ns logic, 6.773ns route)
-                                       (25.8% logic, 74.2% route)
+    Total                     10.808ns (3.022ns logic, 7.786ns route)
+                                       (28.0% logic, 72.0% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'u_rgbtodvi_top/u_pll/pll_base_inst/CLKOUT1'
@@ -755,23 +848,23 @@ Delay:               3.505ns (Levels of Logic = 8)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'u_rgbtodvi_top/u_pll/pll_base_inst/CLKOUT2'
-  Total number of paths / destination ports: 96 / 88
+  Total number of paths / destination ports: 133 / 122
 -------------------------------------------------------------------------
-Offset:              4.296ns (Levels of Logic = 2)
+Offset:              4.791ns (Levels of Logic = 2)
   Source:            sys_rst_n (PAD)
-  Destination:       u_video_display/block_y_10 (FF)
+  Destination:       u_video_display/Snake_Array_2_0_2 (FF)
   Destination Clock: u_rgbtodvi_top/u_pll/pll_base_inst/CLKOUT2 rising
 
-  Data Path: sys_rst_n to u_video_display/block_y_10
+  Data Path: sys_rst_n to u_video_display/Snake_Array_2_0_2
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      IBUF:I->O             6   1.328   0.875  sys_rst_n_IBUF (sys_rst_n_IBUF)
-     INV:I->O             24   0.255   1.379  u_video_display/sys_rst_n_inv1_INV_0 (u_video_display/sys_rst_n_inv)
-     FDCE:CLR                  0.459          u_video_display/block_y_0
+     INV:I->O             57   0.255   1.874  u_video_display/sys_rst_n_inv691_INV_0 (u_video_display/sys_rst_n_inv)
+     FDCE:CLR                  0.459          u_video_display/MOEN
     ----------------------------------------
-    Total                      4.296ns (2.042ns logic, 2.254ns route)
-                                       (47.5% logic, 52.5% route)
+    Total                      4.791ns (2.042ns logic, 2.749ns route)
+                                       (42.6% logic, 57.4% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'u_rgbtodvi_top/u_pll/pll_base_inst/CLKOUT1'
@@ -850,20 +943,20 @@ Clock to Setup on destination clock u_rgbtodvi_top/u_pll/pll_base_inst/CLKOUT2
 Source Clock                              |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ------------------------------------------+---------+---------+---------+---------+
 u_rgbtodvi_top/u_pll/pll_base_inst/CLKOUT1|    1.280|         |         |         |
-u_rgbtodvi_top/u_pll/pll_base_inst/CLKOUT2|    9.127|         |         |         |
+u_rgbtodvi_top/u_pll/pll_base_inst/CLKOUT2|   10.808|         |         |         |
 ------------------------------------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
 Total REAL time to Xst completion: 8.00 secs
-Total CPU time to Xst completion: 7.16 secs
+Total CPU time to Xst completion: 7.38 secs
  
 --> 
 
-Total memory usage is 4517136 kilobytes
+Total memory usage is 4518184 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   34 (   0 filtered)
+Number of warnings :   47 (   0 filtered)
 Number of infos    :   50 (   0 filtered)
 

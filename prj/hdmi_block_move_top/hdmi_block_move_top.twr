@@ -37,11 +37,11 @@ Setup/Hold to clock sys_clk
             |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
 Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
 ------------+------------+------------+------------+------------+------------------+--------+
-key<0>      |    1.549(R)|      SLOW  |    0.438(R)|      SLOW  |tx_pclk           |   0.000|
-key<1>      |    1.381(R)|      SLOW  |    0.490(R)|      SLOW  |tx_pclk           |   0.000|
-key<2>      |    1.820(R)|      SLOW  |    0.379(R)|      SLOW  |tx_pclk           |   0.000|
-key<3>      |    1.638(R)|      SLOW  |    0.547(R)|      SLOW  |tx_pclk           |   0.000|
-sys_rst_n   |    3.716(R)|      SLOW  |    1.644(R)|      SLOW  |tx_pclk           |   0.000|
+key<0>      |    0.903(R)|      SLOW  |    2.221(R)|      SLOW  |tx_pclk           |   0.000|
+key<1>      |    0.880(R)|      SLOW  |    2.135(R)|      SLOW  |tx_pclk           |   0.000|
+key<2>      |    0.588(R)|      FAST  |    2.341(R)|      SLOW  |tx_pclk           |   0.000|
+key<3>      |    0.652(R)|      FAST  |    2.161(R)|      SLOW  |tx_pclk           |   0.000|
+sys_rst_n   |    5.834(R)|      SLOW  |    1.419(R)|      SLOW  |tx_pclk           |   0.000|
 ------------+------------+------------+------------+------------+------------------+--------+
 
 Clock sys_clk to Pad
@@ -64,18 +64,18 @@ Clock to Setup on destination clock sys_clk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-sys_clk        |    7.884|    6.704|         |         |
+sys_clk        |    8.887|    5.422|         |         |
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Sun Jan 21 13:48:02 2024 
+Analysis completed Sun Jan 21 16:08:36 2024 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 4589 MB
+Peak Memory Usage: 4590 MB
 
 
 

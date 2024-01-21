@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-LAPTOP-SAKRIO::  Sun Jan 21 13:47:53 2024
+LAPTOP-SAKRIO::  Sun Jan 21 16:08:27 2024
 
 par -w -intstyle ise -ol high -mt off hdmi_block_move_top_map.ncd
 hdmi_block_move_top.ncd hdmi_block_move_top.pcf 
@@ -28,16 +28,16 @@ Device speed data version:  "PRODUCTION 1.23 2013-10-13".
 Device Utilization Summary:
 
 Slice Logic Utilization:
-  Number of Slice Registers:                   257 out of  18,224    1%
-    Number used as Flip Flops:                 257
+  Number of Slice Registers:                   290 out of  18,224    1%
+    Number used as Flip Flops:                 290
     Number used as Latches:                      0
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:                0
-  Number of Slice LUTs:                        296 out of   9,112    3%
-    Number used as logic:                      279 out of   9,112    3%
-      Number using O6 output only:             145
+  Number of Slice LUTs:                        371 out of   9,112    4%
+    Number used as logic:                      353 out of   9,112    3%
+      Number using O6 output only:             160
       Number using O5 output only:              35
-      Number using O5 and O6:                   99
+      Number using O5 and O6:                  158
       Number used as ROM:                        0
     Number used as Memory:                       1 out of   2,176    1%
       Number used as Dual Port RAM:              0
@@ -46,18 +46,18 @@ Slice Logic Utilization:
         Number using O6 output only:             1
         Number using O5 output only:             0
         Number using O5 and O6:                  0
-    Number used exclusively as route-thrus:     16
-      Number with same-slice register load:     13
+    Number used exclusively as route-thrus:     17
+      Number with same-slice register load:     14
       Number with same-slice carry load:         3
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                   131 out of   2,278    5%
-  Number of MUXCYs used:                       108 out of   4,556    2%
-  Number of LUT Flip Flop pairs used:          364
-    Number with an unused Flip Flop:           145 out of     364   39%
-    Number with an unused LUT:                  68 out of     364   18%
-    Number of fully used LUT-FF pairs:         151 out of     364   41%
+  Number of occupied Slices:                   173 out of   2,278    7%
+  Number of MUXCYs used:                       172 out of   4,556    3%
+  Number of LUT Flip Flop pairs used:          456
+    Number with an unused Flip Flop:           205 out of     456   44%
+    Number with an unused LUT:                  85 out of     456   18%
+    Number of fully used LUT-FF pairs:         166 out of     456   36%
     Number of slice register sites lost
       to control set restrictions:               0 out of  18,224    0%
 
@@ -112,13 +112,13 @@ Finished initial Timing Analysis.  REAL time: 2 secs
 Starting Router
 
 
-Phase  1  : 1898 unrouted;      REAL time: 2 secs 
+Phase  1  : 2320 unrouted;      REAL time: 2 secs 
 
-Phase  2  : 1477 unrouted;      REAL time: 2 secs 
+Phase  2  : 1824 unrouted;      REAL time: 2 secs 
 
-Phase  3  : 436 unrouted;      REAL time: 3 secs 
+Phase  3  : 556 unrouted;      REAL time: 3 secs 
 
-Phase  4  : 436 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
+Phase  4  : 556 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
 
 Updating file: hdmi_block_move_top.ncd with current fully routed design.
 
@@ -134,7 +134,7 @@ Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 4
 
 Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
 Total REAL time to Router completion: 4 secs 
-Total CPU time to Router completion: 3 secs 
+Total CPU time to Router completion: 2 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -154,11 +154,11 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net tx_ | SETUP       |         N/A|     7.884ns|     N/A|           0
-  pclk                                      | HOLD        |     0.405ns|            |       0|           0
+  Autotimespec constraint for clock net tx_ | SETUP       |         N/A|     8.887ns|     N/A|           0
+  pclk                                      | HOLD        |     0.392ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net u_r | SETUP       |         N/A|     3.727ns|     N/A|           0
-  gbtodvi_top/pclkx2                        | HOLD        |     0.255ns|            |       0|           0
+  Autotimespec constraint for clock net u_r | SETUP       |         N/A|     3.583ns|     N/A|           0
+  gbtodvi_top/pclkx2                        | HOLD        |     0.294ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
 
 
@@ -175,7 +175,7 @@ Generating Pad Report.
 All signals are completely routed.
 
 Total REAL time to PAR completion: 4 secs 
-Total CPU time to PAR completion: 3 secs 
+Total CPU time to PAR completion: 2 secs 
 
 Peak Memory Usage:  4489 MB
 
