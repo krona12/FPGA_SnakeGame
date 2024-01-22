@@ -60,7 +60,9 @@ localparam MaxSize =16 ;
 reg [10:0] Snake_Array[MaxSize:0][1:0]; // 定义蛇的每节的坐标数组
 //food
 reg [10:0]Food_Array[1:0];
-
+reg FoodGene;
+wire  [9:0]RandomX;
+wire [9:0]RandomY;
 
 reg [25:0] div_cnt;                             //时钟分频计数器
 reg        h_direct;                            //方块水平移动方向，1：右移，0：左移
@@ -73,6 +75,9 @@ assign move_en = (div_cnt == StandardF*10/speed) ? 1'b1 : 1'b0;
 //*****************************************************
 //**                    main code
 //*****************************************************
+
+//rng_custom_range Ran1(pixel_clk,sys_rst_n,FoodGene,11'd100,11'd1000,RandomX);
+//rng_custom_range Ran2(pixel_clk,sys_rst_n,FoodGene,11'd100,11'd600,RandomY);
 
 always @(posedge pixel_clk or negedge sys_rst_n) begin
     if (!sys_rst_n) begin
@@ -104,12 +109,12 @@ end
 //通过对vga驱动时钟计数，实现时钟分频
 always @(posedge pixel_clk ) begin         
     if (!sys_rst_n)
-        div_cnt <= 22'd0;
+        div_cnt <= 0;
     else begin
         if(div_cnt < StandardF*10/speed) 
             div_cnt <= div_cnt + 1'b1;
         else
-            div_cnt <= 22'd0;                   //计数达10ms后清零
+            div_cnt <= 0;                   //计数达10ms后清零
     end
 end
 integer index0;
@@ -172,10 +177,14 @@ always @(posedge pixel_clk or negedge sys_rst_n) begin
                 Snake_Array[0][0] = Snake_Array[0][0] + BLOCK_W; // 修正为x坐标
             end
         endcase
-        //吃到食物
+        //吃到食物,食物更新逻辑
         if(Snake_Array[0][0]==Food_Array[0]&&Snake_Array[0][1]==Food_Array[1])
         begin
             SnakeSize=SnakeSize+1;
+           // FoodGene=1;
+            Food_Array[0]=100+(Snake_Array[0][0]*13+Snake_Array[1][0]*7+Snake_Array[2][0]*2)%(1200-100);
+            Food_Array[1]=100+(Snake_Array[0][1]*13+Snake_Array[1][1]*7+Snake_Array[2][1]*2+Food_Array[0])%(600-100);
+            //FoodGene=0;
         end
     end
 end

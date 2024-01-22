@@ -6,7 +6,7 @@ D:\Application\Tool_Mathematica&CS\ISE\14.7\ISE_DS\ISE\.
 ftg256, speed -2
 Opened constraints file hdmi_block_move_top.pcf.
 
-Mon Jan 22 21:35:39 2024
+Mon Jan 22 23:11:08 2024
 
 D:\Application\Tool_Mathematica&CS\ISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\bitgen.exe -intstyle ise -w -g DebugBitstream:No -g Binary:no -g CRC:Enable -g Reset_on_err:No -g ConfigRate:2 -g ProgPin:PullUp -g TckPin:PullUp -g TdiPin:PullUp -g TdoPin:PullUp -g TmsPin:PullUp -g UnusedPin:PullDown -g UserID:0xFFFFFFFF -g ExtMasterCclk_en:No -g SPI_buswidth:1 -g TIMER_CFG:0xFFFF -g multipin_wakeup:No -g StartUpClk:CClk -g DONE_cycle:4 -g GTS_cycle:5 -g GWE_cycle:6 -g LCK_cycle:NoWait -g Security:None -g DonePipe:No -g DriveDone:No -g en_sw_gsr:No -g drive_awake:No -g sw_clk:Startupclk -g sw_gwe_cycle:5 -g sw_gts_cycle:4 hdmi_block_move_top.ncd 
 
@@ -130,2206 +130,1326 @@ There were 0 CONFIG constraint(s) processed from hdmi_block_move_top.pcf.
 
 Running DRC.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[19][1][1]_AND_325_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[13][1][8]_AND_347_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[19][0][4]_AND_341_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[9][1][10]_AND_519_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[18][1][7]_AND_357_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[6][0][0]_AND_693_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[18][0][10]_AND_373_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[11][1][9]_AND_433_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[15][1][9]_AND_485_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[1][0][0]_AND_913_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[15][1][1]_AND_501_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[4][0][1]_AND_779_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[15][0][4]_AND_517_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[8][0][4]_AND_597_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[14][1][7]_AND_533_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[2][0][2]_AND_865_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[14][0][10]_AND_549_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[6][0][5]_AND_683_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[12][0][6]_AND_645_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[3][0][4]_AND_817_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[11][1][9]_AND_661_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[12][0][10]_AND_409_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[11][1][1]_AND_677_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[8][0][0]_AND_605_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[11][0][4]_AND_693_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[8][0][1]_AND_603_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[10][1][7]_AND_709_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[0][0][3]_AND_951_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[8][1][3]_AND_805_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[8][0][2]_AND_601_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[8][0][6]_AND_821_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[14][0][1]_AND_339_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[7][1][9]_AND_837_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[8][0][3]_AND_599_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[7][1][1]_AND_853_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[8][0][5]_AND_595_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[7][0][4]_AND_869_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[8][0][6]_AND_593_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[23][0][5]_AND_163_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[8][0][7]_AND_591_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[22][1][8]_AND_179_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[1][0][5]_AND_903_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[19][1][2]_AND_323_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[11][0][0]_AND_473_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[19][0][5]_AND_339_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[8][1][0]_AND_583_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[18][1][8]_AND_355_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[8][0][8]_AND_589_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[18][1][0]_AND_371_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[8][1][1]_AND_581_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[15][1][10]_AND_483_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[8][0][9]_AND_587_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[15][1][2]_AND_499_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[8][1][2]_AND_579_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[15][0][5]_AND_515_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[4][0][6]_AND_769_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[14][1][8]_AND_531_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[8][1][3]_AND_577_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[14][1][0]_AND_547_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[8][1][4]_AND_575_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[12][0][7]_AND_643_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[12][0][2]_AND_425_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[11][1][10]_AND_659_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[10][0][0]_AND_517_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[11][1][2]_AND_675_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[8][1][5]_AND_573_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[11][0][5]_AND_691_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[10][0][1]_AND_515_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[10][1][8]_AND_707_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[8][1][6]_AND_571_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[8][1][4]_AND_803_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[10][0][2]_AND_513_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[8][0][7]_AND_819_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[8][1][7]_AND_569_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[7][1][10]_AND_835_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[10][0][3]_AND_511_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[7][1][2]_AND_851_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[8][1][8]_AND_567_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[7][0][5]_AND_867_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[10][0][4]_AND_509_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[23][1][3]_AND_145_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[8][1][9]_AND_565_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[23][0][6]_AND_161_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[9][1][3]_AND_533_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[22][1][9]_AND_177_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[10][0][5]_AND_507_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[20][0][0]_AND_305_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[10][0][6]_AND_505_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[19][1][3]_AND_321_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[10][0][7]_AND_503_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[19][0][6]_AND_337_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[2][0][7]_AND_855_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[18][1][9]_AND_353_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[10][1][0]_AND_495_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[18][1][1]_AND_369_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[10][0][8]_AND_501_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[16][0][8]_AND_465_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[10][1][1]_AND_493_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[16][0][0]_AND_481_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[10][0][9]_AND_499_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[15][1][3]_AND_497_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[3][1][1]_AND_801_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[15][0][6]_AND_513_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[10][1][2]_AND_491_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[14][1][9]_AND_529_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[10][1][3]_AND_489_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[12][1][5]_AND_625_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[10][1][4]_AND_487_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[12][0][8]_AND_641_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[3][0][9]_AND_807_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[12][0][0]_AND_657_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[10][1][5]_AND_485_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[11][1][3]_AND_673_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[13][0][4]_AND_377_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[11][0][6]_AND_689_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[6][1][2]_AND_667_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[8][1][5]_AND_801_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[6][1][10]_AND_651_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[8][0][8]_AND_817_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[10][1][6]_AND_483_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[8][0][0]_AND_833_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[10][1][7]_AND_481_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[7][1][3]_AND_849_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[10][1][8]_AND_479_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[3][0][10]_AND_1033_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[10][1][9]_AND_477_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[3][1][5]_AND_1021_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[12][1][10]_AND_387_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[23][1][4]_AND_143_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[0][0][8]_AND_941_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[23][0][7]_AND_159_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[0][1][0]_AND_935_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[22][1][10]_AND_175_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[14][0][6]_AND_329_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[20][0][1]_AND_303_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[10][0][10]_AND_497_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[19][1][4]_AND_319_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[2][0][10]_AND_849_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[19][0][7]_AND_335_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[11][0][5]_AND_463_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[18][1][10]_AND_351_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[9][1][8]_AND_523_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[18][1][2]_AND_367_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[10][1][10]_AND_475_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[16][0][9]_AND_463_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[2][1][4]_AND_839_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[16][0][1]_AND_479_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[13][1][1]_AND_361_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[15][1][4]_AND_495_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[0][0][10]_AND_937_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[15][0][7]_AND_511_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[13][0][9]_AND_367_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[14][1][10]_AND_527_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[6][1][7]_AND_657_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[12][1][6]_AND_623_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[14][1][3]_AND_313_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[12][0][9]_AND_639_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[1][1][10]_AND_871_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[12][0][1]_AND_655_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[3][1][6]_AND_791_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[11][1][4]_AND_671_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[0][1][5]_AND_925_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[11][0][7]_AND_687_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[9][0][0]_AND_561_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[8][1][6]_AND_799_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[5][0][10]_AND_717_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[8][0][9]_AND_815_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[7][0][10]_AND_629_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[8][0][1]_AND_831_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[11][1][2]_AND_447_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[7][1][4]_AND_847_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[9][0][1]_AND_559_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[3][0][2]_AND_1049_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[9][0][2]_AND_557_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[11][1][5]_AND_669_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[9][0][3]_AND_555_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[24][0][2]_AND_125_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[2][1][10]_AND_827_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[23][1][5]_AND_141_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[0][1][10]_AND_915_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[23][0][8]_AND_157_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[9][0][4]_AND_553_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[23][0][0]_AND_173_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[9][0][5]_AND_551_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[20][0][10]_AND_285_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[9][0][6]_AND_549_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[20][0][2]_AND_301_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[9][0][7]_AND_547_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[19][1][5]_AND_317_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[9][1][0]_AND_539_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[19][0][8]_AND_333_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[9][0][8]_AND_545_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[19][0][0]_AND_349_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[9][1][1]_AND_537_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[16][1][7]_AND_445_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[9][0][9]_AND_543_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[16][0][10]_AND_461_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[9][1][2]_AND_535_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[16][0][2]_AND_477_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[9][1][4]_AND_531_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[15][1][5]_AND_493_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[9][1][5]_AND_529_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[15][0][8]_AND_509_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[13][0][10]_AND_365_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[13][0][4]_AND_605_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[2][1][9]_AND_829_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[12][1][7]_AND_621_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[11][0][1]_AND_471_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[12][0][10]_AND_637_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[12][1][4]_AND_399_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[12][0][2]_AND_653_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[9][1][6]_AND_527_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[8][1][7]_AND_797_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[11][0][2]_AND_469_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[8][0][10]_AND_813_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[9][1][7]_AND_525_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[8][0][2]_AND_829_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[13][1][6]_AND_351_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[24][0][3]_AND_123_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[11][0][3]_AND_467_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[23][1][6]_AND_139_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[11][0][4]_AND_465_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[23][0][9]_AND_155_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[9][1][9]_AND_521_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[23][0][1]_AND_171_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[5][1][10]_AND_695_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[20][1][0]_AND_283_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[11][0][6]_AND_461_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[20][0][3]_AND_299_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[11][0][7]_AND_459_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[19][1][6]_AND_315_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[14][1][8]_AND_303_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[19][0][9]_AND_331_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[11][1][0]_AND_451_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[19][0][1]_AND_347_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[11][0][8]_AND_457_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[16][1][8]_AND_443_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[11][1][1]_AND_449_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[16][1][0]_AND_459_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[11][0][9]_AND_455_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[16][0][3]_AND_475_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[11][1][3]_AND_445_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[15][1][6]_AND_491_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[11][1][4]_AND_443_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[15][0][9]_AND_507_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[11][1][5]_AND_441_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[13][0][5]_AND_603_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[11][1][6]_AND_439_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[12][1][8]_AND_619_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[11][1][7]_AND_437_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[12][1][0]_AND_635_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[11][1][8]_AND_435_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[12][0][3]_AND_651_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[7][1][10]_AND_607_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[11][1][6]_AND_667_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[12][1][9]_AND_389_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[8][1][8]_AND_795_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[2][0][0]_AND_869_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[8][1][0]_AND_811_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[3][0][2]_AND_821_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[8][0][3]_AND_827_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[6][0][3]_AND_687_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[15][1][8]_AND_487_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[0][0][0]_AND_957_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[24][1][1]_AND_105_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[0][0][1]_AND_955_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[24][0][4]_AND_121_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[0][0][2]_AND_953_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[23][1][7]_AND_137_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[0][0][4]_AND_949_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[23][0][10]_AND_153_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[0][0][5]_AND_947_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[23][0][2]_AND_169_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[0][0][6]_AND_945_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[20][1][9]_AND_265_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[0][0][7]_AND_943_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[20][1][1]_AND_281_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[4][0][4]_AND_773_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[20][0][4]_AND_297_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[0][0][9]_AND_939_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[19][1][7]_AND_313_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[0][1][1]_AND_933_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[19][0][10]_AND_329_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[1][0][3]_AND_907_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[17][0][6]_AND_425_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[0][1][2]_AND_931_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[16][1][9]_AND_441_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[0][1][3]_AND_929_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[16][1][1]_AND_457_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[0][1][4]_AND_927_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[16][0][4]_AND_473_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[0][1][6]_AND_923_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[15][1][7]_AND_489_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[12][0][0]_AND_429_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[13][0][6]_AND_601_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[0][1][7]_AND_921_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[12][1][9]_AND_617_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[0][1][8]_AND_919_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[12][1][1]_AND_633_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[0][1][9]_AND_917_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[12][0][4]_AND_649_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[2][0][5]_AND_859_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[8][1][9]_AND_793_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[3][0][7]_AND_811_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[8][1][1]_AND_809_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[13][0][2]_AND_381_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[24][1][2]_AND_103_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[6][1][0]_AND_671_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[24][0][5]_AND_119_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[6][0][8]_AND_677_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[23][1][8]_AND_135_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[12][0][1]_AND_427_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[23][1][0]_AND_151_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[14][0][4]_AND_333_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[23][0][3]_AND_167_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[12][0][3]_AND_423_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[20][1][10]_AND_263_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[12][0][4]_AND_421_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[20][1][2]_AND_279_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[12][0][5]_AND_419_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[20][0][5]_AND_295_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[12][0][6]_AND_417_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[19][1][8]_AND_311_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[12][0][7]_AND_415_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[19][1][0]_AND_327_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[12][1][0]_AND_407_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[17][0][7]_AND_423_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[12][0][8]_AND_413_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[16][1][10]_AND_439_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[12][1][1]_AND_405_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[16][1][2]_AND_455_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[12][0][9]_AND_411_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[16][0][5]_AND_471_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[12][1][2]_AND_403_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[13][0][7]_AND_599_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[4][1][1]_AND_757_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[12][1][10]_AND_615_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[12][1][3]_AND_401_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[12][1][2]_AND_631_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[12][1][5]_AND_397_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[12][0][5]_AND_647_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[12][1][6]_AND_395_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[8][1][10]_AND_791_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[1][1][0]_AND_891_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[8][1][2]_AND_807_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[12][1][7]_AND_393_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[24][1][3]_AND_101_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[12][1][8]_AND_391_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[24][0][6]_AND_117_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[1][0][8]_AND_897_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[23][1][9]_AND_133_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[11][0][10]_AND_453_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[23][1][1]_AND_149_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[2][1][2]_AND_843_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[21][0][8]_AND_245_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[4][1][10]_AND_739_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[21][0][0]_AND_261_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[13][0][7]_AND_371_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[20][1][3]_AND_277_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[6][1][5]_AND_661_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[20][0][6]_AND_293_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[14][0][9]_AND_323_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[19][1][9]_AND_309_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[14][1][1]_AND_317_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[17][1][5]_AND_405_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[3][1][4]_AND_795_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[17][0][8]_AND_421_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[8][0][10]_AND_585_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[17][0][0]_AND_437_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[11][1][10]_AND_431_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[16][1][3]_AND_453_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[1][0][1]_AND_911_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[16][0][6]_AND_469_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[1][0][10]_AND_893_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[13][0][8]_AND_597_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[1][0][2]_AND_909_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[13][0][0]_AND_613_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[1][0][4]_AND_905_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[12][1][3]_AND_629_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[1][0][6]_AND_901_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[9][0][0]_AND_789_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[1][1][5]_AND_881_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[24][1][4]_AND_99_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[1][0][7]_AND_899_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[24][0][7]_AND_115_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[1][1][1]_AND_889_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[23][1][10]_AND_131_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[1][0][9]_AND_895_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[23][1][2]_AND_147_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[1][1][2]_AND_887_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[21][0][9]_AND_243_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[1][1][3]_AND_885_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[21][0][1]_AND_259_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[2][1][7]_AND_833_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[20][1][4]_AND_275_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[1][1][4]_AND_883_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[20][0][7]_AND_291_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[1][1][6]_AND_879_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[19][1][10]_AND_307_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[1][1][7]_AND_877_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[17][1][6]_AND_403_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[1][1][8]_AND_875_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[17][0][9]_AND_419_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[6][0][10]_AND_673_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[17][0][1]_AND_435_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[1][1][9]_AND_873_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[16][1][4]_AND_451_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[13][1][4]_AND_355_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[16][0][7]_AND_467_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[3][0][10]_AND_805_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[13][0][9]_AND_595_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[14][1][6]_AND_307_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[13][0][1]_AND_611_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[3][1][9]_AND_785_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[12][1][4]_AND_627_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[13][0][0]_AND_385_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[9][0][1]_AND_787_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[13][0][1]_AND_383_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[7][0][3]_AND_871_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[13][0][3]_AND_379_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[24][1][5]_AND_97_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[13][0][5]_AND_375_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[24][0][8]_AND_113_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[13][0][6]_AND_373_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[24][0][0]_AND_129_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[13][1][0]_AND_363_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[21][1][7]_AND_225_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[13][0][8]_AND_369_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[21][0][10]_AND_241_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[13][1][2]_AND_359_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[21][0][2]_AND_257_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[13][1][3]_AND_357_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[20][1][5]_AND_273_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[13][1][5]_AND_353_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[20][0][8]_AND_289_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[13][1][7]_AND_349_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[17][1][7]_AND_401_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[13][1][9]_AND_345_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[17][0][10]_AND_417_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[6][0][1]_AND_691_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[17][0][2]_AND_433_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[3][0][0]_AND_825_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[16][1][5]_AND_449_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[4][0][2]_AND_777_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[13][0][10]_AND_593_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[2][0][4]_AND_861_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[13][0][2]_AND_609_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[2][0][9]_AND_851_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[24][1][6]_AND_95_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[2][1][8]_AND_831_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[24][0][9]_AND_111_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[2][0][1]_AND_867_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[24][0][1]_AND_127_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[5][0][4]_AND_729_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[21][1][8]_AND_223_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[2][0][3]_AND_863_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[21][1][0]_AND_239_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[2][0][6]_AND_857_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[21][0][3]_AND_255_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[2][1][0]_AND_847_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[20][1][6]_AND_271_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[2][0][8]_AND_853_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[20][0][9]_AND_287_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[2][1][1]_AND_845_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[17][1][8]_AND_399_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[6][0][6]_AND_681_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[17][1][0]_AND_415_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[3][0][5]_AND_815_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[17][0][3]_AND_431_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[2][1][3]_AND_841_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[16][1][6]_AND_447_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[2][1][5]_AND_837_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[13][1][0]_AND_591_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[2][1][6]_AND_835_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[13][0][3]_AND_607_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[14][0][2]_AND_337_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[19][0][2]_AND_345_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[4][0][7]_AND_767_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[24][1][7]_AND_93_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[14][0][0]_AND_341_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[24][0][10]_AND_109_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[14][0][3]_AND_335_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[22][0][6]_AND_205_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[6][0][9]_AND_675_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[21][1][9]_AND_221_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[6][1][8]_AND_655_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[21][1][1]_AND_237_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[14][0][5]_AND_331_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[21][0][4]_AND_253_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[14][0][7]_AND_327_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[20][1][7]_AND_269_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[14][1][0]_AND_319_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[17][1][9]_AND_397_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[14][0][8]_AND_325_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[17][1][1]_AND_413_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[14][1][2]_AND_315_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[17][0][4]_AND_429_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[14][1][4]_AND_311_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[13][1][1]_AND_589_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[6][1][3]_AND_665_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[5][0][4]_AND_957_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[14][1][5]_AND_309_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[24][1][8]_AND_91_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[14][1][7]_AND_305_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[24][1][0]_AND_107_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[14][1][9]_AND_301_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[22][0][7]_AND_203_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[13][1][10]_AND_343_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[21][1][10]_AND_219_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[3][1][2]_AND_799_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[21][1][2]_AND_235_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[4][1][4]_AND_751_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[21][0][5]_AND_251_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[3][0][1]_AND_823_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[20][1][8]_AND_267_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[3][0][3]_AND_819_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[17][1][10]_AND_395_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[3][0][6]_AND_813_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[17][1][2]_AND_411_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[3][1][0]_AND_803_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[17][0][5]_AND_427_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[3][0][8]_AND_809_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[13][1][2]_AND_587_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[3][1][3]_AND_797_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[24][1][9]_AND_89_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[14][0][10]_AND_321_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[22][0][8]_AND_201_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[3][1][7]_AND_789_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[22][0][0]_AND_217_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[3][1][5]_AND_793_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[21][1][3]_AND_233_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[4][1][9]_AND_741_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[21][0][6]_AND_249_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[3][1][8]_AND_787_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[18][0][0]_AND_393_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[3][1][10]_AND_783_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[17][1][3]_AND_409_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[4][0][0]_AND_781_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[24][1][10]_AND_87_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[8][1][10]_AND_563_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[22][0][9]_AND_199_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[6][0][4]_AND_685_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[22][0][1]_AND_215_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[4][0][3]_AND_775_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[21][1][4]_AND_231_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[4][0][5]_AND_771_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[21][0][7]_AND_247_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[4][1][0]_AND_759_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[18][0][1]_AND_391_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[4][0][8]_AND_765_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[17][1][4]_AND_407_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[4][0][9]_AND_763_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[7][0][8]_AND_861_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[4][1][2]_AND_755_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[22][0][10]_AND_197_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[4][1][3]_AND_753_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[22][0][2]_AND_213_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[4][1][5]_AND_749_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[21][1][5]_AND_229_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[4][1][6]_AND_747_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[18][0][2]_AND_389_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[4][1][7]_AND_745_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[7][1][0]_AND_855_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[4][1][8]_AND_743_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[3][1][10]_AND_1011_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[6][1][1]_AND_669_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[22][1][0]_AND_195_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[5][1][4]_AND_707_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[22][0][3]_AND_211_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[9][0][10]_AND_541_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[21][1][6]_AND_227_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[6][1][6]_AND_659_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[18][0][3]_AND_387_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[5][0][0]_AND_737_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[3][0][7]_AND_1039_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[5][0][1]_AND_735_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[22][1][1]_AND_193_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[5][0][2]_AND_733_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[22][0][4]_AND_209_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[5][0][3]_AND_731_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[22][1][2]_AND_191_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[5][0][5]_AND_727_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[22][0][5]_AND_207_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[5][0][6]_AND_725_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[5][0][9]_AND_947_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[5][0][7]_AND_723_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[22][1][3]_AND_189_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[5][1][0]_AND_715_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[22][1][4]_AND_187_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[5][0][8]_AND_721_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[7][1][5]_AND_845_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[5][1][1]_AND_713_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[5][1][6]_AND_931_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[5][0][9]_AND_719_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[3][0][1]_AND_1051_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[5][1][2]_AND_711_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[3][1][4]_AND_1023_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[5][1][3]_AND_709_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[7][0][1]_AND_875_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[4][0][10]_AND_761_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[0][0][0]_AND_1185_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[5][1][5]_AND_705_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[11][1][8]_AND_663_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[5][1][6]_AND_703_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[0][0][1]_AND_1183_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[5][1][7]_AND_701_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[0][0][2]_AND_1181_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[5][1][8]_AND_699_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[0][0][3]_AND_1179_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[5][1][9]_AND_697_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[0][0][4]_AND_1177_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[6][0][2]_AND_689_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[0][0][5]_AND_1175_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[6][0][7]_AND_679_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[0][0][6]_AND_1173_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[6][1][4]_AND_663_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[5][0][2]_AND_961_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[6][1][9]_AND_653_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[0][0][7]_AND_1171_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[14][1][10]_AND_299_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[0][0][8]_AND_1169_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[7][0][0]_AND_649_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[0][0][9]_AND_1167_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[7][0][1]_AND_647_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[7][0][6]_AND_865_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[7][0][2]_AND_645_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[3][0][6]_AND_1041_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[7][0][3]_AND_643_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[15][0][2]_AND_521_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[7][0][4]_AND_641_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[3][1][9]_AND_1013_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[7][0][5]_AND_639_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[7][1][8]_AND_839_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[7][0][6]_AND_637_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[6][0][0]_AND_921_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[7][0][7]_AND_635_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[3][0][0]_AND_1053_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[7][1][0]_AND_627_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[3][1][3]_AND_1025_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[7][0][8]_AND_633_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[5][0][0]_AND_965_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[7][1][1]_AND_625_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[5][0][1]_AND_963_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[7][0][9]_AND_631_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[5][0][10]_AND_945_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[7][1][2]_AND_623_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[5][1][0]_AND_943_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[7][1][3]_AND_621_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[5][1][9]_AND_925_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[7][1][4]_AND_619_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[5][1][1]_AND_941_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[7][1][5]_AND_617_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[5][1][10]_AND_923_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[7][1][6]_AND_615_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[5][1][4]_AND_935_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[7][1][7]_AND_613_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[5][0][7]_AND_951_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[7][1][8]_AND_611_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[5][0][8]_AND_949_o is sourced by a
+   u_video_display/sys_rst_n_Snake_Array[7][1][9]_AND_609_o is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[5][1][7]_AND_929_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[11][0][0]_AND_701_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[11][0][9]_AND_683_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[11][0][1]_AND_699_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[11][1][7]_AND_665_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[11][0][10]_AND_681_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[11][1][0]_AND_679_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[4][0][5]_AND_999_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[22][1][7]_AND_181_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[18][0][9]_AND_375_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[9][1][9]_AND_749_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[4][0][9]_AND_991_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[1][1][8]_AND_1103_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[0][0][10]_AND_1165_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[4][0][3]_AND_1003_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[0][1][10]_AND_1143_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[4][0][0]_AND_1009_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[10][0][6]_AND_733_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[6][0][5]_AND_911_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[2][0][8]_AND_1081_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[18][1][5]_AND_361_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[2][1][3]_AND_1069_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[10][0][9]_AND_727_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[6][0][8]_AND_905_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[0][1][4]_AND_1155_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[0][1][1]_AND_1161_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[4][1][1]_AND_985_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[9][0][7]_AND_775_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[4][1][8]_AND_971_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[14][0][1]_AND_567_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[2][1][0]_AND_1075_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[9][0][4]_AND_781_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[14][0][8]_AND_553_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[10][1][5]_AND_713_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[3][0][5]_AND_1043_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[1][0][5]_AND_1131_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[3][1][8]_AND_1015_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[15][0][0]_AND_525_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[1][0][8]_AND_1125_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[10][1][2]_AND_719_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[19][0][3]_AND_343_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[5][0][5]_AND_955_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[6][1][5]_AND_889_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[6][1][2]_AND_895_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[2][1][8]_AND_1059_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[7][0][9]_AND_859_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[9][1][3]_AND_761_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[0][1][6]_AND_1151_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[6][1][9]_AND_881_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[2][0][10]_AND_1077_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[0][1][9]_AND_1145_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[2][1][10]_AND_1055_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[11][0][2]_AND_697_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[6][1][10]_AND_879_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[2][0][0]_AND_1097_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[9][1][6]_AND_755_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[2][1][5]_AND_1065_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[13][1][10]_AND_571_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[1][0][10]_AND_1121_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[13][1][4]_AND_583_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[1][1][10]_AND_1099_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[14][1][4]_AND_539_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[5][1][2]_AND_939_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[18][0][7]_AND_379_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[13][1][7]_AND_577_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[10][0][3]_AND_739_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[7][1][6]_AND_843_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[3][1][2]_AND_1027_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[10][0][0]_AND_745_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[2][1][2]_AND_1071_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[7][0][10]_AND_857_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[15][0][10]_AND_505_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[10][0][7]_AND_731_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[4][0][6]_AND_997_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[6][0][2]_AND_917_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[1][1][5]_AND_1109_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[6][0][9]_AND_903_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[9][0][10]_AND_769_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[6][0][6]_AND_909_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[2][0][5]_AND_1087_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[1][1][2]_AND_1115_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[4][1][5]_AND_977_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[4][1][2]_AND_983_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[14][0][5]_AND_559_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[2][0][2]_AND_1093_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[9][0][8]_AND_773_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[14][0][2]_AND_565_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[9][0][5]_AND_779_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[10][1][6]_AND_711_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[6][1][3]_AND_893_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[2][1][7]_AND_1061_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[6][1][6]_AND_887_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[4][1][9]_AND_969_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[1][0][2]_AND_1137_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[14][0][9]_AND_551_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[10][1][9]_AND_705_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[4][0][2]_AND_1005_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[18][0][4]_AND_385_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[13][1][5]_AND_581_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[9][1][0]_AND_767_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[22][1][5]_AND_185_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[1][1][7]_AND_1105_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[13][1][8]_AND_575_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[0][1][3]_AND_1157_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[9][1][10]_AND_747_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[14][1][1]_AND_545_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[9][1][4]_AND_759_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[2][0][7]_AND_1083_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[1][1][4]_AND_1111_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[9][1][7]_AND_753_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[10][0][4]_AND_737_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[6][0][3]_AND_915_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[10][0][1]_AND_743_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[0][1][0]_AND_1163_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[4][0][7]_AND_995_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[18][1][3]_AND_365_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[1][0][7]_AND_1127_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[4][0][4]_AND_1001_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[18][1][6]_AND_359_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[9][0][2]_AND_785_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[1][0][4]_AND_1133_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[4][1][3]_AND_981_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[14][0][3]_AND_563_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[0][1][8]_AND_1147_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[8][0][4]_AND_825_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[4][1][6]_AND_975_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[1][0][1]_AND_1139_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[14][0][0]_AND_569_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[1][1][9]_AND_1101_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[10][1][3]_AND_717_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[14][0][6]_AND_557_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[0][1][5]_AND_1153_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[10][1][0]_AND_723_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[9][0][9]_AND_771_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[6][1][4]_AND_891_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[2][1][4]_AND_1067_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[0][1][2]_AND_1159_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[1][0][9]_AND_1123_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[6][1][7]_AND_885_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[2][1][1]_AND_1073_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[10][1][10]_AND_703_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[4][0][10]_AND_989_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[9][1][1]_AND_765_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[14][1][5]_AND_537_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[18][0][8]_AND_377_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[22][1][6]_AND_183_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[9][1][8]_AND_751_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[14][1][2]_AND_543_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[2][0][4]_AND_1089_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[18][0][5]_AND_383_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[13][1][9]_AND_573_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[10][0][5]_AND_735_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[1][1][1]_AND_1117_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[10][0][2]_AND_741_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[6][0][1]_AND_919_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[4][0][8]_AND_993_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[2][1][6]_AND_1063_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[2][0][1]_AND_1095_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[10][0][8]_AND_729_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[6][0][10]_AND_901_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[10][0][10]_AND_725_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[2][1][9]_AND_1057_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[0][1][7]_AND_1149_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[6][0][4]_AND_913_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[6][0][7]_AND_907_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[8][0][5]_AND_823_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[9][0][3]_AND_783_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[18][1][4]_AND_363_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[4][1][0]_AND_987_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[2][0][9]_AND_1079_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[9][0][6]_AND_777_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[1][1][6]_AND_1107_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[23][0][4]_AND_165_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[4][0][1]_AND_1007_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[4][1][4]_AND_979_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[4][1][10]_AND_967_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[2][0][6]_AND_1085_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[10][1][1]_AND_721_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[14][0][4]_AND_561_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[6][1][0]_AND_899_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[1][1][3]_AND_1113_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[4][1][7]_AND_973_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[2][0][3]_AND_1091_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[10][1][4]_AND_715_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[6][1][1]_AND_897_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[14][0][7]_AND_555_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[6][1][8]_AND_883_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[1][0][0]_AND_1141_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[13][1][3]_AND_585_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[1][1][0]_AND_1119_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[1][0][6]_AND_1129_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[14][1][3]_AND_541_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[9][1][5]_AND_757_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[13][1][6]_AND_579_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[9][1][2]_AND_763_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[14][1][6]_AND_535_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[1][0][3]_AND_1135_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[18][0][6]_AND_381_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[7][0][2]_AND_873_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[3][0][4]_AND_1045_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[3][1][7]_AND_1017_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[5][0][3]_AND_959_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[5][1][3]_AND_937_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[5][0][6]_AND_953_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[7][0][7]_AND_863_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[5][1][5]_AND_933_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[5][1][8]_AND_927_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[11][0][8]_AND_685_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[7][0][0]_AND_877_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[15][0][1]_AND_523_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[15][0][3]_AND_519_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[7][1][7]_AND_841_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[15][1][0]_AND_503_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[11][0][3]_AND_695_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[3][0][9]_AND_1035_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[3][1][1]_AND_1029_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[3][0][8]_AND_1037_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[3][1][6]_AND_1019_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[3][1][0]_AND_1031_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   u_video_display/sys_rst_n_Snake_Array[3][0][3]_AND_1047_o is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-DRC detected 0 errors and 550 warnings.  Please see the previously displayed
+DRC detected 0 errors and 330 warnings.  Please see the previously displayed
 individual error or warning messages for more details.
 Creating bit map...
 Saving bit stream in "hdmi_block_move_top.bit".
