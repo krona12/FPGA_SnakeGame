@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=E:\App_Data\FPGA\Projects\17_hdmi_block_move_top\prj\hdmi_block_move_top\hdmi_block_move_top.ncd
-OUTFILE=E:\App_Data\FPGA\Projects\17_hdmi_block_move_top\prj\hdmi_block_move_top\hdmi_block_move_top.bit
+INFILE=C:\Users\krona\source\repos\FPGA_SnakeGame\prj\hdmi_block_move_top\hdmi_block_move_top.ncd
+OUTFILE=C:\Users\krona\source\repos\FPGA_SnakeGame\prj\hdmi_block_move_top\hdmi_block_move_top.bit
 FAMILY=Spartan6
 PART=xc6slx16-2ftg256
-WORKINGDIR=E:\App_Data\FPGA\Projects\17_hdmi_block_move_top\prj\hdmi_block_move_top
+WORKINGDIR=C:\Users\krona\source\repos\FPGA_SnakeGame\prj\hdmi_block_move_top
 LICENSE=WebPack
 USER_INFO=__0_0_0

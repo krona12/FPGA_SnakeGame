@@ -5,7 +5,7 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="ConstraintSystem" num="56" delta="old" >Constraint <arg fmt="%s" index="1">&lt;TIMESPEC &quot;TS_sys_clk&quot; = PERIOD &quot;sys_clk&quot;  20  ns HIGH 50 %;&gt; [E:/App_Data/FPGA/Projects/17_hdmi_block_move_top/prj/hdmi_block_move_top.ucf(2)]</arg>: Unable to find an active <arg fmt="%s" index="2">&apos;TNM&apos; or &apos;TimeGrp&apos;</arg> constraint named &apos;<arg fmt="%s" index="3">sys_clk</arg>&apos;.
+<msg type="warning" file="ConstraintSystem" num="56" delta="old" >Constraint <arg fmt="%s" index="1">&lt;TIMESPEC &quot;TS_sys_clk&quot; = PERIOD &quot;sys_clk&quot;  20  ns HIGH 50 %;&gt; [C:/Users/krona/source/repos/FPGA_SnakeGame/prj/hdmi_block_move_top.ucf(2)]</arg>: Unable to find an active <arg fmt="%s" index="2">&apos;TNM&apos; or &apos;TimeGrp&apos;</arg> constraint named &apos;<arg fmt="%s" index="3">sys_clk</arg>&apos;.
 </msg>
 
 </messages>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2024-01-21T13:30:05</DateModified>
+  <DateModified>2024-01-22T20:41:28</DateModified>
   <ModuleName>hdmi_block_move_top</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>E:/App_Data/FPGA/Projects/17_hdmi_block_move_top/prj/hdmi_block_move_top/iseconfig/hdmi_block_move_top.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>E:/App_Data/FPGA/Projects/17_hdmi_block_move_top/prj/hdmi_block_move_top\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/krona/source/repos/FPGA_SnakeGame/prj/hdmi_block_move_top/iseconfig/hdmi_block_move_top.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/krona/source/repos/FPGA_SnakeGame/prj/hdmi_block_move_top\</ImplementationReportsDirectory>
   <DateInitialized>2020-11-02T14:13:50</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

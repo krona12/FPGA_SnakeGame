@@ -4,25 +4,24 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 Command Line:
 D:\Application\Tool_Mathematica&CS\ISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbui
 ld.exe -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc
-E:/App_Data/FPGA/Projects/17_hdmi_block_move_top/prj/hdmi_block_move_top.ucf -p
+C:/Users/krona/source/repos/FPGA_SnakeGame/prj/hdmi_block_move_top.ucf -p
 xc6slx16-ftg256-2 hdmi_block_move_top.ngc hdmi_block_move_top.ngd
 
 Reading NGO file
-"E:/App_Data/FPGA/Projects/17_hdmi_block_move_top/prj/hdmi_block_move_top/hdmi_b
-lock_move_top.ngc" ...
+"C:/Users/krona/source/repos/FPGA_SnakeGame/prj/hdmi_block_move_top/hdmi_block_m
+ove_top.ngc" ...
 Loading design module "ipcore_dir/convert_30to15_fifo.ngc"...
 Gathering constraint information from source properties...
 Done.
 
 Annotating constraints to design from ucf file
-"E:/App_Data/FPGA/Projects/17_hdmi_block_move_top/prj/hdmi_block_move_top.ucf"
-...
+"C:/Users/krona/source/repos/FPGA_SnakeGame/prj/hdmi_block_move_top.ucf" ...
 Resolving constraint associations...
 Checking Constraint Associations...
 WARNING:ConstraintSystem:56 - Constraint <TIMESPEC "TS_sys_clk" = PERIOD
    "sys_clk"  20  ns HIGH 50 %;>
-   [E:/App_Data/FPGA/Projects/17_hdmi_block_move_top/prj/hdmi_block_move_top.ucf
-   (2)]: Unable to find an active 'TNM' or 'TimeGrp' constraint named 'sys_clk'.
+   [C:/Users/krona/source/repos/FPGA_SnakeGame/prj/hdmi_block_move_top.ucf(2)]:
+   Unable to find an active 'TNM' or 'TimeGrp' constraint named 'sys_clk'.
 
 Done...
 
@@ -39,10 +38,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   1
 
-Total memory usage is 4412000 kilobytes
+Total memory usage is 4444360 kilobytes
 
 Writing NGD file "hdmi_block_move_top.ngd" ...
-Total REAL time to NGDBUILD completion:  2 sec
-Total CPU time to NGDBUILD completion:   1 sec
+Total REAL time to NGDBUILD completion:  3 sec
+Total CPU time to NGDBUILD completion:   2 sec
 
 Writing NGDBUILD log file "hdmi_block_move_top.bld"...

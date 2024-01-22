@@ -8,7 +8,7 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/App_Data/FPGA/Projects/17_hdmi_block_move_top/prj/hdmi_block_move_top/ipcore_dir/convert_30to15_fifo.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/krona/source/repos/FPGA_SnakeGame/prj/hdmi_block_move_top/ipcore_dir/convert_30to15_fifo.v&quot; into library work</arg>
 </msg>
 
 </messages>
