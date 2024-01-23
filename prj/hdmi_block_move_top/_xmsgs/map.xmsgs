@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Map" num="284" delta="old" >Map is running with the multi-threading option on. Map currently supports the use of up to 2 processors. Based on the the user options and machine load, Map will use 2 processors during this run.
+</msg>
+
+<msg type="warning" file="Map" num="303" delta="old" >You are using an internal switch -convert_bram8 
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_video_display/Snake_Array&lt;0&gt;&lt;0&gt;_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_video_display/Snake_Array&lt;0&gt;&lt;0&gt;_5_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_video_display/Snake_Array&lt;0&gt;&lt;0&gt;_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_video_display/Snake_Array&lt;0&gt;&lt;0&gt;_3_1&gt; &lt;u_video_display/Snake_Array&lt;0&gt;&lt;0&gt;_3_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_video_display/direction_FSM_FFd1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_video_display/direction_FSM_FFd1_1&gt; &lt;u_video_display/direction_FSM_FFd1_2&gt; &lt;u_video_display/direction_FSM_FFd1_3&gt; &lt;u_video_display/direction_FSM_FFd1_4&gt; &lt;u_video_display/direction_FSM_FFd1_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_video_display/SnakeSize_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_video_display/SnakeSize_1_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/u_convert_30to15_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/u_convert_30to15_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1&gt; &lt;u_rgbtodvi_top/u_convert_30to15_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_video_display/SnakeSize_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_video_display/SnakeSize_2_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_video_display/Snake_Array&lt;0&gt;&lt;0&gt;_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_video_display/Snake_Array&lt;0&gt;&lt;0&gt;_4_1&gt; &lt;u_video_display/Snake_Array&lt;0&gt;&lt;0&gt;_4_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_video_display/Snake_Array&lt;0&gt;&lt;0&gt;_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_video_display/Snake_Array&lt;0&gt;&lt;0&gt;_2_1&gt; &lt;u_video_display/Snake_Array&lt;0&gt;&lt;0&gt;_2_2&gt; &lt;u_video_display/Snake_Array&lt;0&gt;&lt;0&gt;_2_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_video_display/SnakeSize_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_video_display/SnakeSize_3_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/u_convert_30to15_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/u_convert_30to15_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_video_display/direction_FSM_FFd2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_video_display/direction_FSM_FFd2_1&gt; &lt;u_video_display/direction_FSM_FFd2_2&gt; &lt;u_video_display/direction_FSM_FFd2_3&gt; &lt;u_video_display/direction_FSM_FFd2_4&gt; &lt;u_video_display/direction_FSM_FFd2_5&gt; &lt;u_video_display/direction_FSM_FFd2_6&gt; </arg>
+</msg>
+
+<msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">u_rgbtodvi_top/u_pll/pll_base_inst/N2</arg> has no load.
+</msg>
+
+<msg type="info" file="LIT" num="395" delta="old" >The above <arg fmt="%s" index="1">info</arg> message is repeated <arg fmt="%d" index="2">1</arg> more times for the following (max. 5 shown):
+<arg fmt="%s" index="3">u_rgbtodvi_top/u_pll/pll_base_inst/N3</arg>
+To see the details of these <arg fmt="%s" index="4">info</arg> messages, please use the -detail switch.
+</msg>
+
+<msg type="info" file="MapLib" num="562" delta="old" >No environment variables are currently set.
+</msg>
+
+<msg type="info" file="MapLib" num="841" delta="old" >Changing COMPENSATION attribute from <arg fmt="%s" index="1">SYSTEM_SYNCHRONOUS</arg> to <arg fmt="%s" index="2">INTERNAL</arg> for PLL_ADV <arg fmt="%s" index="3">u_rgbtodvi_top/u_pll/pll_base_inst/PLL_ADV</arg>.
+</msg>
+
+<msg type="info" file="MapLib" num="1261" delta="old" >RAMB8BWER block &apos;<arg fmt="%s" index="1">u_video_display/u_blk_mem_gen/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.SIMPLE_PRIM9.ram</arg>&apos; has been converted to a RAMB16BWER.
+</msg>
+
+<msg type="info" file="MapLib" num="1261" delta="old" >RAMB8BWER block &apos;<arg fmt="%s" index="1">u_video_display/u_blk_mem_gen/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_init.ram/SP.SIMPLE_PRIM9.ram</arg>&apos; has been converted to a RAMB16BWER.
+</msg>
+
+<msg type="info" file="MapLib" num="1261" delta="old" >RAMB8BWER block &apos;<arg fmt="%s" index="1">u_video_display/u_blk_mem_gen/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/s6_init.ram/SP.SIMPLE_PRIM9.ram</arg>&apos; has been converted to a RAMB16BWER.
+</msg>
+
+<msg type="info" file="MapLib" num="1261" delta="old" >RAMB8BWER block &apos;<arg fmt="%s" index="1">u_video_display/u_blk_mem_gen/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/s6_init.ram/SP.SIMPLE_PRIM9.ram</arg>&apos; has been converted to a RAMB16BWER.
+</msg>
+
+<msg type="info" file="MapLib" num="1261" delta="old" >RAMB8BWER block &apos;<arg fmt="%s" index="1">u_video_display/u_blk_mem_gen/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/s6_init.ram/SP.SIMPLE_PRIM9.ram</arg>&apos; has been converted to a RAMB16BWER.
+</msg>
+
+<msg type="info" file="MapLib" num="1261" delta="old" >RAMB8BWER block &apos;<arg fmt="%s" index="1">u_video_display/u_blk_mem_gen/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/s6_init.ram/SP.SIMPLE_PRIM9.ram</arg>&apos; has been converted to a RAMB16BWER.
+</msg>
+
+<msg type="info" file="MapLib" num="1261" delta="old" >RAMB8BWER block &apos;<arg fmt="%s" index="1">u_video_display/u_blk_mem_gen/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/s6_init.ram/SP.SIMPLE_PRIM9.ram</arg>&apos; has been converted to a RAMB16BWER.
+</msg>
+
+<msg type="info" file="MapLib" num="1261" delta="old" >RAMB8BWER block &apos;<arg fmt="%s" index="1">u_video_display/u_blk_mem_gen/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/s6_init.ram/SP.SIMPLE_PRIM9.ram</arg>&apos; has been converted to a RAMB16BWER.
+</msg>
+
+<msg type="info" file="LIT" num="244" delta="old" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs.
+</msg>
+
+<msg type="info" file="Pack" num="1716" delta="old" >Initializing temperature to <arg fmt="%0.3f" index="1">85.000</arg> Celsius. (default - Range: <arg fmt="%0.3f" index="2">0.000</arg> to <arg fmt="%0.3f" index="3">85.000</arg> Celsius)
+</msg>
+
+<msg type="info" file="Pack" num="1720" delta="old" >Initializing voltage to <arg fmt="%0.3f" index="1">1.140</arg> Volts. (default - Range: <arg fmt="%0.3f" index="2">1.140</arg> to <arg fmt="%0.3f" index="3">1.260</arg> Volts)
+</msg>
+
+<msg type="info" file="Map" num="215" delta="old" >The Interim Design Summary has been generated in the MAP Report (.mrp).
+</msg>
+
+<msg type="info" file="Pack" num="1650" delta="old" >Map created a placed design.
+</msg>
+
+</messages>
+

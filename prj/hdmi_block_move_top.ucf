@@ -1,0 +1,14 @@
+NET sys_clk                               LOC = N8 | IOSTANDARD = "LVCMOS33" | TNM_NET = sys_clk_pin;  
+TIMESPEC "TS_sys_clk" = PERIOD "sys_clk"  20  ns HIGH 50 %;
+ 
+NET sys_rst_n                             LOC = G16 | IOSTANDARD = "LVCMOS33";   
+NET tmds_data_p[0]                        LOC = R7 | IOSTANDARD = "TMDS_33"; 
+NET tmds_data_p[1]                        LOC = P8 | IOSTANDARD = "TMDS_33"; 
+NET tmds_data_p[2]                        LOC = R9 | IOSTANDARD = "TMDS_33"; 
+NET tmds_clk_p                            LOC = P6 | IOSTANDARD = "TMDS_33"; 
+NET "key_in[5]" LOC = E7 | IOSTANDARD = "LVCMOS33";
+NET "key_in[4]" LOC = F7 | IOSTANDARD = "LVCMOS33";
+NET "key_in[3]" LOC = P11 | IOSTANDARD = "LVCMOS33";
+NET "key_in[2]" LOC = E8 | IOSTANDARD = "LVCMOS33";
+NET "key_in[1]" LOC = D6 | IOSTANDARD = "LVCMOS33";
+NET "key_in[0]" LOC = C6 | IOSTANDARD = "LVCMOS33"; 

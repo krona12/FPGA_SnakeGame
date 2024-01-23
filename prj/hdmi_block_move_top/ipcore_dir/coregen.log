@@ -1,0 +1,69 @@
+INFO:sim:172 - Generating IP...
+Applying current project options...
+Finished applying current project options.
+WARNING:sim - A core named 'blk_mem_gen' already exists in the project. Output
+   products for this core may be overwritten.
+Resolving generics for 'blk_mem_gen'...
+WARNING:sim - A core named 'blk_mem_gen' already exists in the project. Output
+   products for this core may be overwritten.
+Applying external generics to 'blk_mem_gen'...
+Delivering associated files for 'blk_mem_gen'...
+Delivering EJava files for 'blk_mem_gen'...
+Generating implementation netlist for 'blk_mem_gen'...
+INFO:sim - Pre-processing HDL files for 'blk_mem_gen'...
+Running synthesis for 'blk_mem_gen'
+Running ngcbuild...
+Writing VEO instantiation template for 'blk_mem_gen'...
+Writing Verilog behavioral simulation model for 'blk_mem_gen'...
+WARNING:sim - Overwriting existing file
+   C:/Users/Forest/Desktop/snake/FPGA_SnakeGame-DynamicFood/prj/hdmi_block_move_
+   top/ipcore_dir/tmp/_cg/blk_mem_gen/doc/blk_mem_gen_v7_3_vinfo.html with file
+   from view xilinx_documentation
+Delivered 1 file into directory
+C:/Users/Forest/Desktop/snake/FPGA_SnakeGame-DynamicFood/prj/hdmi_block_move_top
+/ipcore_dir/tmp/_cg/blk_mem_gen
+Generating ASY schematic symbol...
+INFO:sim:949 - Finished generation of ASY schematic symbol.
+Generating SYM schematic symbol for 'blk_mem_gen'...
+Generating metadata file...
+Regenerating ISE project file for 'blk_mem_gen'...
+Generating ISE project...
+XCO file found: blk_mem_gen.xco
+XMDF file found: blk_mem_gen_xmdf.tcl
+Adding
+C:/Users/Forest/Desktop/snake/FPGA_SnakeGame-DynamicFood/prj/hdmi_block_move_top
+/ipcore_dir/tmp/_cg/blk_mem_gen.asy -view all -origin_type imported
+Adding
+C:/Users/Forest/Desktop/snake/FPGA_SnakeGame-DynamicFood/prj/hdmi_block_move_top
+/ipcore_dir/tmp/_cg/blk_mem_gen.ngc -view all -origin_type created
+Checking file
+"C:/Users/Forest/Desktop/snake/FPGA_SnakeGame-DynamicFood/prj/hdmi_block_move_to
+p/ipcore_dir/tmp/_cg/blk_mem_gen.ngc" for project device match ...
+File
+"C:/Users/Forest/Desktop/snake/FPGA_SnakeGame-DynamicFood/prj/hdmi_block_move_to
+p/ipcore_dir/tmp/_cg/blk_mem_gen.ngc" device information matches project device.
+Adding
+C:/Users/Forest/Desktop/snake/FPGA_SnakeGame-DynamicFood/prj/hdmi_block_move_top
+/ipcore_dir/tmp/_cg/blk_mem_gen.sym -view all -origin_type imported
+Adding
+C:/Users/Forest/Desktop/snake/FPGA_SnakeGame-DynamicFood/prj/hdmi_block_move_top
+/ipcore_dir/tmp/_cg/blk_mem_gen.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "C:/Users/Forest/Desktop/snake/FPGA_SnakeGame-DynamicFood/prj/hdmi_block_move
+   _top/ipcore_dir/tmp/_cg/blk_mem_gen.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+C:/Users/Forest/Desktop/snake/FPGA_SnakeGame-DynamicFood/prj/hdmi_block_move_top
+/ipcore_dir/tmp/_cg/blk_mem_gen.veo -view all -origin_type imported
+INFO:TclTasksC:2116 - The automatic calculation of top has been turned-off.
+   Please set the new top explicitly by running the "project set top" command.
+   To re-calculate the new top automatically, set the "Auto Implementation Top"
+   property to true.
+Top level has been set to "/blk_mem_gen"
+Generating README file...
+Generating FLIST file...
+INFO:sim:948 - Finished FLIST file generation.
+Launching README viewer...
+Moving files to output directory...
+Finished moving files to output directory
+Wrote CGP file for project 'blk_mem_gen'.

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Forest\Desktop\snake\FPGA_SnakeGame-DynamicFood\prj\hdmi_block_move_top\hdmi_block_move_top.ncd
+OUTFILE=C:\Users\Forest\Desktop\snake\FPGA_SnakeGame-DynamicFood\prj\hdmi_block_move_top\hdmi_block_move_top.bit
+FAMILY=Spartan6
+PART=xc6slx16-2ftg256
+WORKINGDIR=C:\Users\Forest\Desktop\snake\FPGA_SnakeGame-DynamicFood\prj\hdmi_block_move_top
+LICENSE=WebPack
+USER_INFO=__0_0_0

@@ -1,0 +1,338 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Mapping Report File for Design 'hdmi_block_move_top'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol
+high -t 1 -xt 0 -r 8 -global_opt speed -equivalent_register_removal on -mt 2 -ir
+off -pr off -convert_bram8 -lc area -power off -o hdmi_block_move_top_map.ncd
+hdmi_block_move_top.ngd hdmi_block_move_top.pcf 
+Target Device  : xc6slx16
+Target Package : ftg256
+Target Speed   : -2
+Mapper Version : spartan6 -- $Revision: 1.55 $
+Mapped Date    : Tue Jan 23 23:31:49 2024
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    1
+Slice Logic Utilization:
+  Number of Slice Registers:                   801 out of  18,224    4%
+    Number used as Flip Flops:                 801
+    Number used as Latches:                      0
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:                0
+  Number of Slice LUTs:                      2,477 out of   9,112   27%
+    Number used as logic:                    2,316 out of   9,112   25%
+      Number using O6 output only:           1,238
+      Number using O5 output only:             175
+      Number using O5 and O6:                  903
+      Number used as ROM:                        0
+    Number used as Memory:                       3 out of   2,176    1%
+      Number used as Dual Port RAM:              0
+      Number used as Single Port RAM:            0
+      Number used as Shift Register:             3
+        Number using O6 output only:             3
+        Number using O5 output only:             0
+        Number using O5 and O6:                  0
+    Number used exclusively as route-thrus:    158
+      Number with same-slice register load:    140
+      Number with same-slice carry load:        18
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                   882 out of   2,278   38%
+  Number of MUXCYs used:                       956 out of   4,556   20%
+  Number of LUT Flip Flop pairs used:        2,517
+    Number with an unused Flip Flop:         1,988 out of   2,517   78%
+    Number with an unused LUT:                  40 out of   2,517    1%
+    Number of fully used LUT-FF pairs:         489 out of   2,517   19%
+    Number of unique control sets:              43
+    Number of slice register sites lost
+      to control set restrictions:             228 out of  18,224    1%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                        16 out of     186    8%
+    Number of LOCed IOBs:                       12 out of      16   75%
+    IOB Master Pads:                             4
+    IOB Slave Pads:                              4
+
+Specific Feature Utilization:
+  Number of RAMB16BWERs:                        20 out of      32   62%
+  Number of RAMB8BWERs:                          0 out of      64    0%
+  Number of BUFIO2/BUFIO2_2CLKs:                 1 out of      32    3%
+    Number used as BUFIO2s:                      1
+    Number used as BUFIO2_2CLKs:                 0
+  Number of BUFIO2FB/BUFIO2FB_2CLKs:             0 out of      32    0%
+  Number of BUFG/BUFGMUXs:                       2 out of      16   12%
+    Number used as BUFGs:                        2
+    Number used as BUFGMUX:                      0
+  Number of DCM/DCM_CLKGENs:                     0 out of       4    0%
+  Number of ILOGIC2/ISERDES2s:                   0 out of     248    0%
+  Number of IODELAY2/IODRP2/IODRP2_MCBs:         0 out of     248    0%
+  Number of OLOGIC2/OSERDES2s:                   8 out of     248    3%
+    Number used as OLOGIC2s:                     0
+    Number used as OSERDES2s:                    8
+  Number of BSCANs:                              0 out of       4    0%
+  Number of BUFHs:                               0 out of     128    0%
+  Number of BUFPLLs:                             1 out of       8   12%
+  Number of BUFPLL_MCBs:                         0 out of       4    0%
+  Number of DSP48A1s:                            2 out of      32    6%
+  Number of ICAPs:                               0 out of       1    0%
+  Number of MCBs:                                0 out of       2    0%
+  Number of PCILOGICSEs:                         0 out of       2    0%
+  Number of PLL_ADVs:                            1 out of       2   50%
+  Number of PMVs:                                0 out of       1    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of SUSPEND_SYNCs:                       0 out of       1    0%
+
+Average Fanout of Non-Clock Nets:                3.94
+
+Peak Memory Usage:  4636 MB
+Total REAL time to MAP completion:  1 mins 5 secs 
+Total CPU time to MAP completion (all processors):   10 secs 
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:Map:303 - You are using an internal switch -convert_bram8 
+
+Section 3 - Informational
+-------------------------
+INFO:Map:284 - Map is running with the multi-threading option on. Map currently
+   supports the use of up to 2 processors. Based on the the user options and
+   machine load, Map will use 2 processors during this run.
+INFO:Xst:2261 - The FF/Latch <u_video_display/Snake_Array<0><0>_5> in Unit
+   <hdmi_block_move_top> is equivalent to the following FF/Latch, which will be
+   removed : <u_video_display/Snake_Array<0><0>_5_1> 
+INFO:Xst:2261 - The FF/Latch <u_video_display/Snake_Array<0><0>_3> in Unit
+   <hdmi_block_move_top> is equivalent to the following 2 FFs/Latches, which
+   will be removed : <u_video_display/Snake_Array<0><0>_3_1>
+   <u_video_display/Snake_Array<0><0>_3_2> 
+INFO:Xst:2261 - The FF/Latch <u_video_display/direction_FSM_FFd1> in Unit
+   <hdmi_block_move_top> is equivalent to the following 5 FFs/Latches, which
+   will be removed : <u_video_display/direction_FSM_FFd1_1>
+   <u_video_display/direction_FSM_FFd1_2> <u_video_display/direction_FSM_FFd1_3>
+   <u_video_display/direction_FSM_FFd1_4> <u_video_display/direction_FSM_FFd1_5>
+    
+INFO:Xst:2261 - The FF/Latch <u_video_display/SnakeSize_1> in Unit
+   <hdmi_block_move_top> is equivalent to the following FF/Latch, which will be
+   removed : <u_video_display/SnakeSize_1_1> 
+INFO:Xst:2261 - The FF/Latch
+   <u_rgbtodvi_top/u_convert_30to15_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.
+   rf/rstblk/ngwrdrst.grst.rd_rst_reg_0> in Unit <hdmi_block_move_top> is
+   equivalent to the following 2 FFs/Latches, which will be removed :
+   <u_rgbtodvi_top/u_convert_30to15_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.
+   rf/rstblk/ngwrdrst.grst.rd_rst_reg_1>
+   <u_rgbtodvi_top/u_convert_30to15_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.
+   rf/rstblk/ngwrdrst.grst.rd_rst_reg_2> 
+INFO:Xst:2261 - The FF/Latch <u_video_display/SnakeSize_2> in Unit
+   <hdmi_block_move_top> is equivalent to the following FF/Latch, which will be
+   removed : <u_video_display/SnakeSize_2_1> 
+INFO:Xst:2261 - The FF/Latch <u_video_display/Snake_Array<0><0>_4> in Unit
+   <hdmi_block_move_top> is equivalent to the following 2 FFs/Latches, which
+   will be removed : <u_video_display/Snake_Array<0><0>_4_1>
+   <u_video_display/Snake_Array<0><0>_4_2> 
+INFO:Xst:2261 - The FF/Latch <u_video_display/Snake_Array<0><0>_2> in Unit
+   <hdmi_block_move_top> is equivalent to the following 3 FFs/Latches, which
+   will be removed : <u_video_display/Snake_Array<0><0>_2_1>
+   <u_video_display/Snake_Array<0><0>_2_2>
+   <u_video_display/Snake_Array<0><0>_2_3> 
+INFO:Xst:2261 - The FF/Latch <u_video_display/SnakeSize_3> in Unit
+   <hdmi_block_move_top> is equivalent to the following FF/Latch, which will be
+   removed : <u_video_display/SnakeSize_3_1> 
+INFO:Xst:2261 - The FF/Latch
+   <u_rgbtodvi_top/u_convert_30to15_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.
+   rf/rstblk/ngwrdrst.grst.wr_rst_reg_0> in Unit <hdmi_block_move_top> is
+   equivalent to the following FF/Latch, which will be removed :
+   <u_rgbtodvi_top/u_convert_30to15_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.
+   rf/rstblk/ngwrdrst.grst.wr_rst_reg_1> 
+INFO:Xst:2261 - The FF/Latch <u_video_display/direction_FSM_FFd2> in Unit
+   <hdmi_block_move_top> is equivalent to the following 6 FFs/Latches, which
+   will be removed : <u_video_display/direction_FSM_FFd2_1>
+   <u_video_display/direction_FSM_FFd2_2> <u_video_display/direction_FSM_FFd2_3>
+   <u_video_display/direction_FSM_FFd2_4> <u_video_display/direction_FSM_FFd2_5>
+   <u_video_display/direction_FSM_FFd2_6> 
+INFO:LIT:243 - Logical network u_rgbtodvi_top/u_pll/pll_base_inst/N2 has no
+   load.
+INFO:LIT:395 - The above info message is repeated 1 more times for the following
+   (max. 5 shown):
+   u_rgbtodvi_top/u_pll/pll_base_inst/N3
+   To see the details of these info messages, please use the -detail switch.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:MapLib:841 - Changing COMPENSATION attribute from SYSTEM_SYNCHRONOUS to
+   INTERNAL for PLL_ADV u_rgbtodvi_top/u_pll/pll_base_inst/PLL_ADV.
+INFO:MapLib:1261 - RAMB8BWER block
+   'u_video_display/u_blk_mem_gen/U0/xst_blk_mem_generator/gnativebmg.native_blk
+   _mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.SIMPLE_PRIM9.ram' has
+   been converted to a RAMB16BWER.
+INFO:MapLib:1261 - RAMB8BWER block
+   'u_video_display/u_blk_mem_gen/U0/xst_blk_mem_generator/gnativebmg.native_blk
+   _mem_gen/valid.cstr/ramloop[1].ram.r/s6_init.ram/SP.SIMPLE_PRIM9.ram' has
+   been converted to a RAMB16BWER.
+INFO:MapLib:1261 - RAMB8BWER block
+   'u_video_display/u_blk_mem_gen/U0/xst_blk_mem_generator/gnativebmg.native_blk
+   _mem_gen/valid.cstr/ramloop[2].ram.r/s6_init.ram/SP.SIMPLE_PRIM9.ram' has
+   been converted to a RAMB16BWER.
+INFO:MapLib:1261 - RAMB8BWER block
+   'u_video_display/u_blk_mem_gen/U0/xst_blk_mem_generator/gnativebmg.native_blk
+   _mem_gen/valid.cstr/ramloop[3].ram.r/s6_init.ram/SP.SIMPLE_PRIM9.ram' has
+   been converted to a RAMB16BWER.
+INFO:MapLib:1261 - RAMB8BWER block
+   'u_video_display/u_blk_mem_gen/U0/xst_blk_mem_generator/gnativebmg.native_blk
+   _mem_gen/valid.cstr/ramloop[4].ram.r/s6_init.ram/SP.SIMPLE_PRIM9.ram' has
+   been converted to a RAMB16BWER.
+INFO:MapLib:1261 - RAMB8BWER block
+   'u_video_display/u_blk_mem_gen/U0/xst_blk_mem_generator/gnativebmg.native_blk
+   _mem_gen/valid.cstr/ramloop[5].ram.r/s6_init.ram/SP.SIMPLE_PRIM9.ram' has
+   been converted to a RAMB16BWER.
+INFO:MapLib:1261 - RAMB8BWER block
+   'u_video_display/u_blk_mem_gen/U0/xst_blk_mem_generator/gnativebmg.native_blk
+   _mem_gen/valid.cstr/ramloop[6].ram.r/s6_init.ram/SP.SIMPLE_PRIM9.ram' has
+   been converted to a RAMB16BWER.
+INFO:MapLib:1261 - RAMB8BWER block
+   'u_video_display/u_blk_mem_gen/U0/xst_blk_mem_generator/gnativebmg.native_blk
+   _mem_gen/valid.cstr/ramloop[7].ram.r/s6_init.ram/SP.SIMPLE_PRIM9.ram' has
+   been converted to a RAMB16BWER.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+INFO:Pack:1716 - Initializing temperature to 85.000 Celsius. (default - Range:
+   0.000 to 85.000 Celsius)
+INFO:Pack:1720 - Initializing voltage to 1.140 Volts. (default - Range: 1.140 to
+   1.260 Volts)
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+INFO:Pack:1650 - Map created a placed design.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+   2 block(s) removed
+   2 block(s) optimized away
+   2 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+The signal "u_rgbtodvi_top/u_pll/pll_base_inst/N2" is sourceless and has been
+removed.
+The signal "u_rgbtodvi_top/u_pll/pll_base_inst/N3" is sourceless and has been
+removed.
+Unused block "u_rgbtodvi_top/u_pll/pll_base_inst/XST_GND" (ZERO) removed.
+Unused block "u_rgbtodvi_top/u_pll/pll_base_inst/XST_VCC" (ONE) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+VCC 		XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| key_in<0>                          | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| key_in<1>                          | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| key_in<2>                          | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| key_in<3>                          | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| key_in<4>                          | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| key_in<5>                          | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| sys_clk                            | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| sys_rst_n                          | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| tmds_clk_n                         | IOBS             | OUTPUT    | TMDS_33              |       |          |      |              |          |          |
+| tmds_clk_p                         | IOBM             | OUTPUT    | TMDS_33              |       |          |      | OSERDES      |          |          |
+| tmds_data_n<0>                     | IOBS             | OUTPUT    | TMDS_33              |       |          |      |              |          |          |
+| tmds_data_n<1>                     | IOBS             | OUTPUT    | TMDS_33              |       |          |      |              |          |          |
+| tmds_data_n<2>                     | IOBS             | OUTPUT    | TMDS_33              |       |          |      |              |          |          |
+| tmds_data_p<0>                     | IOBM             | OUTPUT    | TMDS_33              |       |          |      | OSERDES      |          |          |
+| tmds_data_p<1>                     | IOBM             | OUTPUT    | TMDS_33              |       |          |      | OSERDES      |          |          |
+| tmds_data_p<2>                     | IOBM             | OUTPUT    | TMDS_33              |       |          |      | OSERDES      |          |          |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+A logic-level (pre-route) timing report can be generated by using Xilinx static
+timing analysis tools, Timing Analyzer (GUI) or TRCE (command line), with the
+mapped NCD and PCF files. Please note that this timing report will be generated
+using estimated delay information. For accurate numbers, please generate a
+timing report with the post Place and Route NCD file.
+
+For more information about the Timing Analyzer, consult the Xilinx Timing
+Analyzer Reference Manual; for more information about TRCE, consult the Xilinx
+Command Line Tools User Guide "TRACE" chapter.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+Use the "-detail" map option to print out Control Set Information.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.
