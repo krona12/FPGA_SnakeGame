@@ -16,7 +16,9 @@ module  hdmi_block_move_top(
     output       tmds_clk_p,    // TMDS 时钟通道
     output       tmds_clk_n,
     output [2:0] tmds_data_p,   // TMDS 数据通道
-    output [2:0] tmds_data_n
+    output [2:0] tmds_data_n,
+    output    [5:0]  seg_sel,       // 数码管位选信号
+    output    [7:0]  seg_led          // 数码管段选信号
 );
 
 //wire define
@@ -31,6 +33,8 @@ wire[2:0]	state_1;//菜单状态
 wire [5:0]key;
 wire [4:0]speed_useless;
 wire [5:0]speed_use;
+//数码管部分
+wire [5:0]Score;
 //*****************************************************
 //**                    main code
 //*****************************************************
@@ -59,7 +63,8 @@ video_display  u_video_display(
     .state_1        (state_1),
     .pixel_xpos     (pixel_xpos_w),
     .pixel_ypos     (pixel_ypos_w),
-    .pixel_data     (pixel_data_w)
+    .pixel_data     (pixel_data_w),
+    .Score          (Score)
     );
 
 //菜单状态
@@ -99,5 +104,17 @@ rgbtodvi_top u_rgbtodvi_top (
   .TMDS        (tmds_data_p),         // TMDS 数据通道
   .TMDSB       (tmds_data_n)
  );
- 
+ //数码管动态显示模块
+seg_led u_seg_led(
+    .clk           (tx_pclk),       // 时钟信号
+    .rst_n         (sys_rst_n),       // 复位信号
+
+    .data          (Score     ),       // 显示的数值
+    .point         (6'b000000),       // 小数点具体显示的位置,高电平有效
+    .en            (1),       // 数码管使能信号
+    .sign          (0),       // 符号位，高电平显示负号(-)
+    
+    .seg_sel       (seg_sel),       // 位选
+    .seg_led       (seg_led)        // 段选
+);
 endmodule 

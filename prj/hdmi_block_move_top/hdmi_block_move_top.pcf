@@ -1,8 +1,22 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Wed Jan 24 22:16:29 2024
+// Written by: Map P.20131013 on Wed Jan 24 23:11:40 2024
 //! **************************************************************************
 
 SCHEMATIC START;
+COMP "seg_led<0>" LOCATE = SITE "J12" LEVEL 1;
+COMP "seg_led<1>" LOCATE = SITE "H13" LEVEL 1;
+COMP "seg_led<2>" LOCATE = SITE "L12" LEVEL 1;
+COMP "seg_led<3>" LOCATE = SITE "K11" LEVEL 1;
+COMP "seg_led<4>" LOCATE = SITE "L13" LEVEL 1;
+COMP "seg_led<5>" LOCATE = SITE "L14" LEVEL 1;
+COMP "seg_led<6>" LOCATE = SITE "K12" LEVEL 1;
+COMP "seg_led<7>" LOCATE = SITE "M13" LEVEL 1;
+COMP "seg_sel<0>" LOCATE = SITE "M14" LEVEL 1;
+COMP "seg_sel<1>" LOCATE = SITE "N14" LEVEL 1;
+COMP "seg_sel<2>" LOCATE = SITE "J13" LEVEL 1;
+COMP "seg_sel<3>" LOCATE = SITE "F13" LEVEL 1;
+COMP "seg_sel<4>" LOCATE = SITE "H11" LEVEL 1;
+COMP "seg_sel<5>" LOCATE = SITE "G12" LEVEL 1;
 COMP "speed_change" LOCATE = SITE "J11" LEVEL 1;
 COMP "tmds_clk_p" LOCATE = SITE "P6" LEVEL 1;
 COMP "key_in<0>" LOCATE = SITE "C6" LEVEL 1;
@@ -478,15 +492,15 @@ TIMEGRP u_rgbtodvi_top_u_pll_clkout2 = BEL "speed_debounce/counter_0_19" BEL
         BEL "u_video_display/Food_Array_0_5" BEL
         "u_video_display/Food_Array_0_4" BEL "u_video_display/Food_Array_0_3"
         BEL "u_video_display/Food_Array_0_2" BEL "u_video_display/MOEN" BEL
-        "u_video_display/SnakeSize_2" BEL "u_video_display/SnakeSize_1" BEL
-        "u_video_display/random_seed_x_10" BEL
-        "u_video_display/random_seed_x_7" BEL
-        "u_video_display/random_seed_x_5" BEL
+        "u_video_display/Score_4" BEL "u_video_display/Score_3" BEL
+        "u_video_display/Score_2" BEL "u_video_display/Score_1" BEL
+        "u_video_display/Score_0" BEL "u_video_display/SnakeSize_2" BEL
+        "u_video_display/SnakeSize_1" BEL "u_video_display/random_seed_x_10"
+        BEL "u_video_display/random_seed_x_7" BEL
         "u_video_display/random_seed_x_4" BEL
         "u_video_display/random_seed_x_3" BEL
         "u_video_display/random_seed_x_2" BEL
         "u_video_display/random_seed_x_1" BEL
-        "u_video_display/random_seed_x_0" BEL
         "u_video_display/random_seed_y_6" BEL
         "u_video_display/random_seed_y_4" BEL
         "u_video_display/random_seed_y_3" BEL
@@ -508,6 +522,8 @@ TIMEGRP u_rgbtodvi_top_u_pll_clkout2 = BEL "speed_debounce/counter_0_19" BEL
         BEL "u_video_display/pixel_data_2" BEL "u_video_display/pixel_data_1"
         BEL "u_video_display/pixel_data_0" BEL "u_video_display/GAME_EN" BEL
         "u_state/state_1_2" BEL "u_state/state_1_0" BEL "u_state/ns_2" BEL
+        "u_seg_led/clk_cnt_2" BEL "u_seg_led/clk_cnt_1" BEL
+        "u_seg_led/clk_cnt_0" BEL "u_seg_led/dri_clk" BEL
         "u_video_display/dead" BEL "u_video_display/direction_1" BEL
         "u_video_display/direction_0" BEL "u_video_display/SnakeSize_3" BEL
         "u_video_display/SnakeSize_0" PIN
@@ -692,14 +708,12 @@ TIMEGRP u_rgbtodvi_top_u_pll_clkout2 = BEL "speed_debounce/counter_0_19" BEL
         "u_rgbtodvi_top/u_convert_30to15_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/RST_FULL_GEN"
         BEL
         "u_rgbtodvi_top/u_convert_30to15_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i"
-        BEL "u_video_driver/cnt_h_0_1" BEL "u_video_driver/cnt_h_1_1" BEL
-        "u_video_driver/cnt_v_0_1" BEL "u_video_driver/cnt_v_1_1" BEL
-        "u_video_driver/cnt_v_4_1" BEL "u_video_driver/cnt_v_2_1" BEL
-        "u_video_driver/cnt_v_3_1" BEL "u_rgbtodvi_top/encr/Mshreg_de_reg" BEL
-        "u_rgbtodvi_top/encr/de_reg" BEL "u_rgbtodvi_top/encb/Mshreg_c1_reg"
-        BEL "u_rgbtodvi_top/encb/c1_reg" BEL
-        "u_rgbtodvi_top/encb/Mshreg_c0_reg" BEL "u_rgbtodvi_top/encb/c0_reg"
-        PIN
+        BEL "u_video_driver/cnt_v_4_1" BEL "u_video_driver/cnt_v_1_1" BEL
+        "u_video_driver/cnt_v_3_1" BEL "u_video_driver/cnt_v_2_1" BEL
+        "u_rgbtodvi_top/encr/Mshreg_de_reg" BEL "u_rgbtodvi_top/encr/de_reg"
+        BEL "u_rgbtodvi_top/encb/Mshreg_c1_reg" BEL
+        "u_rgbtodvi_top/encb/c1_reg" BEL "u_rgbtodvi_top/encb/Mshreg_c0_reg"
+        BEL "u_rgbtodvi_top/encb/c0_reg" PIN
         "u_video_display/u_blk_mem_gen/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.SIMPLE_PRIM9.ram_pins<28>"
         PIN
         "u_video_display/u_blk_mem_gen/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_init.ram/SP.SIMPLE_PRIM9.ram_pins<28>"

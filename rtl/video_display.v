@@ -16,7 +16,8 @@ module  video_display(
     input      [10:0] pixel_ypos,               //像素点纵坐标   
     input       [5:0]key,//控制上下左右
     input	 [2:0]	state_1,//菜单状态
-    output reg [23:0] pixel_data                //像素点数据
+    output reg [23:0] pixel_data,                //像素点数据
+    output reg [5:0]Score
     );    
 
 //parameter define    
@@ -520,4 +521,15 @@ begin
 
  );
 
+always @(posedge pixel_clk or negedge sys_rst_n) 
+begin
+    if(!sys_rst_n)
+        begin
+            Score<=0;
+        end
+    else 
+        begin
+            Score<=(SnakeSize-3)*speed*5;
+        end
+end    
 endmodule 
