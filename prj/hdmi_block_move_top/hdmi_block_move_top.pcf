@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Wed Jan 24 23:11:40 2024
+// Written by: Map P.20131013 on Thu Jan 25 02:39:12 2024
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -26,6 +26,7 @@ COMP "key_in<3>" LOCATE = SITE "P11" LEVEL 1;
 COMP "key_in<4>" LOCATE = SITE "F7" LEVEL 1;
 COMP "key_in<5>" LOCATE = SITE "E7" LEVEL 1;
 COMP "sys_clk" LOCATE = SITE "N8" LEVEL 1;
+COMP "remote_in" LOCATE = SITE "L8" LEVEL 1;
 COMP "tmds_data_p<0>" LOCATE = SITE "R7" LEVEL 1;
 COMP "tmds_data_p<1>" LOCATE = SITE "P8" LEVEL 1;
 COMP "tmds_data_p<2>" LOCATE = SITE "R9" LEVEL 1;
@@ -491,16 +492,18 @@ TIMEGRP u_rgbtodvi_top_u_pll_clkout2 = BEL "speed_debounce/counter_0_19" BEL
         "u_video_display/Food_Array_0_7" BEL "u_video_display/Food_Array_0_6"
         BEL "u_video_display/Food_Array_0_5" BEL
         "u_video_display/Food_Array_0_4" BEL "u_video_display/Food_Array_0_3"
-        BEL "u_video_display/Food_Array_0_2" BEL "u_video_display/MOEN" BEL
+        BEL "u_video_display/Food_Array_0_2" BEL "u_video_display/Score_5" BEL
         "u_video_display/Score_4" BEL "u_video_display/Score_3" BEL
         "u_video_display/Score_2" BEL "u_video_display/Score_1" BEL
-        "u_video_display/Score_0" BEL "u_video_display/SnakeSize_2" BEL
-        "u_video_display/SnakeSize_1" BEL "u_video_display/random_seed_x_10"
-        BEL "u_video_display/random_seed_x_7" BEL
+        "u_video_display/Score_0" BEL "u_video_display/MOEN" BEL
+        "u_video_display/SnakeSize_2" BEL "u_video_display/SnakeSize_1" BEL
+        "u_video_display/random_seed_x_10" BEL
+        "u_video_display/random_seed_x_7" BEL
         "u_video_display/random_seed_x_4" BEL
         "u_video_display/random_seed_x_3" BEL
         "u_video_display/random_seed_x_2" BEL
         "u_video_display/random_seed_x_1" BEL
+        "u_video_display/random_seed_x_0" BEL
         "u_video_display/random_seed_y_6" BEL
         "u_video_display/random_seed_y_4" BEL
         "u_video_display/random_seed_y_3" BEL
@@ -524,9 +527,26 @@ TIMEGRP u_rgbtodvi_top_u_pll_clkout2 = BEL "speed_debounce/counter_0_19" BEL
         "u_state/state_1_2" BEL "u_state/state_1_0" BEL "u_state/ns_2" BEL
         "u_seg_led/clk_cnt_2" BEL "u_seg_led/clk_cnt_1" BEL
         "u_seg_led/clk_cnt_0" BEL "u_seg_led/dri_clk" BEL
-        "u_video_display/dead" BEL "u_video_display/direction_1" BEL
-        "u_video_display/direction_0" BEL "u_video_display/SnakeSize_3" BEL
-        "u_video_display/SnakeSize_0" PIN
+        "u_remote_rcv/div_cnt_12" BEL "u_remote_rcv/div_cnt_11" BEL
+        "u_remote_rcv/div_cnt_10" BEL "u_remote_rcv/div_cnt_9" BEL
+        "u_remote_rcv/div_cnt_8" BEL "u_remote_rcv/div_cnt_7" BEL
+        "u_remote_rcv/div_cnt_6" BEL "u_remote_rcv/div_cnt_5" BEL
+        "u_remote_rcv/div_cnt_4" BEL "u_remote_rcv/div_cnt_3" BEL
+        "u_remote_rcv/div_cnt_2" BEL "u_remote_rcv/div_cnt_1" BEL
+        "u_remote_rcv/div_cnt_0" BEL "u_remote_rcv/div_clk" BEL
+        "u_decode_rcv/counter_12" BEL "u_decode_rcv/counter_11" BEL
+        "u_decode_rcv/counter_10" BEL "u_decode_rcv/counter_9" BEL
+        "u_decode_rcv/counter_8" BEL "u_decode_rcv/counter_7" BEL
+        "u_decode_rcv/counter_6" BEL "u_decode_rcv/counter_5" BEL
+        "u_decode_rcv/counter_4" BEL "u_decode_rcv/counter_3" BEL
+        "u_decode_rcv/counter_2" BEL "u_decode_rcv/counter_1" BEL
+        "u_decode_rcv/counter_0" BEL "u_decode_rcv/key2_6" BEL
+        "u_decode_rcv/key2_5" BEL "u_decode_rcv/key2_4" BEL
+        "u_decode_rcv/key2_3" BEL "u_decode_rcv/key2_2" BEL
+        "u_decode_rcv/key2_1" BEL "u_decode_rcv/key2_0" BEL
+        "u_decode_rcv/pulse_start" BEL "u_video_display/dead" BEL
+        "u_video_display/direction_1" BEL "u_video_display/direction_0" BEL
+        "u_video_display/SnakeSize_3" BEL "u_video_display/SnakeSize_0" PIN
         "u_video_display/u_blk_mem_gen/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram_pins<28>"
         PIN
         "u_video_display/u_blk_mem_gen/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/s6_init.ram/SP.SIMPLE_PRIM18.ram_pins<28>"
@@ -708,12 +728,13 @@ TIMEGRP u_rgbtodvi_top_u_pll_clkout2 = BEL "speed_debounce/counter_0_19" BEL
         "u_rgbtodvi_top/u_convert_30to15_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/RST_FULL_GEN"
         BEL
         "u_rgbtodvi_top/u_convert_30to15_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i"
-        BEL "u_video_driver/cnt_v_4_1" BEL "u_video_driver/cnt_v_1_1" BEL
-        "u_video_driver/cnt_v_3_1" BEL "u_video_driver/cnt_v_2_1" BEL
-        "u_rgbtodvi_top/encr/Mshreg_de_reg" BEL "u_rgbtodvi_top/encr/de_reg"
-        BEL "u_rgbtodvi_top/encb/Mshreg_c1_reg" BEL
-        "u_rgbtodvi_top/encb/c1_reg" BEL "u_rgbtodvi_top/encb/Mshreg_c0_reg"
-        BEL "u_rgbtodvi_top/encb/c0_reg" PIN
+        BEL "u_video_driver/cnt_v_1_1" BEL "u_video_driver/cnt_v_0_1" BEL
+        "u_video_driver/cnt_v_4_1" BEL "u_video_driver/cnt_v_3_1" BEL
+        "u_video_driver/cnt_v_2_1" BEL "u_rgbtodvi_top/encr/Mshreg_de_reg" BEL
+        "u_rgbtodvi_top/encr/de_reg" BEL "u_rgbtodvi_top/encb/Mshreg_c1_reg"
+        BEL "u_rgbtodvi_top/encb/c1_reg" BEL
+        "u_rgbtodvi_top/encb/Mshreg_c0_reg" BEL "u_rgbtodvi_top/encb/c0_reg"
+        PIN
         "u_video_display/u_blk_mem_gen/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.SIMPLE_PRIM9.ram_pins<28>"
         PIN
         "u_video_display/u_blk_mem_gen/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s6_init.ram/SP.SIMPLE_PRIM9.ram_pins<28>"

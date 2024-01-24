@@ -37,14 +37,14 @@ Setup/Hold to clock sys_clk
             |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
 Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
 ------------+------------+------------+------------+------------+------------------+--------+
-key_in<0>   |    1.248(R)|      SLOW  |    2.160(R)|      SLOW  |tx_pclk           |   0.000|
-key_in<1>   |    1.019(R)|      FAST  |    2.027(R)|      SLOW  |tx_pclk           |   0.000|
-key_in<2>   |    1.602(R)|      SLOW  |    1.851(R)|      SLOW  |tx_pclk           |   0.000|
-key_in<3>   |    5.331(R)|      SLOW  |   -1.431(R)|      SLOW  |tx_pclk           |   0.000|
-key_in<4>   |    1.159(R)|      SLOW  |    1.799(R)|      SLOW  |tx_pclk           |   0.000|
-key_in<5>   |    1.390(R)|      SLOW  |    1.869(R)|      SLOW  |tx_pclk           |   0.000|
-speed_change|    0.952(R)|      SLOW  |    2.052(R)|      SLOW  |tx_pclk           |   0.000|
-sys_rst_n   |   32.557(R)|      SLOW  |    2.165(R)|      SLOW  |tx_pclk           |   0.000|
+key_in<0>   |    2.543(R)|      SLOW  |    0.943(R)|      SLOW  |tx_pclk           |   0.000|
+key_in<1>   |    2.130(R)|      SLOW  |    1.297(R)|      SLOW  |tx_pclk           |   0.000|
+key_in<2>   |    1.813(R)|      SLOW  |    1.574(R)|      SLOW  |tx_pclk           |   0.000|
+key_in<3>   |    3.764(R)|      SLOW  |    0.737(R)|      SLOW  |tx_pclk           |   0.000|
+key_in<4>   |    1.869(R)|      SLOW  |    0.962(R)|      SLOW  |tx_pclk           |   0.000|
+key_in<5>   |    1.158(R)|      SLOW  |    2.130(R)|      SLOW  |tx_pclk           |   0.000|
+speed_change|    0.496(R)|      FAST  |    2.127(R)|      SLOW  |tx_pclk           |   0.000|
+sys_rst_n   |   34.344(R)|      SLOW  |    2.304(R)|      SLOW  |tx_pclk           |   0.000|
 ------------+------------+------------+------------+------------+------------------+--------+
 
 Clock sys_clk to Pad
@@ -67,11 +67,11 @@ Clock to Setup on destination clock sys_clk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-sys_clk        |   32.731|    5.446|         |         |
+sys_clk        |   33.019|    7.405|         |         |
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Wed Jan 24 23:12:02 2024 
+Analysis completed Thu Jan 25 02:39:33 2024 
 --------------------------------------------------------------------------------
 
 Trace Settings:

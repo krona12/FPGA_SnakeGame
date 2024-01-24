@@ -105,15 +105,19 @@ module pll
     .DIVCLK_DIVIDE          (1),
     .CLKFBOUT_MULT          (15),
     .CLKFBOUT_PHASE         (0.000),
+
     .CLKOUT0_DIVIDE         (1),
     .CLKOUT0_PHASE          (0.000),
     .CLKOUT0_DUTY_CYCLE     (0.500),
+
     .CLKOUT1_DIVIDE         (5),
     .CLKOUT1_PHASE          (0.000),
     .CLKOUT1_DUTY_CYCLE     (0.500),
+
     .CLKOUT2_DIVIDE         (10),
     .CLKOUT2_PHASE          (0.000),
     .CLKOUT2_DUTY_CYCLE     (0.500),
+    
     .CLKIN_PERIOD           (20.000),
     .REF_JITTER             (0.010))
   pll_base_inst

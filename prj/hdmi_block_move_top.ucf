@@ -29,3 +29,5 @@ NET "seg_sel[2]" LOC = J13 | IOSTANDARD = "LVCMOS33";
 NET "seg_sel[1]" LOC = N14 | IOSTANDARD = "LVCMOS33";
 NET "seg_sel[0]" LOC = M14 | IOSTANDARD = "LVCMOS33";
 
+NET remote_in    LOC = L8 | IOSTANDARD = "LVCMOS33"; 
+

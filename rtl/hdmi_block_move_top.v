@@ -12,7 +12,8 @@ module  hdmi_block_move_top(
     input        sys_rst_n,
     input       speed_change,
     input       [5:0]key_in,//控制上下左右
- 	 
+    input        remote_in,    //红外接收信号
+
     output       tmds_clk_p,    // TMDS 时钟通道
     output       tmds_clk_n,
     output [2:0] tmds_data_p,   // TMDS 数据通道
@@ -30,11 +31,18 @@ wire          video_vs;
 wire          video_de;
 wire  [23:0]  video_rgb;
 wire[2:0]	state_1;//菜单状态
-wire [5:0]key;
+wire [5:0]key;//按键
+wire [6:0]key2;//红外线输出，经过译码
 wire [4:0]speed_useless;
 wire [5:0]speed_use;
 //数码管部分
 wire [5:0]Score;
+wire CLK_OUT1;
+wire CLK_OUT2;
+wire CLK_OUT3;
+
+//红外线遥控
+wire [7:0]rcv_data;
 //*****************************************************
 //**                    main code
 //*****************************************************
@@ -58,8 +66,8 @@ video_driver u_video_driver(
 video_display  u_video_display(
     .pixel_clk      (tx_pclk),
     .sys_rst_n      (sys_rst_n),
-    .speed_change   (speed_use),
-    .key            (key),
+    .speed_change   (speed_use|{5'b00000,key2[6]}),//对加速键进行或操作
+    .key            ({key2[5:0]}|key),//测试红外key2
     .state_1        (state_1),
     .pixel_xpos     (pixel_xpos_w),
     .pixel_ypos     (pixel_ypos_w),
@@ -71,7 +79,7 @@ video_display  u_video_display(
 state u_state(
    .pixel_clk      (tx_pclk),
    .sys_rst_n      (sys_rst_n), 
-   .key            (key),
+   .key            ({key2[5:0]}|key),//或语句,测试红外Key2，没问题
    .state_1        (state_1),
    .state_2        (state_2)
    );	  
@@ -108,8 +116,8 @@ rgbtodvi_top u_rgbtodvi_top (
 seg_led u_seg_led(
     .clk           (tx_pclk),       // 时钟信号
     .rst_n         (sys_rst_n),       // 复位信号
-
-    .data          (Score     ),       // 显示的数值
+    //.data       (rcv_data),//测试红外输入，没问题
+    .data          (Score),       // 显示的数值
     .point         (6'b000000),       // 小数点具体显示的位置,高电平有效
     .en            (1),       // 数码管使能信号
     .sign          (0),       // 符号位，高电平显示负号(-)
@@ -117,4 +125,30 @@ seg_led u_seg_led(
     .seg_sel       (seg_sel),       // 位选
     .seg_led       (seg_led)        // 段选
 );
+
+//HS0038B驱动模块,红外线遥控控制
+remote_rcv u_remote_rcv(               
+    .sys_clk        (tx_pclk),  
+    .sys_rst_n      (sys_rst_n),    
+    .remote_in      (remote_in),
+    .repeat_en      (),                
+    .data_en        (),
+    .data           (rcv_data)
+    );
+decode_rcv u_decode_rcv(
+    .sys_clk        (tx_pclk),
+    .sys_rst_n      (sys_rst_n),
+    .data           (rcv_data),
+    .key2           (key2)      
+);
+
+// pll2 u_pll2(
+//     .CLK_IN1       (sys_clk),
+//   // Clock out ports
+//     .CLK_OUT1     (CLK_OUT1),
+//     .CLK_OUT2     (CLK_OUT2),
+//     .CLK_OUT3     (CLK_OUT3),
+//     .RESET          (sys_rst_n),
+//     .LOCKED         ()
+//  );
 endmodule 

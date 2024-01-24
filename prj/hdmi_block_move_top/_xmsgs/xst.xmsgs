@@ -5,7 +5,7 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\krona\source\repos\FPGA_SnakeGame-DynamicFood - wsl\rtl\hdmi_block_move_top.v" Line 71: Port <arg fmt="%s" index="1">flag</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\krona\source\repos\FPGA_SnakeGame-DynamicFood - wsl\rtl\hdmi_block_move_top.v" Line 79: Port <arg fmt="%s" index="1">flag</arg> is not connected to this instance
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\krona\source\repos\FPGA_SnakeGame-DynamicFood - wsl\rtl\video_display.v" Line 211: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
@@ -32,19 +32,19 @@
 <msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Users\krona\source\repos\FPGA_SnakeGame-DynamicFood - wsl\rtl\video_display.v" Line 518: Net &lt;<arg fmt="%s" index="1">dina</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\krona\source\repos\FPGA_SnakeGame-DynamicFood - wsl\rtl\hdmi_block_move_top.v" Line 76: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">state_2</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\krona\source\repos\FPGA_SnakeGame-DynamicFood - wsl\rtl\hdmi_block_move_top.v" Line 84: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">state_2</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\krona\source\repos\FPGA_SnakeGame-DynamicFood - wsl\rtl\hdmi_block_move_top.v" Line 76: Assignment to <arg fmt="%s" index="1">state_2</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\krona\source\repos\FPGA_SnakeGame-DynamicFood - wsl\rtl\hdmi_block_move_top.v" Line 84: Assignment to <arg fmt="%s" index="1">state_2</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\krona\source\repos\FPGA_SnakeGame-DynamicFood - wsl\prj\hdmi_block_move_top\ipcore_dir\pll.v" Line 125: Assignment to <arg fmt="%s" index="1">clkout3_unused</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\krona\source\repos\FPGA_SnakeGame-DynamicFood - wsl\prj\hdmi_block_move_top\ipcore_dir\pll.v" Line 129: Assignment to <arg fmt="%s" index="1">clkout3_unused</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\krona\source\repos\FPGA_SnakeGame-DynamicFood - wsl\prj\hdmi_block_move_top\ipcore_dir\pll.v" Line 126: Assignment to <arg fmt="%s" index="1">clkout4_unused</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\krona\source\repos\FPGA_SnakeGame-DynamicFood - wsl\prj\hdmi_block_move_top\ipcore_dir\pll.v" Line 130: Assignment to <arg fmt="%s" index="1">clkout4_unused</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\krona\source\repos\FPGA_SnakeGame-DynamicFood - wsl\prj\hdmi_block_move_top\ipcore_dir\pll.v" Line 127: Assignment to <arg fmt="%s" index="1">clkout5_unused</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\krona\source\repos\FPGA_SnakeGame-DynamicFood - wsl\prj\hdmi_block_move_top\ipcore_dir\pll.v" Line 131: Assignment to <arg fmt="%s" index="1">clkout5_unused</arg> ignored, since the identifier is never used
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Users\krona\source\repos\FPGA_SnakeGame-DynamicFood - wsl\prj\hdmi_block_move_top\ipcore_dir\convert_30to15_fifo.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">convert_30to15_fifo</arg>&gt; remains a black box.
@@ -53,25 +53,34 @@
 <msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\krona\source\repos\FPGA_SnakeGame-DynamicFood - wsl\rtl\seg_led.v" Line 46: Result of <arg fmt="%d" index="1">20</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\krona\source\repos\FPGA_SnakeGame-DynamicFood - wsl\rtl\hdmi_block_move_top.v" Line 112: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">data</arg>&gt;. Formal port size is <arg fmt="%d" index="2">20</arg>-bit while actual signal size is <arg fmt="%d" index="1">6</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"C:\Users\krona\source\repos\FPGA_SnakeGame-DynamicFood - wsl\rtl\hdmi_block_move_top.v" Line 120: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">data</arg>&gt;. Formal port size is <arg fmt="%d" index="2">20</arg>-bit while actual signal size is <arg fmt="%d" index="1">6</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\krona\source\repos\FPGA_SnakeGame-DynamicFood - wsl\rtl\hdmi_block_move_top.v" Line 114: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">en</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\krona\source\repos\FPGA_SnakeGame-DynamicFood - wsl\rtl\hdmi_block_move_top.v" Line 122: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">en</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\krona\source\repos\FPGA_SnakeGame-DynamicFood - wsl\rtl\hdmi_block_move_top.v" Line 115: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">sign</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\krona\source\repos\FPGA_SnakeGame-DynamicFood - wsl\rtl\hdmi_block_move_top.v" Line 123: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">sign</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Users\krona\source\repos\FPGA_SnakeGame-DynamicFood - wsl\rtl\hdmi_block_move_top.v" Line 34: Net &lt;<arg fmt="%s" index="1">speed_useless[4]</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\krona\source\repos\FPGA_SnakeGame-DynamicFood - wsl\decode_rcv.v" Line 37: Result of <arg fmt="%d" index="1">14</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">13</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\krona\source\repos\FPGA_SnakeGame-DynamicFood - wsl\rtl\hdmi_block_move_top.v" Line 71: Input port <arg fmt="%s" index="1">flag</arg> is not connected on this instance
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Users\krona\source\repos\FPGA_SnakeGame-DynamicFood - wsl\rtl\hdmi_block_move_top.v" Line 36: Net &lt;<arg fmt="%s" index="1">speed_useless[4]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\krona\source\repos\FPGA_SnakeGame-DynamicFood - wsl\rtl\hdmi_block_move_top.v" Line 79: Input port <arg fmt="%s" index="1">flag</arg> is not connected on this instance
 </msg>
 
 <msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">flag</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">u_state</arg>&apos;, is tied to GND.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\krona\source\repos\FPGA_SnakeGame-DynamicFood - wsl\rtl\hdmi_block_move_top.v</arg>&quot; line <arg fmt="%s" index="2">71</arg>: Output port &lt;<arg fmt="%s" index="3">state_2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_state</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\krona\source\repos\FPGA_SnakeGame-DynamicFood - wsl\rtl\hdmi_block_move_top.v</arg>&quot; line <arg fmt="%s" index="2">79</arg>: Output port &lt;<arg fmt="%s" index="3">state_2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_state</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\krona\source\repos\FPGA_SnakeGame-DynamicFood - wsl\rtl\hdmi_block_move_top.v</arg>&quot; line <arg fmt="%s" index="2">130</arg>: Output port &lt;<arg fmt="%s" index="3">repeat_en</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_remote_rcv</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\krona\source\repos\FPGA_SnakeGame-DynamicFood - wsl\rtl\hdmi_block_move_top.v</arg>&quot; line <arg fmt="%s" index="2">130</arg>: Output port &lt;<arg fmt="%s" index="3">data_en</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_remote_rcv</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
 <msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">speed_useless</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
@@ -2189,9 +2198,6 @@
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">tmdsclkint_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_rgbtodvi_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;tmdsclkint_1&gt; &lt;tmdsclkint_2&gt; &lt;tmdsclkint_3&gt; &lt;tmdsclkint_4&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">Score_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_video_display</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Score_5&gt; </arg>
-</msg>
-
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">key_out_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">speed_debounce</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;key_state_0&gt; </arg>
 </msg>
 
@@ -2231,7 +2237,7 @@
 <msg type="info" file="Xst" num="3217" delta="old" >HDL ADVISOR - Register &lt;<arg fmt="%s" index="1">seg_sel</arg>&gt; currently described with an asynchronous reset, could be combined with distributed RAM &lt;<arg fmt="%s" index="2">Mram_PWR_26_o_cnt_sel[2]_mux_34_OUT</arg>&gt; for implementation on block RAM resources if you made this reset synchronous instead.
 </msg>
 
-<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram__n1234</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram__n1238</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
 </msg>
 
 <msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">ns_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">state</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
@@ -2259,9 +2265,6 @@
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">tmdsclkint_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">rgbtodvi_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;tmdsclkint_1&gt; &lt;tmdsclkint_2&gt; &lt;tmdsclkint_3&gt; &lt;tmdsclkint_4&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">Score_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">video_display</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Score_5&gt; </arg>
 </msg>
 
 <msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">seg_led_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">seg_led</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
@@ -2294,10 +2297,10 @@
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">num_21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">seg_led</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;num_23&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="1989" delta="old" >Unit &lt;<arg fmt="%s" index="1">seg_led</arg>&gt;: instances &lt;<arg fmt="%s" index="2">data[19]_PWR_26_o_mod_4</arg>&gt;, &lt;<arg fmt="%s" index="3">data[19]_PWR_26_o_mod_6</arg>&gt; of unit &lt;<arg fmt="%s" index="4">mod_20u_4u</arg>&gt; are equivalent, second instance is removed
+<msg type="warning" file="Xst" num="1989" delta="new" >Unit &lt;<arg fmt="%s" index="1">seg_led</arg>&gt;: instances &lt;<arg fmt="%s" index="2">data[19]_PWR_26_o_mod_4</arg>&gt;, &lt;<arg fmt="%s" index="3">data[19]_PWR_26_o_mod_6</arg>&gt; of unit &lt;<arg fmt="%s" index="4">mod_20u_4u</arg>&gt; are equivalent, second instance is removed
 </msg>
 
-<msg type="warning" file="Xst" num="1989" delta="old" >Unit &lt;<arg fmt="%s" index="1">seg_led</arg>&gt;: instances &lt;<arg fmt="%s" index="2">data[19]_PWR_26_o_mod_4</arg>&gt;, &lt;<arg fmt="%s" index="3">data[19]_PWR_26_o_mod_8</arg>&gt; of unit &lt;<arg fmt="%s" index="4">mod_20u_4u</arg>&gt; are equivalent, second instance is removed
+<msg type="warning" file="Xst" num="1989" delta="new" >Unit &lt;<arg fmt="%s" index="1">seg_led</arg>&gt;: instances &lt;<arg fmt="%s" index="2">data[19]_PWR_26_o_mod_4</arg>&gt;, &lt;<arg fmt="%s" index="3">data[19]_PWR_26_o_mod_8</arg>&gt; of unit &lt;<arg fmt="%s" index="4">mod_20u_4u</arg>&gt; are equivalent, second instance is removed
 </msg>
 
 <msg type="warning" file="Xst" num="1898" delta="old" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">n1q_m_0</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">encode</arg>&gt;.
@@ -2438,10 +2441,10 @@
 <msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Snake_Array&lt;0&gt;_0_100</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">video_display</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">num_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">seg_led</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;num_12&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">num_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">seg_led</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;num_12&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">num_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">seg_led</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;num_14&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">num_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">seg_led</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;num_14&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">num_15</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">seg_led</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;num_19&gt; </arg>
@@ -2450,22 +2453,22 @@
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">num_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">seg_led</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;num_17&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">num_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">seg_led</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;num_16&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">num_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">seg_led</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;num_16&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">num_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">seg_led</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;num_18&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">num_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">seg_led</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;num_18&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">num_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">seg_led</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;num_13&gt; &lt;num_17&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">num_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">seg_led</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;num_13&gt; &lt;num_17&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">num_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">seg_led</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;num_15&gt; &lt;num_19&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">num_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">seg_led</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;num_15&gt; &lt;num_19&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">num_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">seg_led</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;num_16&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">num_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">seg_led</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;num_16&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">num_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">seg_led</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;num_18&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">num_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">seg_led</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;num_18&gt; </arg>
 </msg>
 
 <msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">Snake_Array&lt;0&gt;_0_22</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">video_display</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
@@ -2495,7 +2498,7 @@
 <msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u_seg_led/num_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">hdmi_block_move_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u_seg_led/num_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">hdmi_block_move_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">u_seg_led/num_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">hdmi_block_move_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
 <msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/encr/c1_reg</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">hdmi_block_move_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
@@ -2840,6 +2843,12 @@
 <msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">speed_debounce/key_out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt;.
 </msg>
 
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u_remote_rcv/data_en</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u_remote_rcv/repeat_en</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt;.
+</msg>
+
 <msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u_video_display/Snake_Array&lt;0&gt;_0_122</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">hdmi_block_move_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
@@ -2909,7 +2918,7 @@
 <msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u_video_display/random_seed_y_5</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">hdmi_block_move_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">u_seg_led/clk_cnt_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">hdmi_block_move_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u_seg_led/clk_cnt_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">hdmi_block_move_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
 <msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">speed_debounce/counter_0_20</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">hdmi_block_move_top</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
@@ -2993,37 +3002,40 @@
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_video_display/random_seed_x_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_video_display/random_seed_x_8&gt; &lt;u_video_display/random_seed_y_9&gt; </arg>
 </msg>
 
+<msg type="info" file="Xst" num="3203" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_video_display/random_seed_x_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_video_display/random_seed_x_5&gt; </arg>
+</msg>
+
 <msg type="info" file="Xst" num="3203" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_state/ns_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_state/ns_0&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_seg_led/num_21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_seg_led/num_11&gt; &lt;u_seg_led/num_9&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">u_seg_led/num_21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_seg_led/num_11&gt; &lt;u_seg_led/num_9&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_rgbtodvi_top/u_convert_30to15_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_fb&gt; </arg>
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_rgbtodvi_top/u_convert_30to15_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_fb&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_rgbtodvi_top/u_convert_30to15_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0&gt; </arg>
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_rgbtodvi_top/u_convert_30to15_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_rgbtodvi_top/u_convert_30to15_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1&gt; &lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0&gt; </arg>
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_rgbtodvi_top/u_convert_30to15_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1&gt; &lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_rgbtodvi_top/u_convert_30to15_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i&gt; </arg>
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_rgbtodvi_top/u_convert_30to15_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_rgbtodvi_top/u_convert_30to15_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_fb&gt; </arg>
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_rgbtodvi_top/u_convert_30to15_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.rfwft/empty_fwft_fb&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_rgbtodvi_top/u_convert_30to15_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0&gt; </arg>
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_rgbtodvi_top/u_convert_30to15_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_rgbtodvi_top/u_convert_30to15_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1&gt; &lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0&gt; </arg>
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_rgbtodvi_top/u_convert_30to15_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1&gt; &lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_rgbtodvi_top/u_convert_30to15_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i&gt; </arg>
+<msg type="info" file="Xst" num="2260" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">u_rgbtodvi_top/u_convert_30to15_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 </msg>
 
 </messages>

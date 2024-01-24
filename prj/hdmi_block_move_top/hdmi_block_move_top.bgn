@@ -6,7 +6,7 @@ D:\Application\Tool_Mathematica&CS\ISE\14.7\ISE_DS\ISE\.
 ftg256, speed -2
 Opened constraints file hdmi_block_move_top.pcf.
 
-Wed Jan 24 23:12:06 2024
+Thu Jan 25 02:39:38 2024
 
 D:\Application\Tool_Mathematica&CS\ISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\bitgen.exe -intstyle ise -w -g DebugBitstream:No -g Binary:no -g CRC:Enable -g Reset_on_err:No -g ConfigRate:2 -g ProgPin:PullUp -g TckPin:PullUp -g TdiPin:PullUp -g TdoPin:PullUp -g TmsPin:PullUp -g UnusedPin:PullDown -g UserID:0xFFFFFFFF -g ExtMasterCclk_en:No -g SPI_buswidth:1 -g TIMER_CFG:0xFFFF -g multipin_wakeup:No -g StartUpClk:CClk -g DONE_cycle:4 -g GTS_cycle:5 -g GWE_cycle:6 -g LCK_cycle:NoWait -g Security:None -g DonePipe:No -g DriveDone:No -g en_sw_gsr:No -g drive_awake:No -g sw_clk:Startupclk -g sw_gwe_cycle:5 -g sw_gts_cycle:4 hdmi_block_move_top.ncd 
 
@@ -129,7 +129,11 @@ There were 0 CONFIG constraint(s) processed from hdmi_block_move_top.pcf.
 
 
 Running DRC.
-DRC detected 0 errors and 0 warnings.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net lut8642_2485 is sourced by
+   a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+DRC detected 0 errors and 1 warnings.  Please see the previously displayed
+individual error or warning messages for more details.
 Creating bit map...
 Saving bit stream in "hdmi_block_move_top.bit".
 Bitstream generation is complete.
