@@ -4,7 +4,7 @@ Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
 Project Information
 --------------------
 ProjectID=961810D29F94426EAC711C025752D0E8
-ProjectIteration=54
+ProjectIteration=107
 
 WebTalk Summary
 ----------------
@@ -13,4 +13,4 @@ INFO:WebTalk:1 - WebTalk is enabled because you are using a WebPACK license.
 INFO:WebTalk:8 - WebTalk Install setting is ON.
 INFO:WebTalk:6 - WebTalk User setting is ON.
 
-INFO:WebTalk:5 - C:/Users/Forest/Desktop/snake/FPGA_SnakeGame-DynamicFood/prj/hdmi_block_move_top/usage_statistics_webtalk.html WebTalk report has not been sent to Xilinx.  Please check your network and proxy settings.  For additional details about this file, please refer to the WebTalk help file at D:/Xilinx/14.7/ISE_DS/ISE/data/reports/webtalk_introduction.html
+INFO:WebTalk:5 - C:/Users/krona/source/repos/FPGA_SnakeGame-DynamicFood - wsl/prj/hdmi_block_move_top/usage_statistics_webtalk.html WebTalk report has not been sent to Xilinx.  Please check your network and proxy settings.  For additional details about this file, please refer to the WebTalk help file at D:/Application/Tool_Mathematica&CS/ISE/14.7/ISE_DS/ISE/data/reports/webtalk_introduction.html

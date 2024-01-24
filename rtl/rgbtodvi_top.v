@@ -1,48 +1,11 @@
-//////////////////////////////////////////////////////////////////////////////
-//
-//  Xilinx, Inc. 2009                 www.xilinx.com
-//
-//  XAPP xyz
-//
-//////////////////////////////////////////////////////////////////////////////
-//
-//  File name :       rgbtodvi_top.v
-//
-//  Description :     rgbtodvi_top 
-//
-//  Date - revision : April 2009 - 1.0.0
-//
-//  Author :          Bob Feng
-//
-//  Disclaimer: LIMITED WARRANTY AND DISCLAMER. These designs are
-//              provided to you "as is". Xilinx and its licensors makeand you
-//              receive no warranties or conditions, express, implied,
-//              statutory or otherwise, and Xilinx specificallydisclaims any
-//              implied warranties of merchantability, non-infringement,or
-//              fitness for a particular purpose. Xilinx does notwarrant that
-//              the functions contained in these designs will meet your
-//              requirements, or that the operation of these designswill be
-//              uninterrupted or error free, or that defects in theDesigns
-//              will be corrected. Furthermore, Xilinx does not warrantor
-//              make any representations regarding use or the results ofthe
-//              use of the designs in terms of correctness, accuracy,
-//              reliability, or otherwise.
-//
-//              LIMITATION OF LIABILITY. In no event will Xilinx or its
-//              licensors be liable for any loss of data, lost profits,cost
-//              or procurement of substitute goods or services, or forany
-//              special, incidental, consequential, or indirect damages
-//              arising from the use or operation of the designs or
-//              accompanying documentation, however caused and on anytheory
-//              of liability. This limitation will apply even if Xilinx
-//              has been advised of the possibility of such damage. This
-//              limitation shall apply not-withstanding the failure ofthe
-//              essential purpose of any limited remedies herein.
-//
-//  Copyright 2009 Xilinx, Inc.
-//  All rights reserved
-//
-//////////////////////////////////////////////////////////////////////////////
+/*******************************************************
+ * FPGA-Based 贪吃蛇
+  * School:CSU
+ * Class: 自动化 T2101
+ * Students: 刘凯-8210211913, 吴森林-8212211224
+ * Instructor: 罗旗舞
+ *******************************************************/
+//顶层模块
 `timescale 1 ns / 1ps
 
 module rgbtodvi_top (

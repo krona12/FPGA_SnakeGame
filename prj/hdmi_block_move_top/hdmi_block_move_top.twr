@@ -2,9 +2,9 @@
 Release 14.7 Trace  (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
--n 3 -fastpaths -xml hdmi_block_move_top.twx hdmi_block_move_top.ncd -o
-hdmi_block_move_top.twr hdmi_block_move_top.pcf
+D:\Application\Tool_Mathematica&CS\ISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe
+-intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml hdmi_block_move_top.twx
+hdmi_block_move_top.ncd -o hdmi_block_move_top.twr hdmi_block_move_top.pcf
 
 Design file:              hdmi_block_move_top.ncd
 Physical constraint file: hdmi_block_move_top.pcf
@@ -37,13 +37,14 @@ Setup/Hold to clock sys_clk
             |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
 Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
 ------------+------------+------------+------------+------------+------------------+--------+
-key_in<0>   |    1.243(R)|      SLOW  |    1.787(R)|      SLOW  |tx_pclk           |   0.000|
-key_in<1>   |    1.465(R)|      SLOW  |    1.801(R)|      SLOW  |tx_pclk           |   0.000|
-key_in<2>   |    2.137(R)|      SLOW  |    1.605(R)|      SLOW  |tx_pclk           |   0.000|
-key_in<3>   |    4.084(R)|      SLOW  |   -0.449(R)|      SLOW  |tx_pclk           |   0.000|
-key_in<4>   |    0.794(R)|      FAST  |    2.392(R)|      SLOW  |tx_pclk           |   0.000|
-key_in<5>   |    1.311(R)|      SLOW  |    1.553(R)|      SLOW  |tx_pclk           |   0.000|
-sys_rst_n   |   11.076(R)|      SLOW  |    2.217(R)|      SLOW  |tx_pclk           |   0.000|
+key_in<0>   |    1.720(R)|      SLOW  |    1.959(R)|      SLOW  |tx_pclk           |   0.000|
+key_in<1>   |    1.826(R)|      SLOW  |    1.308(R)|      SLOW  |tx_pclk           |   0.000|
+key_in<2>   |    1.609(R)|      SLOW  |    1.718(R)|      SLOW  |tx_pclk           |   0.000|
+key_in<3>   |    3.645(R)|      SLOW  |   -0.017(R)|      SLOW  |tx_pclk           |   0.000|
+key_in<4>   |    2.095(R)|      SLOW  |    1.525(R)|      SLOW  |tx_pclk           |   0.000|
+key_in<5>   |    1.575(R)|      SLOW  |    1.773(R)|      SLOW  |tx_pclk           |   0.000|
+speed_change|    2.679(R)|      SLOW  |    0.701(R)|      SLOW  |tx_pclk           |   0.000|
+sys_rst_n   |   36.603(R)|      SLOW  |    1.884(R)|      SLOW  |tx_pclk           |   0.000|
 ------------+------------+------------+------------+------------+------------------+--------+
 
 Clock sys_clk to Pad
@@ -66,18 +67,18 @@ Clock to Setup on destination clock sys_clk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-sys_clk        |   45.730|    7.459|         |         |
+sys_clk        |   33.346|    6.677|         |         |
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Tue Jan 23 23:33:13 2024 
+Analysis completed Wed Jan 24 22:16:48 2024 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 4645 MB
+Peak Memory Usage: 4628 MB
 
 
 

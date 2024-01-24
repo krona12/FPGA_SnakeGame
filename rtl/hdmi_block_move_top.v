@@ -1,28 +1,16 @@
-//****************************************Copyright (c)***********************************//
-//原子哥在线教学平台：www.yuanzige.com
-//技术支持：www.openedv.com
-//淘宝店铺：http://openedv.taobao.com 
-//关注微信公众平台微信号："正点原子"，免费获取ZYNQ & FPGA & STM32 & LINUX资料。
-//版权所有，盗版必究。
-//Copyright(C) 正点原子 2018-2028
-//All rights reserved
-//----------------------------------------------------------------------------------------
-// File name:           top_hdmi_colorbar
-// Last modified Date:  2019/7/1 9:30:00
-// Last Version:        V1.1
-// Descriptions:        HDMI彩条显示实验顶层模块
-//----------------------------------------------------------------------------------------
-// Created by:          正点原子
-// Created date:        2019/7/1 9:30:00
-// Version:             V1.0
-// Descriptions:        The original version
-//
-//----------------------------------------------------------------------------------------
-//****************************************************************************************//
+/*******************************************************
+ * FPGA-Based 贪吃蛇
+  * School:CSU
+ * Class: 自动化 T2101
+ * Students: 刘凯-8210211913, 吴森林-8212211224
+ * Instructor: 罗旗舞
+ *******************************************************/
+//hdmi显示模块
 
 module  hdmi_block_move_top(
     input        sys_clk,
     input        sys_rst_n,
+    input       speed_change,
     input       [5:0]key_in,//控制上下左右
  	 
     output       tmds_clk_p,    // TMDS 时钟通道
@@ -41,6 +29,8 @@ wire          video_de;
 wire  [23:0]  video_rgb;
 wire[2:0]	state_1;//菜单状态
 wire [5:0]key;
+wire [4:0]speed_useless;
+wire [5:0]speed_use;
 //*****************************************************
 //**                    main code
 //*****************************************************
@@ -64,6 +54,7 @@ video_driver u_video_driver(
 video_display  u_video_display(
     .pixel_clk      (tx_pclk),
     .sys_rst_n      (sys_rst_n),
+    .speed_change   (speed_use),
     .key            (key),
     .state_1        (state_1),
     .pixel_xpos     (pixel_xpos_w),
@@ -85,6 +76,12 @@ debounce u_debounce(
    .sys_rst_n      (sys_rst_n), 
    .key_in            (key_in),
    .key_out            (key)
+);
+debounce speed_debounce(
+   .pixel_clk      (tx_pclk),
+   .sys_rst_n      (sys_rst_n), 
+   .key_in            ({speed_useless,speed_change}),
+   .key_out            ({speed_use})
 );
 
 rgbtodvi_top u_rgbtodvi_top (

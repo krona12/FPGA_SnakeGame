@@ -11,37 +11,37 @@
 <msg type="warning" file="Map" num="303" delta="old" >You are using an internal switch -convert_bram8 
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_video_display/Snake_Array&lt;0&gt;&lt;0&gt;_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_video_display/Snake_Array&lt;0&gt;&lt;0&gt;_5_1&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_video_display/Snake_Array&lt;0&gt;&lt;0&gt;_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_video_display/Snake_Array&lt;0&gt;&lt;0&gt;_3_1&gt; &lt;u_video_display/Snake_Array&lt;0&gt;&lt;0&gt;_3_2&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_video_display/direction_FSM_FFd1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_video_display/direction_FSM_FFd1_1&gt; &lt;u_video_display/direction_FSM_FFd1_2&gt; &lt;u_video_display/direction_FSM_FFd1_3&gt; &lt;u_video_display/direction_FSM_FFd1_4&gt; &lt;u_video_display/direction_FSM_FFd1_5&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_video_display/SnakeSize_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_video_display/SnakeSize_1_1&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">u_video_display/GAME_EN</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_video_display/GAME_EN_1&gt; &lt;u_video_display/GAME_EN_2&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/u_convert_30to15_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/u_convert_30to15_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1&gt; &lt;u_rgbtodvi_top/u_convert_30to15_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_video_display/SnakeSize_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_video_display/SnakeSize_2_1&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_video_driver/cnt_v_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_video_driver/cnt_v_1_1&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_video_display/Snake_Array&lt;0&gt;&lt;0&gt;_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_video_display/Snake_Array&lt;0&gt;&lt;0&gt;_4_1&gt; &lt;u_video_display/Snake_Array&lt;0&gt;&lt;0&gt;_4_2&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_video_driver/cnt_v_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_video_driver/cnt_v_3_1&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_video_display/Snake_Array&lt;0&gt;&lt;0&gt;_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_video_display/Snake_Array&lt;0&gt;&lt;0&gt;_2_1&gt; &lt;u_video_display/Snake_Array&lt;0&gt;&lt;0&gt;_2_2&gt; &lt;u_video_display/Snake_Array&lt;0&gt;&lt;0&gt;_2_3&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_video_driver/cnt_v_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_video_driver/cnt_v_2_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">u_video_display/direction_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_video_display/direction_0_1&gt; &lt;u_video_display/direction_0_2&gt; &lt;u_video_display/direction_0_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">u_video_display/direction_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_video_display/direction_1_1&gt; &lt;u_video_display/direction_1_2&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_video_display/SnakeSize_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_video_display/SnakeSize_3_1&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/u_convert_30to15_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/u_convert_30to15_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_video_driver/cnt_v_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_video_driver/cnt_v_4_1&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_video_display/direction_FSM_FFd2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_video_display/direction_FSM_FFd2_1&gt; &lt;u_video_display/direction_FSM_FFd2_2&gt; &lt;u_video_display/direction_FSM_FFd2_3&gt; &lt;u_video_display/direction_FSM_FFd2_4&gt; &lt;u_video_display/direction_FSM_FFd2_5&gt; &lt;u_video_display/direction_FSM_FFd2_6&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_video_driver/cnt_v_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_video_driver/cnt_v_0_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">u_rgbtodvi_top/u_convert_30to15_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">hdmi_block_move_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u_rgbtodvi_top/u_convert_30to15_fifo/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1&gt; </arg>
 </msg>
 
 <msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">u_rgbtodvi_top/u_pll/pll_base_inst/N2</arg> has no load.

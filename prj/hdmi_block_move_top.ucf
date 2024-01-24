@@ -12,3 +12,5 @@ NET "key_in[3]" LOC = P11 | IOSTANDARD = "LVCMOS33";
 NET "key_in[2]" LOC = E8 | IOSTANDARD = "LVCMOS33";
 NET "key_in[1]" LOC = D6 | IOSTANDARD = "LVCMOS33";
 NET "key_in[0]" LOC = C6 | IOSTANDARD = "LVCMOS33"; 
+NET "speed_change" LOC = J11 | IOSTANDARD = "LVCMOS33"; 
+

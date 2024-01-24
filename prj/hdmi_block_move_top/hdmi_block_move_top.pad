@@ -1,7 +1,7 @@
 Release 14.7 - par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Tue Jan 23 23:33:09 2024
+Wed Jan 24 22:16:42 2024
 
 
 # NOTE: This file is designed to be imported into a spreadsheet program
@@ -157,7 +157,7 @@ J7|||VCCINT||||||||1.2||||
 J8|||GND||||||||||||
 J9|||VCCINT||||||||1.2||||
 J10|||VCCAUX||||||||2.5||||
-J11||IOBM|IO_L40P_GCLK11_M1A5_1|UNUSED||1|||||||||
+J11|speed_change|IOB|IO_L40P_GCLK11_M1A5_1|INPUT|LVCMOS33|1||||NONE||LOCATED|NO|NONE|
 J12||IOBS|IO_L40N_GCLK10_M1A6_1|UNUSED||1|||||||||
 J13||IOBM|IO_L41P_GCLK9_IRDY1_M1RASN_1|UNUSED||1|||||||||
 J14||IOBM|IO_L43P_GCLK5_M1DQ4_1|UNUSED||1|||||||||
